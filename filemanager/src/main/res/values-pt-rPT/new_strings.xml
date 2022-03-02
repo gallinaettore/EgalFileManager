@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Main -->
+    <string name="altri_percorsi_di_archiviazione">Other storage locations</string>
+
+    <!-- Tools -->
+    <string name="trova_files_duplicati">Find duplicate files</string>
+    <string name="operazione_lunga">This operation may take several minutes</string>
+    <string name="cancella_selezionati">Delete selected</string>
+    <string name="nessun_elemento_selezionato">No items selected</string>
+    <string name="avvia_ricerca">Start search</string>
+    <string name="ricerca_duplicati_in_corso">Search for duplicate files in progress…</string>
+    <string name="mostra_risultati_duplicati">Tap to show the results</string>
+    <string name="duplicati_trovati">%s duplicate files found!</string>
+    <string name="recenti_descrizione">Show the last saved files</string>
+    <string name="usa_caratteri_wildcard">Is it possible to use wildcard characters * and ?</string>
+
+    <!-- Settings -->
+    <string name="ordina_download_per_data">Sort downloads by date</string>
+    <string name="ordina_download_per_data_descrizione">Sort content of \"Download\" folder always by date</string>
+    <string name="rescan_media_library">Re-scan Media Library</string>
+    <string name="rescan_media_library_descrizione">Force to re-scan the Media Library</string>
+
+    <!-- Sort -->
+    <string name="disponi">Arrange</string>
+    <string name="organizza_per">Arrange by</string>
+    <string name="organizza_per_cartella">Folder name</string>
+    <string name="organizza_per_album">Album name</string>
+
+    <!-- Others -->
+    <string name="preferito_aggiunto">Added to favorites</string>
+    <string name="impossibile_riprodurre">Unable to play the file!</string>
+    <string name="storage_to_scan">Select storage to scan:</string>
+    <string name="scansione_media_library_terminata">Media Library scan completed</string>
+    <string name="no_smb_to_ftp">Unable to copy from an SMB server to an FTP server</string>
+    <string name="no_ftp_to_smb">Unable to copy from an FTP server to an SMB server</string>
+    <string name="annullamento_operazione">Cancel operation…</string>
+    <string name="troppi_elementi_da_gestire">Too many items to manage</string>
+    <string name="storages">Storages:</string>
+    <string name="notif_id_operazioni_varie">Operation completed</string>
+    <string name="notif_id_operazioni_backgroung">Operations in background</string>
+    <string name="operazione_terminata">Operation completed</string>
+
+    <!-- Copy, paste, delete... -->
+    <string name="clipboard">Clipboard</string>
+    <string name="mostra_contentuto_clipboard">Show clipboard content</string>
+    <string name="clipboard_vuota">Clipboard is empty</string>
+
+    <!-- Settings -->
+    <string name="svuota_cache">Clear cache</string>
+    <string name="svuota_cache_descrizione">Removes all files and previews in the app\'s cache</string>
+    <string name="cache_cancellata">Cache cleared</string>
+
+    <!-- Image viewer -->
+    <string name="presentazione_interrotta">Presentation was interrupted</string>
+
+    <!-- Lan -->
+    <string name="rete_locale">Local network</string>
+    <string name="esplora_rete_locale">Explore the local network</string>
+    <string name="autenticazione">Authentication</string>
+    <string name="user_password_errati">Wrong username or password!</string>
+    <string name="username">Username:</string>
+    <string name="password">Password:</string>
+    <string name="anonimo">Anonymous</string>
+    <string name="salva_credenziali">Save credentials</string>
+    <string name="connessione_in_corso">Connection in progress…</string>
+    <string name="impossibile_connettersi">Unable to connect to %s</string>
+    <string name="ricerca_in_corso">Searching…</string>
+    <string name="scaricare_il_file">Do you want to download the file?</string>
+    <string name="file_scaricato_nella_cartella">File downloaded in the folder %s</string>
+    <string name="apri_file">Open file</string>
+    <string name="apri_cartella_destinazione">Open destination folder</string>
+
+    <!-- FTP -->
+    <string name="server_ftp">FTP server</string>
+    <string name="ftp_descrizione">Manage FTP servers</string>
+    <string name="tipo_ftp">FTP</string>
+    <string name="tipo_ftps">FTPS</string>
+    <string name="server">Server:</string>
+    <string name="porta">Port:</string>
+    <string name="modo">Mode:</string>
+    <string name="modo_attivo">Active</string>
+    <string name="modo_passivo">Passive</string>
+    <string name="codifica">Encoding:</string>
+    <string name="nome_visualizzato">Display name:</string>
+    <string name="opzionale">Optional</string>
+    <string name="dati_server">Server data</string>
+    <string name="server_esistente">Server %s already exists</string>
+
+    <!-- Functions -->
+    <string name="egal_music_player">Egal Music Player</string>
+
+</resources>

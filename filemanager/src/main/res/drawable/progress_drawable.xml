@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@android:id/background" android:top="@dimen/progress_top_bottom_padding" android:bottom="@dimen/progress_top_bottom_padding">
+        <shape>
+            <corners android:radius="@dimen/progress_radius" />
+            <gradient
+                android:startColor="@color/colored_progress_dialog_holo_background"
+                android:centerColor="@color/colored_progress_dialog_holo_background"
+                android:centerY="0.75"
+                android:endColor="@color/colored_progress_dialog_holo_background"
+                android:angle="270"
+                />
+        </shape>
+    </item>
+
+    <item android:id="@android:id/secondaryProgress" android:top="@dimen/progress_top_bottom_padding" android:bottom="@dimen/progress_top_bottom_padding">
+        <clip>
+            <shape>
+                <corners android:radius="@dimen/progress_radius" />
+                <gradient
+                    android:startColor="@color/colored_progress_dialog_holo_background"
+                    android:centerColor="@color/colored_progress_dialog_holo_background"
+                    android:centerY="0.75"
+                    android:endColor="@color/colored_progress_dialog_holo_background"
+                    android:angle="270"
+                    />
+            </shape>
+        </clip>
+    </item>
+    <item android:id="@android:id/progress"  android:top="@dimen/progress_top_bottom_padding" android:bottom="@dimen/progress_top_bottom_padding">
+        <clip>
+            <shape>
+                <corners
+                    android:radius="@dimen/progress_radius" />
+                <gradient
+                    android:startColor="@color/colored_progress_dialog_holo_accent"
+                    android:endColor="@color/colored_progress_dialog_holo_accent"
+                    android:angle="270" />
+            </shape>
+        </clip>
+    </item>
+
+</layer-list>

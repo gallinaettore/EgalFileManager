@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@android:id/background" android:top="@dimen/progress_top_bottom_padding" android:bottom="@dimen/progress_top_bottom_padding">
+        <shape>
+            <corners android:radius="@dimen/progress_radius" />
+            <gradient
+                android:startColor="@color/colored_progress_dialog_holo_indeterminate_background"
+                android:centerColor="@color/colored_progress_dialog_holo_accent"
+                android:centerY="0"
+                android:endColor="@color/colored_progress_dialog_holo_indeterminate_background"
+                android:angle="0"
+                android:type="linear"
+                />
+        </shape>
+    </item>
+
+</layer-list>

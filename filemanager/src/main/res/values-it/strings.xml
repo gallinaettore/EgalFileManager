@@ -1,0 +1,407 @@
+<resources>
+
+    <!-- Main -->
+    <string name="app_name">Egal File Manager</string>
+    <string name="home">Home</string>
+    <string name="impostazioni">Impostazioni</string>
+    <string name="about">About</string>
+    <string name="archivio_locale">Archivio locale</string>
+    <string name="memoria_interna">Memoria interna</string>
+    <string name="memoria_esterna">Memoria esterna</string>
+    <string name="root_directory">Cartella radice</string>
+    <string name="categorie">Categorie</string>
+    <string name="categorie_immagini">Immagini</string>
+    <string name="categorie_video">Video</string>
+    <string name="categorie_audio">Audio</string>
+    <string name="categorie_altro">Altri</string>
+    <string name="altri_percorsi_di_archiviazione">Altri percorsi di archiviazione</string>
+
+    <!-- Pro version -->
+
+    <!-- Sort -->
+    <string name="ordina_per">Ordina per:</string>
+    <string name="ordina_per_nome">Nome</string>
+    <string name="ordina_per_dimensione">Dimensione</string>
+    <string name="ordina_per_data">Data</string>
+    <string name="ordina_per_tipo">Tipo</string>
+    <string name="ordina_per_elementi">Numero elementi</string>
+    <string name="ordina_per_percorso">Percorso</string>
+    <string name="tipo_ordinamento">Tipo di ordinamento:</string>
+    <string name="ordinamento_crescente">Crescente</string>
+    <string name="ordinamento_decrescente">Decrescente</string>
+    <string name="disponi">Disponi</string>
+    <string name="organizza_per">Disponi per</string>
+    <string name="organizza_per_cartella">Nome cartella</string>
+    <string name="organizza_per_album">Nome album</string>
+
+    <!-- Copy, paste, delete... -->
+    <string name="copia">Copia</string>
+    <string name="taglia">Taglia</string>
+    <string name="incolla">Incolla</string>
+    <string name="copia_in">Copia in</string>
+    <string name="sposta_in">Sposta in</string>
+    <string name="origine">Origine:</string>
+    <string name="destinazione">Destinazione:</string>
+    <string name="totale">Totale:</string>
+    <string name="spazio_insufficiente">Spazio insufficiente!</string>
+    <string name="copia_in_corso">Copia %s in corso…</string>
+    <string name="elementi_negli_appunti">%s elementi negli appunti</string>
+    <string name="files_copiati">%s elementi copiati con successo</string>
+    <string name="files_non_copiati">Errore durante la copia di alcuni elementi:</string>
+    <string name="cartella_interna">La cartella di destinazione è interna alla cartella di origine!</string>
+    <string name="clipboard">Clipboard</string>
+    <string name="mostra_contentuto_clipboard">Mostra contenuto clipboard</string>
+    <string name="cancella_clipboard">Svuota clipboard</string>
+    <string name="clipboard_vuota">Clipboard vuota</string>
+    <string name="applica_a_tutti">Applica a tutti</string>
+    <string name="file_esistente">Il file %s esiste già</string>
+    <string name="sovrascrivi">Sovrascrivi</string>
+    <string name="sovrascrivi_cartella">La cartella %s esista già. Vuoi sovrascrivere il suo contenuto?</string>
+    <string name="sovrascrivi_file">Il file %s esista già. Vuoi sovrascriverlo?</string>
+    <string name="rinomina">Rinomina</string>
+    <string name="ignora">Ignora</string>
+    <string name="elimina">Elimina</string>
+    <string name="eliminazione_in_corso">Eliminazione %s in corso…</string>
+    <string name="conferma_eliminazione1">Vuoi davvero cancellare %s ?</string>
+    <string name="conferma_eliminazione2">Vuoi davvero cancellare %s elementi?</string>
+    <string name="files_eliminati">%s elementi eliminati con successo</string>
+    <string name="files_non_eliminati">Errore durante la cancellazione di alcuni elementi:</string>
+    <string name="operazione_annulata">Operazione annullata!</string>
+    <string name="nome_non_valido">Nome non valido!</string>
+    <string name="cartella_gia_esistente">Cartella già esistente</string>
+    <string name="impossibile_creare_cartella">Non è stato possibile creare la cartella</string>
+    <string name="cartella_creata">Cartella creata con successo</string>
+    <string name="nuovo_nome">Nuovo nome</string>
+    <string name="files_rinominati">%s elementi rinominati con successo</string>
+    <string name="file_gia_presente">File già presente</string>
+    <string name="files_non_rinominati">Non è stato possibile rinominare i seguenti elementi:</string>
+    <string name="rinominazione_in_corso">Rinominazione %s in corso…</string>
+    <string name="files_spostati">%s elementi spostati con successo</string>
+    <string name="spostamento">Spostamento</string>
+
+    <!-- Other -->
+    <string name="cartella_vuota">Cartella vuota</string>
+    <string name="permesso_lettura_scrittura">Permesso richiesto per leggere/scrivere i files</string>
+    <string name="permessi_scheda_autorizzazioni">Vai alla scheda \'Autorizzazioni\' e concedi i permessi richiesti.</string>
+    <string name="aggiorna">Aggiorna</string>
+    <string name="filtro">Filtro</string>
+    <string name="elementi">elementi</string>
+    <string name="ordina">Ordina</string>
+    <string name="lettura_dati_cartelle">Lettura dati cartelle…</string>
+    <string name="visualizzazione">Visualizzazione</string>
+    <string name="visualizzazione_lista">Lista</string>
+    <string name="visualizzazione_lista_piccola">Lista piccola</string>
+    <string name="visualizzazione_griglia">Griglia</string>
+    <string name="visualizzazione_anteprima">Anteprima</string>
+    <string name="apri_con">Apri con</string>
+    <string name="apri_come">Apri come</string>
+    <string name="usa_sempre_questa_app">Usa sempre quest\'app per aprire questo tipo di file</string>
+    <string name="associazione_files">Associazione files</string>
+    <string name="nessuna_associazione_files">Nessuna associazione files trovata</string>
+    <string name="messaggio_cancellazione_associazione">Vuoi davvero cancellare quest\'associazione?</string>
+    <string name="ripristina_predefiniti">Ripristina predefiniti</string>
+    <string name="ripristinare_associazioni_predefinite">Vuoi davvero ripristinare le associazioni predefinite?</string>
+    <string name="lettura_lista_applicazioni">Lettura lista applicazioni…</string>
+    <string name="testo">Testo</string>
+    <string name="immagine">Immagine</string>
+    <string name="audio">Audio</string>
+    <string name="video">Video</string>
+    <string name="altro">Altro</string>
+    <string name="seleziona_tutto">Seleziona tutto</string>
+    <string name="deseleziona_tutto">Deseleziona tutto</string>
+    <string name="nuova_cartella">Nuova cartella</string>
+    <string name="directory">Cartella</string>
+    <string name="file">File</string>
+    <string name="directories">cartelle</string>
+    <string name="files">files</string>
+    <string name="collegamento">Collegamento</string>
+    <string name="seleziona_storage">Seleziona memoria</string>
+    <string name="autorizzazione_memorie_esterne">Per favore scegli la directory principale della tua memoria esterna per concedere i permessi di scrittura.</string>
+    <string name="nessuna_autorizzazione_esterna">Non sarà possibile scrivere nella tua memoria esterna se non concedi l\'autorizzazione.</string>
+    <string name="tree_uri_extsd_non_valido">La cartella selezionata non è valida! Occorre selezionare la cartella principale della memoria esterna.</string>
+    <string name="proprieta">Proprietà</string>
+    <string name="tipo2">Tipo:</string>
+    <string name="contenuto">Contenuto:</string>
+    <string name="percorso">Percorso:</string>
+    <string name="dimensione2">Dimensione:</string>
+    <string name="ultima_modifica">Ultima modifica:</string>
+    <string name="permessi">Permessi:</string>
+    <string name="lettura">lettura</string>
+    <string name="scrittura">scrittura</string>
+    <string name="nascosto">Nascosto:</string>
+    <string name="bytes">bytes</string>
+    <string name="selezione_multipla">Selezione multipla</string>
+    <string name="visibilita_modificata">Visibilità modificata</string>
+    <string name="seleziona_destinazione">Seleziona destinazione</string>
+    <string name="cartella_superiore">Cartella superiore</string>
+    <string name="salva">Salva</string>
+    <string name="nome_file">Nome file:</string>
+    <string name="errore_salvataggio">Errore durante il salvataggio del file</string>
+    <string name="nessun_elemento_trovato">Nessun elemento trovato</string>
+    <string name="album_pdf">PDF</string>
+    <string name="album_documenti">Documenti</string>
+    <string name="album_fogli_calcolo">Fogli di calcolo</string>
+    <string name="album_compressi">File compressi</string>
+    <string name="album_testo">Testo</string>
+    <string name="album_apk">APK</string>
+    <string name="aggiornamento_media_library">Aggiornamento Media Library…</string>
+    <string name="condividi">Condividi</string>
+    <string name="preferiti">Preferiti</string>
+    <string name="aggiungi_a_preferiti">Aggiungi ai preferiti</string>
+    <string name="domanda_rimuovi_preferito">Vuoi davvero rimuovere %s dai preferiti?</string>
+    <string name="preferito_non_esistente">%s non esiste più. Vuoi rimuoverlo dai preferiti?</string>
+    <string name="preferito_aggiunto">Aggiunto ai preferiti</string>
+    <string name="nuovo">Nuovo</string>
+    <string name="seleziona_label_storage">Seleziona la memoria con l\'etichetta %s</string>
+    <string name="impossibile_completare_operazione">Impossibile completare l\'operazione</string>
+    <string name="esecuzione">esecuzione</string>
+    <string name="permesso_proprietario">Proprietario:</string>
+    <string name="permesso_gruppo">Gruppo:</string>
+    <string name="permesso_altro">Altro:</string>
+    <string name="modifica">Modifica</string>
+    <string name="nuovo_file">Nuovo file</string>
+    <string name="file_creato_con_successo">File creato correttamente</string>
+    <string name="impossibile_creare_file">Impossibile creare il file</string>
+    <string name="impossibile_riprodurre">Impossibile riprodurre il file!</string>
+    <string name="storage_to_scan">Seleziona memoria da analizzare:</string>
+    <string name="scansione_media_library_terminata">Scansione Media Library completata</string>
+    <string name="no_smb_to_ftp">Impossibile copiare da un server SMB a un server FTP</string>
+    <string name="no_ftp_to_smb">Impossibile copiare da un server FTP a un server SMB</string>
+    <string name="annullamento_operazione">Annullamento operazione…</string>
+    <string name="troppi_elementi_da_gestire">Troppi elementi da gestire</string>
+    <string name="storages">Storages:</string>
+    <string name="notif_id_operazioni_varie">Operazione completata</string>
+    <string name="notif_id_operazioni_backgroung">Operazioni in background</string>
+    <string name="operazione_terminata">Operation terminata</string>
+    <string name="configura_widget">Configurazione Widget</string>
+    <string name="crea_collegamento">Collegamento al file</string>
+    <string name="aggiungi_collegamento_home">Aggiungi collegamento sulla Home</string>
+    <string name="elemento_non_trovato">Elemento non trovato</string>
+
+    <!-- Function -->
+    <string name="egal_zip_viewer">Egal Zip Viewer</string>
+    <string name="egal_salva_file">Egal Salva File</string>
+    <string name="egal_text_editor">Egal Text Editor</string>
+    <string name="egal_image_viewer">Egal Image Viewer</string>
+    <string name="egal_music_player">Egal Music Player</string>
+
+    <!-- Zip -->
+    <string name="zip_explorer">Zip Explorer</string>
+    <string name="estrai_archivio">Estrai archivio</string>
+    <string name="estrazione">Estrazione</string>
+    <string name="estrazione_in_corso">Estrazione %s in corso…</string>
+    <string name="files_non_estrati">Errore durante l\'estrazione del file</string>
+    <string name="files_estratti">Estrazione avvenuta con successo</string>
+    <string name="archivio_non_valido">Impossibile leggere il contenuto dell\'archivio</string>
+    <string name="compressione">Comprimi</string>
+    <string name="compressione_in_corso">Compressione %s in corso…</string>
+    <string name="files_non_compressi">Errore durante la compressione dei files</string>
+    <string name="files_compressi">Compressione avvenuta con successo</string>
+
+    <!-- Text Editor -->
+    <string name="impossibile_leggere_file">Impossibile leggere il file</string>
+    <string name="dimensione_testo">Dimensione testo</string>
+    <string name="ricerca">Ricerca</string>
+    <string name="occorrenza_non_trovata">Occorrenza non trovata</string>
+    <string name="file_salvato">File salvato correttamente</string>
+    <string name="salva_con_nome">Salva con nome</string>
+    <string name="chiudere_senza_salvare">Vuoi chiudere il file senza salvare?</string>
+    <string name="non_salvare">Non salvare</string>
+    <string name="salvataggio_in_corso">Salvataggio in corso…</string>
+
+    <!-- Image viewer -->
+    <string name="ruota_destra">Ruota a destra</string>
+    <string name="ruota_sinistra">Ruota a sinistra</string>
+    <string name="imposta_come_sfondo">Imposta come sfondo</string>
+    <string name="impostare_come_sfondo">Vuoi impostare questa immagine come sfondo?</string>
+    <string name="sfondo_impostato">Sfondo impostato</string>
+    <string name="impossibile_visualizzare_immagine">Impossibile visualizzare l\'immagine</string>
+    <string name="nessuna_immagine">Nessuna immagine da visualizzare</string>
+    <string name="presentazione">Presentazione</string>
+    <string name="stop">Interrompi</string>
+    <string name="presentazione_interrotta">Presentazione interrotta</string>
+
+    <!-- Music Player -->
+    <string name="playlist">Playlist</string>
+    <string name="nessun_file_audio">Nessun file audio da riprodurre</string>
+    <string name="aggiungi_a_playlist">Aggiungi alla playlist</string>
+    <string name="salva_playlist">Salva playlist</string>
+    <string name="rimuovi_tutto">Rimuovi tutto</string>
+    <string name="shuffle">Ordine casuale</string>
+    <string name="repeat_mode">Modalità ripetizione</string>
+    <string name="repeat_none">Nessuno</string>
+    <string name="repeat_all">Tutto</string>
+    <string name="repeat_track">Traccia</string>
+
+    <!-- Settings -->
+    <string name="impostazioni_generali">Impostazioni generali</string>
+    <string name="avanzate">Avanzate</string>
+    <string name="lingua">Lingua</string>
+    <string name="root_explorer">Root Explorer</string>
+    <string name="root_explorer_descrizione">Esplora i files utilizzando i permessi di root</string>
+    <string name="mostra_anteprime">Mostra anteprime</string>
+    <string name="mostra_anteprime_descrizione">Mostra l\'anteprima di un file se disponibile</string>
+    <string name="mostra_nascosti">Mostra files nascosti</string>
+    <string name="mostra_nascosti_descrizione">Mostra i files preceduti dal simbolo "."</string>
+    <string name="no_permessi_root">Questo dispositivo non dispone di permessi di root.</string>
+    <string name="associazione_files_descrizione">Gestisce l\'associazione file/applicazione</string>
+    <string name="reset_app_titolo">Reset app</string>
+    <string name="reset_app_messaggio">Vuoi davvero ripristinare tutte le impostazioni?</string>
+    <string name="reset_app_descrizione">Ripristina l\'applicazione alle impostazioni iniziali</string>
+    <string name="giorni_recenti_descrizione">Numero di giorni da usare nella ricerca dei files recenti</string>
+    <string name="ordina_download_per_data">Ordina downloads per data</string>
+    <string name="ordina_download_per_data_descrizione">Ordina il contenuto della cartella \"Download\" sempre per data</string>
+    <string name="rescan_media_library">Re-scan Media Library</string>
+    <string name="rescan_media_library_descrizione">Forza la libreria multimediale ad effettuare una nuova scansione</string>
+    <string name="svuota_cache">Svuota cache</string>
+    <string name="svuota_cache_descrizione">Rimuove tutti i files e le anteprime dalla cache dell\'app</string>
+    <string name="cache_cancellata">Cache cancellata</string>
+    <string name="tema">Tema</string>
+    <string name="tema_chiaro">Tema chiaro</string>
+    <string name="tema_scuro">Tema scuro</string>
+
+    <!-- Tools -->
+    <string name="tools">Strumenti</string>
+    <string name="tool_analisi_spazio_occupato">Analisi spazio occupato</string>
+    <string name="tool_cerca_file">Cerca file</string>
+    <string name="tool_backup_app">Backup Apps (solo root)</string>
+    <string name="analisi_cartella">Analisi cartella</string>
+    <string name="ignora_maiuscolo_minuscolo">Ignora maiuscolo/minuscolo</string>
+    <string name="cerca_in">Cerca in:</string>
+    <string name="tipi">Tipi:</string>
+    <string name="altri_parametri">Altri parametri:</string>
+    <string name="dimensione">Dimensione:</string>
+    <string name="risultati_ricerca">Risultati ricerca</string>
+    <string name="tutti">Tutti</string>
+    <string name="nuova_ricerca">Nuova ricerca</string>
+    <string name="apri_percorso">Apri percorso</string>
+    <string name="inserisci_nome_file">Inserisci nome file</string>
+    <string name="controlla_parametri_inseriti">Controlla tutti i parametri inseriti!</string>
+    <string name="mostra_app_utente">Mostra app utente</string>
+    <string name="mostra_app_sistema">Mostra app di sistema</string>
+    <string name="app_utente">Apps utente</string>
+    <string name="app_sistema">Apps di sistema</string>
+    <string name="app_info">App info</string>
+    <string name="app_backup">Backup</string>
+    <string name="tool_mountpoints">Mountpoints (solo root)</string>
+    <string name="tool_recenti">Files recenti</string>
+    <string name="mountpoint">Mountpoint:</string>
+    <string name="file_system">File system:</string>
+    <string name="giorni">Giorni recenti</string>
+    <string name="trova_files_duplicati">Trova files duplicati</string>
+    <string name="operazione_lunga">L\'operazione potrebbe richiedere qualche minuto</string>
+    <string name="cancella_selezionati">Elimina selezionati</string>
+    <string name="nessun_elemento_selezionato">Nessun elemento selezionato</string>
+    <string name="avvia_ricerca">Avvia ricerca</string>
+    <string name="ricerca_duplicati_in_corso">Ricerca files duplicati in corso…</string>
+    <string name="mostra_risultati_duplicati">Tap per mostrare i risultati</string>
+    <string name="duplicati_trovati">%s files duplicati trovati!</string>
+    <string name="recenti">Recenti</string>
+    <string name="recenti_descrizione">Mostra gli ultimi files salvati</string>
+    <string name="usa_caratteri_wildcard">E\' possibile usare i caratteri wildcard * e ?</string>
+
+    <!-- Media Info -->
+    <string name="media_info">Media info</string>
+    <string name="media_no_info">Nessuna informazione trovata</string>
+    <string name="media_risoluzione">Risoluzione:</string>
+    <string name="media_data">Data:</string>
+    <string name="media_formato">Formato:</string>
+    <string name="media_dimensione">Dimensione:</string>
+    <string name="media_percorso">Percorso:</string>
+    <string name="media_rotazione">Rotazione:</string>
+    <string name="media_latitudine">Latitudine GPS:</string>
+    <string name="media_longitudine">Longitudine GPS:</string>
+    <string name="media_localita">Località:</string>
+    <string name="media_camera">Camera:</string>
+    <string name="media_titolo">Titolo:</string>
+    <string name="media_artista">Artista:</string>
+    <string name="media_album">Album:</string>
+    <string name="media_genere">Genere:</string>
+    <string name="media_bitrate">Bitrate:</string>
+    <string name="media_track">Traccia:</string>
+    <string name="media_frame">Fotogrammi:</string>
+    <string name="media_durata">Durata:</string>
+    <string name="media_anno">Anno:</string>
+
+    <!-- Apk info -->
+    <string name="apk_nome_app">Nome app:</string>
+    <string name="apk_codice_versione">Codice versione:</string>
+    <string name="apk_nome_versione">Nome versione:</string>
+    <string name="apk_min_sdk">Min SDK:</string>
+    <string name="apk_target_sdk">Target SDK:</string>
+    <string name="apk_package_name">Nome package:</string>
+    <string name="apk_installer">Installer:</string>
+    <string name="apk_type">Tipo:</string>
+    <string name="apk_system">Sistema</string>
+    <string name="apk_user">Utente</string>
+
+    <!-- Lan -->
+    <string name="rete_locale">Rete locale</string>
+    <string name="esplora_rete_locale">Esplora la rete locale</string>
+    <string name="autenticazione">Autenticazione</string>
+    <string name="user_password_errati">Username o password errati!</string>
+    <string name="username">Username:</string>
+    <string name="password">Password:</string>
+    <string name="anonimo">Anonimo</string>
+    <string name="salva_credenziali">Salva credenziali</string>
+    <string name="connessione_in_corso">Connessione in corso…</string>
+    <string name="impossibile_connettersi">Impossibile connettersi a %s</string>
+    <string name="ricerca_in_corso">Ricerca in corso…</string>
+    <string name="scaricare_il_file">Vuoi scaricare il file?</string>
+    <string name="file_scaricato_nella_cartella">File scaricato nella cartella %s</string>
+    <string name="apri_file">Apri file</string>
+    <string name="apri_cartella_destinazione">Apri cartella di destinazione</string>
+
+    <!-- FTP -->
+    <string name="server_ftp">Server FTP</string>
+    <string name="ftp_descrizione">Gestisci i server FTP</string>
+    <string name="tipo_ftp">FTP</string>
+    <string name="tipo_ftps">FTPS</string>
+    <string name="server">Server:</string>
+    <string name="porta">Porta:</string>
+    <string name="modo">Modo:</string>
+    <string name="modo_attivo">Attivo</string>
+    <string name="modo_passivo">Passivo</string>
+    <string name="codifica">Codifica:</string>
+    <string name="nome_visualizzato">Nome visualizzato:</string>
+    <string name="opzionale">Opzionale</string>
+    <string name="dati_server">Dati server</string>
+    <string name="server_esistente">Server %s già esistente</string>
+
+    <!-- About -->
+    <string name="crediti">Crediti</string>
+    <string name="traduzioni">Traduzioni</string>
+    <string name="sviluppato_da">Sviluppato da %s</string>
+    <string name="icon_by">Icona di</string>
+
+    <!-- Backup -->
+    <string name="backup">Backup</string>
+    <string name="effettua_backup_impostazioni">Effettua backup impostazioni</string>
+    <string name="ripristina_backup_impostazioni">Ripristina backup impostazioni</string>
+    <string name="seleziona_file">Seleziona file</string>
+    <string name="backup_effettuato_con_successo">Backup effettuato con successo</string>
+    <string name="errore_creazione_backup">Errore creazione backup</string>
+    <string name="errore_ripristino_backup">Errore ripristino backup</string>
+    <string name="ripristina_backup">Ripristina backup</string>
+    <string name="ripristino_effettuato_con_successo">Ripristino effettuato con successo</string>
+
+    <!-- Changelog -->
+
+    <!-- Update -->
+
+    <!-- Update notificator -->
+
+    <!-- Appirater -->
+
+    <!-- unit of measurement (only symbols) -->
+    <string name="unit_byte">B</string>
+    <string name="unit_kilobyte">KB</string>
+    <string name="unit_megabyte">MB</string>
+    <string name="unit_gigabyte">GB</string>
+    <string name="unit_terabyte">TB</string>
+    <string name="unit_pixel">px</string>
+    <string name="unit_megapixel">Mpx</string>
+    <string name="unit_kbps">kbps</string>
+    <string name="text_size_sp">sp</string>
+
+</resources>

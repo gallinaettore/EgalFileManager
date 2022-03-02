@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<full-backup-content xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Includo solo questi files delle prefs, tutti gli altri sono esclusi -->
+    <include domain="sharedpref" path="it.Ettore.egalfilemanager_preferences.xml"/>
+    <include domain="sharedpref" path="files_associations.xml"/>
+
+</full-backup-content>

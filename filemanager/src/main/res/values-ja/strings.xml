@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Main -->
+    <string name="app_name">Egal File Manager</string>
+    <string name="home">Home</string>
+    <string name="impostazioni">設定</string>
+    <string name="about">概要</string>
+    <string name="archivio_locale">Local storage</string>
+    <string name="memoria_interna">内部 storage</string>
+    <string name="memoria_esterna">外部 storage</string>
+    <string name="root_directory">Root folder</string>
+    <string name="categorie">部類</string>
+    <string name="categorie_immagini">画像</string>
+    <string name="categorie_video">動画</string>
+    <string name="categorie_audio">音声</string>
+    <string name="categorie_altro">その他</string>
+    <string name="altri_percorsi_di_archiviazione">その他の保管場所</string>
+
+    <!-- Pro version -->
+
+    <!-- Sort -->
+    <string name="ordina_per">並び替え:</string>
+    <string name="ordina_per_nome">名前</string>
+    <string name="ordina_per_dimensione">Size</string>
+    <string name="ordina_per_data">日付</string>
+    <string name="ordina_per_tipo">種類</string>
+    <string name="ordina_per_elementi">Items 数</string>
+    <string name="ordina_per_percorso">Path</string>
+    <string name="tipo_ordinamento">並べ替えの種類:</string>
+    <string name="ordinamento_crescente">昇順</string>
+    <string name="ordinamento_decrescente">降順</string>
+    <string name="disponi">配列する</string>
+    <string name="organizza_per">配列の様式</string>
+    <string name="organizza_per_cartella">Folder 名</string>
+    <string name="organizza_per_album">Album 名</string>
+
+    <!-- Copy, paste, delete... -->
+    <string name="copia">複写</string>
+    <string name="taglia">切り取り</string>
+    <string name="incolla">貼り付け</string>
+    <string name="copia_in">複写先</string>
+    <string name="sposta_in">移動先</string>
+    <string name="origine">Source:</string>
+    <string name="destinazione">宛先</string>
+    <string name="totale">合計:</string>
+    <string name="spazio_insufficiente">必要な空き容量がありません!</string>
+    <string name="copia_in_corso">%s を複写中です…</string>
+    <string name="elementi_negli_appunti">Clipboard の %s 要素</string>
+    <string name="files_copiati">%s 要素が正常に複写されました</string>
+    <string name="files_non_copiati">一部の items の複写 error:</string>
+    <string name="cartella_interna">宛先 folder は source folder 内にあります!</string>
+    <string name="clipboard">Clipboard</string>
+    <string name="mostra_contentuto_clipboard">Clipboard の content を表示する</string>
+    <string name="cancella_clipboard">空の clipboard</string>
+    <string name="clipboard_vuota">Clipboard が空です</string>
+    <string name="applica_a_tutti">全てに適用</string>
+    <string name="file_esistente">%s file は既に存在します</string>
+    <string name="sovrascrivi">上書きする</string>
+    <string name="sovrascrivi_cartella">%s folder は既に存在します。 その content を上書きしますか?</string>
+    <string name="sovrascrivi_file">%s file は既に存在します。 上書きしますか?</string>
+    <string name="rinomina">名前変更</string>
+    <string name="ignora">無視する</string>
+    <string name="elimina">削除</string>
+    <string name="eliminazione_in_corso">%s を削除中です…</string>
+    <string name="conferma_eliminazione1">本当に %s を削除しますか?</string>
+    <string name="conferma_eliminazione2">%s 個の items を本当に削除しますか?</string>
+    <string name="files_eliminati">%s 個の items を削除しました</string>
+    <string name="files_non_eliminati">一部の items の削除中に error が発生しました:</string>
+    <string name="operazione_annulata">操作を取り消しました!</string>
+    <string name="nome_non_valido">名前欄の入力が無効です!</string>
+    <string name="cartella_gia_esistente">Folder は既に存在します</string>
+    <string name="impossibile_creare_cartella">Folder を作成出来ませんでした</string>
+    <string name="cartella_creata">Folder が正常に作成されました</string>
+    <string name="nuovo_nome">新しい名前</string>
+    <string name="files_rinominati">%s 要素の名前を正常に変更しました</string>
+    <string name="file_gia_presente">File が既に存在します</string>
+    <string name="files_non_rinominati">次の要素の名前を変更することは出来ません:</string>
+    <string name="rinominazione_in_corso">%s の名前を変更中です…</string>
+    <string name="files_spostati">%s 個の items が正常に移動しました</string>
+    <string name="spostamento">移転</string>
+
+    <!-- Other -->
+    <string name="cartella_vuota">空の folder</string>
+    <string name="permesso_lettura_scrittura">Files の読み取り/書き込みには許可が必要です</string>
+    <string name="permessi_scheda_autorizzazioni">「許可」 tab に移動し、必要な access 許可を付与します。</string>
+    <string name="aggiorna">更新</string>
+    <string name="filtro">Filter</string>
+    <string name="elementi">items</string>
+    <string name="ordina">並び替え</string>
+    <string name="lettura_dati_cartelle">Folder の data を読み込んでいます…</string>
+    <string name="visualizzazione">可視化様式</string>
+    <string name="visualizzazione_lista">List</string>
+    <string name="visualizzazione_lista_piccola">Small list</string>
+    <string name="visualizzazione_griglia">Grid</string>
+    <string name="visualizzazione_anteprima">Preview</string>
+    <string name="apri_con">…で開く</string>
+    <string name="apri_come">…として開く</string>
+    <string name="usa_sempre_questa_app">この種の file を開くには常に、この app 使用</string>
+    <string name="associazione_files">File の関連付け</string>
+    <string name="nessuna_associazione_files">File の関連付けが見つかりません</string>
+    <string name="ripristina_predefiniti">Defaults に戻す</string>
+    <string name="ripristinare_associazioni_predefinite">Default の関連付けを本当に復元しますか?</string>
+    <string name="messaggio_cancellazione_associazione">この関連付けを本当に削除しますか?</string>
+    <string name="lettura_lista_applicazioni">Application list を読み込んでいます…</string>
+    <string name="testo">Text</string>
+    <string name="immagine">画像</string>
+    <string name="audio">音声</string>
+    <string name="video">動画</string>
+    <string name="altro">その他</string>
+    <string name="seleziona_tutto">全てを選択</string>
+    <string name="deseleziona_tutto">全ての選択を解除</string>
+    <string name="nuova_cartella">新しい folder</string>
+    <string name="directory">Directory</string>
+    <string name="file">File</string>
+    <string name="directories">directories</string>
+    <string name="files">files</string>
+    <string name="collegamento">Link</string>
+    <string name="seleziona_storage">Storage を選択</string>
+    <string name="autorizzazione_memorie_esterne">外部 memory の root directory を選択して、許可を付与して下さい。</string>
+    <string name="nessuna_autorizzazione_esterna">許可を与えるまで、外部 memory に書き込む事は出来ません。</string>
+    <string name="tree_uri_extsd_non_valido">選択した folder は無効です!  外部 memory の root  folder を選択する必要があります。</string>
+    <string name="proprieta">詳細</string>
+    <string name="tipo2">種類:</string>
+    <string name="contenuto">Content:</string>
+    <string name="percorso">Path:</string>
+    <string name="dimensione2">Size:</string>
+    <string name="ultima_modifica">最終更新日:</string>
+    <string name="permessi">許可:</string>
+    <string name="lettura">読み取り</string>
+    <string name="scrittura">書き込み</string>
+    <string name="nascosto">非表示:</string>
+    <string name="bytes">bytes</string>
+    <string name="selezione_multipla">複数選択</string>
+    <string name="visibilita_modificata">変更された可視性</string>
+    <string name="seleziona_destinazione">宛先を選択</string>
+    <string name="cartella_superiore">上の folder</string>
+    <string name="salva">保存</string>
+    <string name="nome_file">File 名:</string>
+    <string name="errore_salvataggio">File の保存 error</string>
+    <string name="nessun_elemento_trovato">Item が見つかりません</string>
+    <string name="album_pdf">PDF</string>
+    <string name="album_documenti">Documents</string>
+    <string name="album_fogli_calcolo">Spreadsheets</string>
+    <string name="album_compressi">圧縮 files</string>
+    <string name="album_testo">Text</string>
+    <string name="album_apk">APK</string>
+    <string name="aggiornamento_media_library">Media Library を更新しています…</string>
+    <string name="condividi">共有</string>
+    <string name="preferiti">お気に入り</string>
+    <string name="aggiungi_a_preferiti">お気に入りに追加</string>
+    <string name="domanda_rimuovi_preferito">お気に入りから %s を本当に削除しますか?</string>
+    <string name="preferito_non_esistente">%s は既に存在しません。 お気に入りから削除しますか?</string>
+    <string name="preferito_aggiunto">お気に入りに追加しました</string>
+    <string name="nuovo">新規</string>
+    <string name="seleziona_label_storage">Label %s の storage を選択して下さい</string>
+    <string name="impossibile_completare_operazione">操作を完了出来ません</string>
+    <string name="esecuzione">実行</string>
+    <string name="permesso_proprietario">Owner:</string>
+    <string name="permesso_gruppo">Group:</string>
+    <string name="permesso_altro">その他:</string>
+    <string name="modifica">編集</string>
+    <string name="nuovo_file">新しい file</string>
+    <string name="file_creato_con_successo">File が正常に作成されました</string>
+    <string name="impossibile_creare_file">File を作成出来ませんでした</string>
+    <string name="impossibile_riprodurre">File を再生出来ません!</string>
+    <string name="storage_to_scan">Scan する storage を選択:</string>
+    <string name="scansione_media_library_terminata">Media Library の scan が完了しました</string>
+    <string name="no_smb_to_ftp">SMB server からFTP server に複写出来ません</string>
+    <string name="no_ftp_to_smb">FTP server からSMB server に複写出来ません</string>
+    <string name="annullamento_operazione">操作を取り消します…</string>
+    <string name="troppi_elementi_da_gestire">管理する items が多過ぎます</string>
+    <string name="storages">Storages:</string>
+    <string name="notif_id_operazioni_varie">操作完了</string>
+    <string name="notif_id_operazioni_backgroung">Background での操作</string>
+    <string name="operazione_terminata">操作完了</string>
+    <string name="configura_widget">ウィジェットの構成</string>
+    <string name="crea_collegamento">ファイルへのリンク</string>
+    <string name="aggiungi_collegamento_home">ホームページへのリンクを追加</string>
+    <string name="elemento_non_trovato">要素が見つかりません</string>
+
+    <!-- Functions -->
+    <string name="egal_zip_viewer">Egal Zip Viewer</string>
+    <string name="egal_salva_file">Egal Save File</string>
+    <string name="egal_text_editor">Egal Text Editor</string>
+    <string name="egal_image_viewer">Egal Image Viewer</string>
+    <string name="egal_music_player">Egal Music Player</string>
+
+    <!-- Zip -->
+    <string name="zip_explorer">Zip Explorer</string>
+    <string name="estrai_archivio">Archive を抽出する</string>
+    <string name="estrazione">抽出</string>
+    <string name="estrazione_in_corso">%s を抽出中…</string>
+    <string name="files_non_estrati">Files の抽出中に error が発生しました</string>
+    <string name="files_estratti">抽出成功</string>
+    <string name="archivio_non_valido">Archive の内容を読み取れません</string>
+    <string name="compressione">圧縮する</string>
+    <string name="compressione_in_corso">%s を圧縮中…</string>
+    <string name="files_non_compressi">File の圧縮中に error が発生しました</string>
+    <string name="files_compressi">圧縮に成功しました</string>
+
+    <!-- Text Editor -->
+    <string name="impossibile_leggere_file">File を読み取れません</string>
+    <string name="dimensione_testo">文字の大きさ</string>
+    <string name="ricerca">検索</string>
+    <string name="occorrenza_non_trovata">問題は見つかりません</string>
+    <string name="file_salvato">File が正常に保存されました</string>
+    <string name="salva_con_nome">名前を付けて保存</string>
+    <string name="chiudere_senza_salvare">保存せずに file を閉じますか?</string>
+    <string name="non_salvare">保存しない</string>
+    <string name="salvataggio_in_corso">保存中…</string>
+
+    <!-- Image viewer -->
+    <string name="ruota_destra">右に回転</string>
+    <string name="ruota_sinistra">左に回転</string>
+    <string name="imposta_come_sfondo">壁紙に設定</string>
+    <string name="impostare_come_sfondo">この画像を壁紙として設定しますか?</string>
+    <string name="sfondo_impostato">壁紙に設定されました</string>
+    <string name="impossibile_visualizzare_immagine">画像を表示出来ません</string>
+    <string name="nessuna_immagine">表示する画像がありません</string>
+    <string name="presentazione">画廊続展</string>
+    <string name="stop">停止</string>
+    <string name="presentazione_interrotta">画廊続展を中断しました</string>
+
+    <!-- Music Player -->
+    <string name="playlist">Playlist</string>
+    <string name="nessun_file_audio">再生する音声 file がありません</string>
+    <string name="aggiungi_a_playlist">Playlist に追加</string>
+    <string name="salva_playlist">Playlist を保存</string>
+    <string name="rimuovi_tutto">Playlist 初期化</string>
+    <string name="shuffle">Randam にする</string>
+    <string name="repeat_mode">Repeat にする</string>
+    <string name="repeat_none">無し</string>
+    <string name="repeat_all">全て</string>
+    <string name="repeat_track">Track</string>
+
+    <!-- Settings -->
+    <string name="impostazioni_generali">一般設定</string>
+    <string name="avanzate">高度なもの</string>
+    <string name="lingua">言語</string>
+    <string name="root_explorer">Root Explorer</string>
+    <string name="root_explorer_descrizione">Root 権限を使用して files を探索する</string>
+    <string name="mostra_anteprime">Thumbnails を表示</string>
+    <string name="mostra_anteprime_descrizione">可能であれば file の preview を表示する</string>
+    <string name="mostra_nascosti">隠し files を表示する</string>
+    <string name="mostra_nascosti_descrizione">記号 「.」 が前に付いた files を表示します</string>
+    <string name="no_permessi_root">この device には root 権限がありません。</string>
+    <string name="associazione_files_descrizione">File の関連付け/application を管理する</string>
+    <string name="reset_app_titolo">App を Reset</string>
+    <string name="reset_app_messaggio">全ての設定を Reset しますか?</string>
+    <string name="reset_app_descrizione">Application を初期設定に復元します</string>
+    <string name="giorni_recenti_descrizione">最近の files の検索に使用する日数</string>
+    <string name="ordina_download_per_data">日付で downloads を並べ替える</string>
+    <string name="ordina_download_per_data_descrizione">「Download」 folder の Content を常に日付順に並べ替えます</string>
+    <string name="rescan_media_library">Media Library の再 scan</string>
+    <string name="rescan_media_library_descrizione">Media Library を強制的に再 scan する</string>
+    <string name="svuota_cache">Cache の消去</string>
+    <string name="svuota_cache_descrizione">App の cache 内の全ての files と previews を削除します</string>
+    <string name="cache_cancellata">Cache を削除しました</string>
+    <string name="tema">画面の色調</string>
+    <string name="tema_chiaro">Light theme</string>
+    <string name="tema_scuro">Dark theme</string>
+
+    <!-- Tools -->
+    <string name="tools">Tools</string>
+    <string name="tool_analisi_spazio_occupato">空き容量の使用量分析</string>
+    <string name="tool_cerca_file">Files 検索</string>
+    <string name="tool_backup_app">Backup Apps (root のみ)</string>
+    <string name="analisi_cartella">Folder 分析</string>
+    <string name="usa_caratteri_wildcard">Wildcard 文字の「*」と「?」の使用は可能ですか?</string>
+    <string name="ignora_maiuscolo_minuscolo">事例を無視</string>
+    <string name="cerca_in">検索元:</string>
+    <string name="tipi">種類:</string>
+    <string name="altri_parametri">その他の parameters :</string>
+    <string name="dimensione">Size:</string>
+    <string name="risultati_ricerca">検索結果</string>
+    <string name="tutti">全て</string>
+    <string name="nuova_ricerca">新しい検索</string>
+    <string name="apri_percorso">Path で開く</string>
+    <string name="inserisci_nome_file">File 名を入力して下さい</string>
+    <string name="controlla_parametri_inseriti">入力した全ての parameters を照合します!</string>
+    <string name="mostra_app_utente">User apps を表示する</string>
+    <string name="mostra_app_sistema">System apps を表示する</string>
+    <string name="app_utente">User apps</string>
+    <string name="app_sistema">System apps</string>
+    <string name="app_info">App 情報</string>
+    <string name="app_backup">Backup</string>
+    <string name="tool_mountpoints">Mountpoints (root のみ)</string>
+    <string name="tool_recenti">最近使用した files</string>
+    <string name="recenti">最近のもの</string>
+    <string name="recenti_descrizione">最後に保存した files を表示する</string>
+    <string name="mountpoint">Mountpoint:</string>
+    <string name="file_system">File system:</string>
+    <string name="giorni">ここ数日のもの</string>
+    <string name="trova_files_duplicati">重複した files を見つける</string>
+    <string name="operazione_lunga">この操作には数分かかる場合があります</string>
+    <string name="cancella_selezionati">選択を削除します</string>
+    <string name="nessun_elemento_selezionato">Items が選択されていません</string>
+    <string name="avvia_ricerca">検索を開始</string>
+    <string name="ricerca_duplicati_in_corso">重複した files を検索中…</string>
+    <string name="mostra_risultati_duplicati">Tap して結果を表示します</string>
+    <string name="duplicati_trovati">%s 個の重複した files が見つかりました!</string>
+
+    <!-- Media Info -->
+    <string name="media_info">Media 情報</string>
+    <string name="media_no_info">情報が見つかりません</string>
+    <string name="media_risoluzione">解像度:</string>
+    <string name="media_data">日付:</string>
+    <string name="media_formato">形式:</string>
+    <string name="media_dimensione">Size:</string>
+    <string name="media_percorso">Path:</string>
+    <string name="media_rotazione">回転:</string>
+    <string name="media_latitudine">GPS 緯度:</string>
+    <string name="media_longitudine">GPS 経度:</string>
+    <string name="media_localita">場所:</string>
+    <string name="media_camera">Camera:</string>
+    <string name="media_titolo">表題:</string>
+    <string name="media_artista">Artist:</string>
+    <string name="media_album">Album:</string>
+    <string name="media_genere">分野:</string>
+    <string name="media_bitrate">Bitrate:</string>
+    <string name="media_track">Track:</string>
+    <string name="media_frame">Framerate:</string>
+    <string name="media_durata">再生時間:</string>
+    <string name="media_anno">年:</string>
+
+    <!-- Apk info -->
+    <string name="apk_nome_app">App 名:</string>
+    <string name="apk_codice_versione">Version code:</string>
+    <string name="apk_nome_versione">Version 名:</string>
+    <string name="apk_min_sdk">Min SDK:</string>
+    <string name="apk_target_sdk">Target SDK:</string>
+    <string name="apk_package_name">Package 名:</string>
+    <string name="apk_installer">Installer:</string>
+    <string name="apk_type">種類:</string>
+    <string name="apk_system">System</string>
+    <string name="apk_user">User</string>
+
+    <!-- Lan -->
+    <string name="rete_locale">Local network</string>
+    <string name="esplora_rete_locale">Explore the local network</string>
+    <string name="autenticazione">認証</string>
+    <string name="user_password_errati">User 名または password に誤りがあります!</string>
+    <string name="username">User 名:</string>
+    <string name="password">Password:</string>
+    <string name="anonimo">匿名</string>
+    <string name="salva_credenziali">資格情報を保存する</string>
+    <string name="connessione_in_corso">接続中…</string>
+    <string name="impossibile_connettersi">%s に接続出来ません</string>
+    <string name="ricerca_in_corso">検索しています…</string>
+    <string name="scaricare_il_file">File を download しますか?</string>
+    <string name="file_scaricato_nella_cartella">%s folder に download された file</string>
+    <string name="apri_file">File を開く</string>
+    <string name="apri_cartella_destinazione">宛先 folder を開く</string>
+
+    <!-- FTP -->
+    <string name="server_ftp">FTP server</string>
+    <string name="ftp_descrizione">FTP servers を管理する</string>
+    <string name="tipo_ftp">FTP</string>
+    <string name="tipo_ftps">FTPS</string>
+    <string name="server">Server:</string>
+    <string name="porta">Port:</string>
+    <string name="modo">方式:</string>
+    <string name="modo_attivo">活動的</string>
+    <string name="modo_passivo">制限的</string>
+    <string name="codifica">Encoding:</string>
+    <string name="nome_visualizzato">表示名:</string>
+    <string name="opzionale">任意で</string>
+    <string name="dati_server">Server data</string>
+    <string name="server_esistente">%s server は既に存在します</string>
+
+    <!-- About -->
+    <string name="crediti">Credits</string>
+    <string name="traduzioni">翻訳</string>
+    <string name="sviluppato_da">開発者 %s</string>
+    <string name="icon_by">Icon 制作者</string>
+
+    <!-- Backup -->
+    <string name="backup">Backup</string>
+    <string name="effettua_backup_impostazioni">設定を backup する</string>
+    <string name="ripristina_backup_impostazioni">設定の backup を復元する</string>
+    <string name="seleziona_file">File を選択</string>
+    <string name="backup_effettuato_con_successo">成功した backup</string>
+    <string name="errore_creazione_backup">Backup 作成 error</string>
+    <string name="errore_ripristino_backup">Backup 復元 error</string>
+    <string name="ripristina_backup">Backup を復元</string>
+    <string name="ripristino_effettuato_con_successo">成功した復元</string>
+
+    <!-- Appirater -->
+
+    <!-- Changelog -->
+
+    <!-- Update -->
+
+    <!-- Update notifier -->
+
+    <!-- unit of measurement (only symbols) -->
+    <string name="unit_byte">B</string>
+    <string name="unit_kilobyte">KB</string>
+    <string name="unit_megabyte">MB</string>
+    <string name="unit_gigabyte">GB</string>
+    <string name="unit_terabyte">TB</string>
+    <string name="unit_pixel">px</string>
+    <string name="unit_megapixel">Mpx</string>
+    <string name="unit_kbps">kbps</string>
+    <string name="text_size_sp">sp</string>
+
+</resources>

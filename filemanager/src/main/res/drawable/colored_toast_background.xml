@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <stroke android:width="@dimen/colored_toast_border" android:color="@color/colored_toast_border" />
+    <corners android:radius="@dimen/colored_toast_radius" />
+    <solid android:color="@color/colored_toast_background"/>
+</shape>
+

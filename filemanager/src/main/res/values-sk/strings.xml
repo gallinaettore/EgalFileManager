@@ -1,0 +1,409 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Main -->
+    <string name="app_name">Egal správca súborov</string>
+    <string name="home">Domov</string>
+    <string name="impostazioni">Nastavenia</string>
+    <string name="about">o aplikácii</string>
+    <string name="archivio_locale">miestna pamäť</string>
+    <string name="memoria_interna">vnútorná pamäť</string>
+    <string name="memoria_esterna">pamäťová karta</string>
+    <string name="root_directory">koreňový adresár</string>
+    <string name="categorie">kategórie</string>
+    <string name="categorie_immagini">obrázky</string>
+    <string name="categorie_video">video</string>
+    <string name="categorie_audio">hudba</string>
+    <string name="categorie_altro">iné</string>
+    <string name="altri_percorsi_di_archiviazione">iné úložné zariadenia</string>
+
+    <!-- Pro version -->
+
+    <!-- Sort -->
+    <string name="ordina_per">zoradiť podľa:</string>
+    <string name="ordina_per_nome">meno</string>
+    <string name="ordina_per_dimensione">veľkosť</string>
+    <string name="ordina_per_data">dátum</string>
+    <string name="ordina_per_tipo">typ</string>
+    <string name="ordina_per_elementi">číslo položky</string>
+    <string name="ordina_per_percorso">cesta</string>
+    <string name="tipo_ordinamento">smer radenia:</string>
+    <string name="ordinamento_crescente">vzostupne</string>
+    <string name="ordinamento_decrescente">zostupne</string>
+    <string name="disponi">zarovnať</string>
+    <string name="organizza_per">zarovnať podľa</string>
+    <string name="organizza_per_cartella">názov zložky</string>
+    <string name="organizza_per_album">názov albumu</string>
+
+    <!-- Copy, paste, delete... -->
+    <string name="copia">kopírovať</string>
+    <string name="taglia">vystrihnúť</string>
+    <string name="incolla">vložiť</string>
+    <string name="copia_in">kopírovať do</string>
+    <string name="sposta_in">premiestniť do</string>
+    <string name="origine">zdroj</string>
+    <string name="destinazione">cieľ :</string>
+    <string name="totale">celkom:</string>
+    <string name="spazio_insufficiente">málo pamäte!</string>
+    <string name="copia_in_corso">kopírovanie %s …</string>
+    <string name="elementi_negli_appunti">%s častí v schránke</string>
+    <string name="files_copiati">%s  častí kopírovaných</string>
+    <string name="files_non_copiati">chyba kopírovania niektorých položiek:</string>
+    <string name="cartella_interna">cieľová zložka je v zdrojovej zložke!</string>
+    <string name="clipboard">schránka</string>
+    <string name="mostra_contentuto_clipboard">zobraziť schránku</string>
+    <string name="cancella_clipboard">vyprázdniť schránku</string>
+    <string name="clipboard_vuota">schránka je prázdna</string>
+    <string name="applica_a_tutti">aplikovať na všetko</string>
+    <string name="file_esistente">súbor s názvom %s už existuje</string>
+    <string name="sovrascrivi">prepísať</string>
+    <string name="sovrascrivi_cartella">Zložka s názvom %s už existuje. Chcete prepísať jej obsah?</string>
+    <string name="sovrascrivi_file">Súbor s názvom %s už existuje. Chcete ho prepísať?</string>
+    <string name="rinomina">premenovať</string>
+    <string name="ignora">ignorovať</string>
+    <string name="elimina">odstrániť</string>
+    <string name="eliminazione_in_corso">prebieha odstraňovanie %s …</string>
+    <string name="conferma_eliminazione1">Chcete naozaj odstrániť %s?</string>
+    <string name="conferma_eliminazione2">Chcete naozaj odstrániť %s položiek?</string>
+    <string name="files_eliminati">%s položiek odstránených</string>
+    <string name="files_non_eliminati">Nastala chyba počas odstraňovania niektorých položiek:</string>
+    <string name="operazione_annulata">Operácia ukončená!</string>
+    <string name="nome_non_valido">Neplatný názov!</string>
+    <string name="cartella_gia_esistente">Zložka už existuje</string>
+    <string name="impossibile_creare_cartella">Nedá sa vytvoriť zložka</string>
+    <string name="cartella_creata">Zložka vytvorená</string>
+    <string name="nuovo_nome">Nové meno</string>
+    <string name="files_rinominati">%s položiek premenovaných</string>
+    <string name="file_gia_presente">Súbor už existuje</string>
+    <string name="files_non_rinominati">Nedajú sa premenovať nasledujúce položky:</string>
+    <string name="rinominazione_in_corso">Proces premenovania %s …</string>
+    <string name="files_spostati">%s položiek premiestnených</string>
+    <string name="spostamento">premiestnenie</string>
+
+    <!-- Other -->
+    <string name="cartella_vuota">Prázdna zložka</string>
+    <string name="permesso_lettura_scrittura">Vyžaduje se povolenie čítania/zapisovania súborov</string>
+    <string name="permessi_scheda_autorizzazioni">Choďte do \'povolenia\' a udeľte požadované povolenia.</string>
+    <string name="aggiorna">Obnoviť</string>
+    <string name="filtro">Filtrovať</string>
+    <string name="elementi">položky</string>
+    <string name="ordina">Triediť</string>
+    <string name="lettura_dati_cartelle">Čítam dáta zložky…</string>
+    <string name="visualizzazione">Ukážka</string>
+    <string name="visualizzazione_lista">Zoznam</string>
+    <string name="visualizzazione_lista_piccola">Malý zoznam</string>
+    <string name="visualizzazione_griglia">Mriežka</string>
+    <string name="visualizzazione_anteprima">Náhľad</string>
+    <string name="apri_con">Otvoriť s</string>
+    <string name="apri_come">Otvoriť ako</string>
+    <string name="usa_sempre_questa_app">Vždy použiť túto apku na otváranie suborov tohto typu</string>
+    <string name="associazione_files">Vlastnosti súboru</string>
+    <string name="nessuna_associazione_files">Nenašli sa vlastnosti súboru</string>
+    <string name="ripristina_predefiniti">Obnoviť predvolené</string>
+    <string name="ripristinare_associazioni_predefinite">Chcete naozaj obnoviť predvolené vlastnosti?</string>
+    <string name="messaggio_cancellazione_associazione">Chcete naozaj odstrániť túto vlastnosť?</string>
+    <string name="lettura_lista_applicazioni">Čitam údaje aplikácie…</string>
+    <string name="testo">Text</string>
+    <string name="immagine">Obrázok</string>
+    <string name="audio">Audio</string>
+    <string name="video">Video</string>
+    <string name="altro">Iné</string>
+    <string name="seleziona_tutto">Označiť všetko</string>
+    <string name="deseleziona_tutto">Odznačiť všetko</string>
+    <string name="nuova_cartella">Nová zložka</string>
+    <string name="directory">Zložka</string>
+    <string name="file">Súbor</string>
+    <string name="directories">zložky</string>
+    <string name="files">súbory</string>
+    <string name="collegamento">Odkaz</string>
+    <string name="seleziona_storage">Zvoliť úložisko</string>
+    <string name="autorizzazione_memorie_esterne">Prosím zvoľte koreňovú zložku externej pamäte na udelenie povolení.</string>
+    <string name="nessuna_autorizzazione_esterna">Nemôžete zapisovať do externej pamäte pokiaľ neudelíte povolenia.</string>
+    <string name="tree_uri_extsd_non_valido">Zvolená zložka nieje platná! Musíš zvoliť koreňovú zložku externej pamäte! Chápeš?</string>
+    <string name="proprieta">Vlastnosti</string>
+    <string name="tipo2">Typ:</string>
+    <string name="contenuto">Obsah:</string>
+    <string name="percorso">Cesta:</string>
+    <string name="dimensione2">Veľkosť:</string>
+    <string name="ultima_modifica">Posledná zmena:</string>
+    <string name="permessi">Povolenie:</string>
+    <string name="lettura">čitanie</string>
+    <string name="scrittura">zápis</string>
+    <string name="nascosto">Skryté:</string>
+    <string name="bytes">byty</string>
+    <string name="selezione_multipla">Hromadný výber</string>
+    <string name="visibilita_modificata">Viditeľná úprava</string>
+    <string name="seleziona_destinazione">Zvoľte cieľ</string>
+    <string name="cartella_superiore">Nadradená zložka</string>
+    <string name="salva">Uložiť</string>
+    <string name="nome_file">Názov súboru:</string>
+    <string name="errore_salvataggio">Zlyhalo ukladanie súboru</string>
+    <string name="nessun_elemento_trovato">Nenašla sa položka</string>
+    <string name="album_pdf">PDF</string>
+    <string name="album_documenti">Dokumenty</string>
+    <string name="album_fogli_calcolo">Tabuľky</string>
+    <string name="album_compressi">Komprimované súbory</string>
+    <string name="album_testo">Text</string>
+    <string name="album_apk">APK</string>
+    <string name="aggiornamento_media_library">Obnovujem knižnicu…</string>
+    <string name="condividi">Zdieľať</string>
+    <string name="preferiti">Obľúbené</string>
+    <string name="aggiungi_a_preferiti">Pridať k obľúbeným</string>
+    <string name="domanda_rimuovi_preferito">Chcete naozaj odobrať %s z obľúbených?</string>
+    <string name="preferito_non_esistente">%s už neexistuje. Chcete ho odobrať z obľúbených?</string>
+    <string name="preferito_aggiunto">Pridané k obľúbeným</string>
+    <string name="nuovo">Nové</string>
+    <string name="seleziona_label_storage">Zvoľte úložisko s označením %s</string>
+    <string name="impossibile_completare_operazione">Nedá sa dokončiť operácia</string>
+    <string name="esecuzione">výpočet</string>
+    <string name="permesso_proprietario">Vlastník:</string>
+    <string name="permesso_gruppo">Skupina:</string>
+    <string name="permesso_altro">Iné:</string>
+    <string name="modifica">Zmeniť</string>
+    <string name="nuovo_file">Nový súbor</string>
+    <string name="file_creato_con_successo">Súbor vytvorený</string>
+    <string name="impossibile_creare_file">Nedá sa vytvoriť súbor</string>
+    <string name="impossibile_riprodurre">Nedá sa spustiť súbor!</string>
+    <string name="storage_to_scan">Vyberte pamäť na skenovanie:</string>
+    <string name="scansione_media_library_terminata">Čitanie kniznice  dokončené</string>
+    <string name="no_smb_to_ftp">Nedá sa kopírovať zo servra SMB na FTP server</string>
+    <string name="no_ftp_to_smb">Nedá sa kopírovať zo servra FTP na SMB server</string>
+    <string name="annullamento_operazione">Ukončiť operáciu…</string>
+    <string name="troppi_elementi_da_gestire">Veľmi veľa položiek na zvládnutie operácie</string>
+    <string name="storages">Úložiská:</string>
+    <string name="notif_id_operazioni_varie">Operacia kompletná</string>
+    <string name="notif_id_operazioni_backgroung">Operácia na pozadí</string>
+    <string name="operazione_terminata">Operacia kompletná</string>
+    <string name="configura_widget">Konfigurácia widgetu</string>
+    <string name="crea_collegamento">Odkaz na súbor</string>
+    <string name="aggiungi_collegamento_home">Pridať odkaz domov</string>
+    <string name="elemento_non_trovato">Položka sa nenašla</string>
+
+    <!-- Functions -->
+    <string name="egal_zip_viewer">Egal ZIP Viewer</string>
+    <string name="egal_salva_file">Egal ukladanie súborov</string>
+    <string name="egal_text_editor">Egal textový editor</string>
+    <string name="egal_image_viewer">Egal prehliadač obrázkov</string>
+    <string name="egal_music_player">Egal prehrávač</string>
+
+    <!-- Zip -->
+    <string name="zip_explorer">ZIP prehliadač</string>
+    <string name="estrai_archivio">Rozbaliť archív</string>
+    <string name="estrazione">Rozbaľovanie</string>
+    <string name="estrazione_in_corso">Prebieha rozbaľovanie %s…</string>
+    <string name="files_non_estrati">Nastala chyba pri rozbaľovaní</string>
+    <string name="files_estratti">Rozbaľovanie dokončené</string>
+    <string name="archivio_non_valido">Nedá sa čítať archív</string>
+    <string name="compressione">Komprimovať</string>
+    <string name="compressione_in_corso">Prebieha komprimácia %s…</string>
+    <string name="files_non_compressi">Nastala chyba počas komprimácie</string>
+    <string name="files_compressi">Komprimácia prebehla úspešne</string>
+
+    <!-- Text Editor -->
+    <string name="impossibile_leggere_file">Nedá sa čítať súbor</string>
+    <string name="dimensione_testo">Veľkosť textu</string>
+    <string name="ricerca">Hľadať</string>
+    <string name="occorrenza_non_trovata">nenájdená zhoda</string>
+    <string name="file_salvato">Súbor uložený</string>
+    <string name="salva_con_nome">Uložiť ako…</string>
+    <string name="chiudere_senza_salvare">Chcete zavrieť súbor bez uloženia?</string>
+    <string name="non_salvare">Neukladať</string>
+    <string name="salvataggio_in_corso">Prebieha ukladanie…</string>
+
+    <!-- Image viewer -->
+    <string name="ruota_destra">Otočiť doprava</string>
+    <string name="ruota_sinistra">Otočiť doľava</string>
+    <string name="imposta_come_sfondo">Nastaviť ako pozadie</string>
+    <string name="impostare_come_sfondo">Chcete nastaviť tento obrazok ako pozadie?</string>
+    <string name="sfondo_impostato">Pozadie bolo zmenené</string>
+    <string name="impossibile_visualizzare_immagine">Nedá sa ukázať obrázok</string>
+    <string name="nessuna_immagine">Nieje obrazok na prehliadanie</string>
+    <string name="presentazione">Prezentácia</string>
+    <string name="stop">Stop</string>
+    <string name="presentazione_interrotta">Prezentácia prerušená</string>
+
+    <!-- Music Player -->
+    <string name="playlist">Playlist</string>
+    <string name="nessun_file_audio">Nieje súbor na prehratie</string>
+    <string name="aggiungi_a_playlist">Pridať do playlistu</string>
+    <string name="salva_playlist">Uložiť playlist</string>
+    <string name="rimuovi_tutto">Odobrať všetko</string>
+    <string name="shuffle">Náhodný výber</string>
+    <string name="repeat_mode">Opakovať</string>
+    <string name="repeat_none">Nič</string>
+    <string name="repeat_all">Všetko</string>
+    <string name="repeat_track">Skladba</string>
+
+    <!-- Settings -->
+    <string name="impostazioni_generali">Hlavné nastavenia</string>
+    <string name="avanzate">Pokročilé</string>
+    <string name="lingua">Jazyk</string>
+    <string name="root_explorer">Prehliadač \"root\"</string>
+    <string name="root_explorer_descrizione">Prehliadať subory s \"root\" povoleniami</string>
+    <string name="mostra_anteprime">Ukázať miniatúry</string>
+    <string name="mostra_anteprime_descrizione">Zobraziť ukážku ak je dostupná</string>
+    <string name="mostra_nascosti">Zobraziť skryté súbory</string>
+    <string name="mostra_nascosti_descrizione">Zobraziť súbory pred symbolom \".\"</string>
+    <string name="no_permessi_root">Toto zariadenie nemá \"root\" práva</string>
+    <string name="associazione_files_descrizione">Zmeniť súborové vlastnosti</string>
+    <string name="reset_app_titolo">Obnoviť apku</string>
+    <string name="reset_app_messaggio">Chcete obnoviť všetky nastavenia</string>
+    <string name="reset_app_descrizione">Apka sa nastavuje do pôvodných nastavení</string>
+    <string name="giorni_recenti_descrizione">Počet dní od prijatia súborov</string>
+    <string name="ordina_download_per_data">Zoradiť podľa dátumu</string>
+    <string name="ordina_download_per_data_descrizione">Zoradiť \"stiahnuté\" vždy podľa dátumu</string>
+    <string name="rescan_media_library">Preskenovať knižnicu médií</string>
+    <string name="rescan_media_library_descrizione">Vynútenie preskenovania kniznice médií</string>
+    <string name="svuota_cache">Vymazať medzipamäť</string>
+    <string name="svuota_cache_descrizione">Vymazať všetky súbory a ukážky v medzipamäti aplikácie</string>
+    <string name="cache_cancellata">Medzipamäť vymazaná</string>
+    <string name="tema">Téma</string>
+    <string name="tema_chiaro">Svetlá téma</string>
+    <string name="tema_scuro">Tmavá téma</string>
+
+    <!-- Tools -->
+    <string name="tools">Možnosti</string>
+    <string name="tool_analisi_spazio_occupato">Analýza využitia pamäte</string>
+    <string name="tool_cerca_file">Hľadať súbory</string>
+    <string name="tool_backup_app">Záloha aplikácií (len s \"root\" právami)</string>
+    <string name="analisi_cartella">Analýza zložky</string>
+    <string name="usa_caratteri_wildcard">Je možné zobraziť neobvyklé znaky?</string>
+    <string name="ignora_maiuscolo_minuscolo">Ignorovať možnosť</string>
+    <string name="cerca_in">Hľadať v:</string>
+    <string name="tipi">Typy:</string>
+    <string name="altri_parametri">Ostatné parametre:</string>
+    <string name="dimensione">Veľkosť:</string>
+    <string name="risultati_ricerca">Výsledky hľadania</string>
+    <string name="tutti">Všetko</string>
+    <string name="nuova_ricerca">Nové hľadanie</string>
+    <string name="apri_percorso">Otvoriť cestu</string>
+    <string name="inserisci_nome_file">Zadajte názov súboru</string>
+    <string name="controlla_parametri_inseriti">Skontrolovať všetky použité parametre!</string>
+    <string name="mostra_app_utente">Zobraziť apky používateľa</string>
+    <string name="mostra_app_sistema">Zobraziť systémové apky</string>
+    <string name="app_utente">Apky používateľa</string>
+    <string name="app_sistema">Systémové apky</string>
+    <string name="app_info">Informácie apky</string>
+    <string name="app_backup">Záloha</string>
+    <string name="tool_mountpoints">Cieľ prepojenia (len root)</string>
+    <string name="tool_recenti">Nedávne súbory</string>
+    <string name="recenti">Nedávne</string>
+    <string name="recenti_descrizione">Zobraziť posledné uložené súbory</string>
+    <string name="mountpoint">Bod prepojenia</string>
+    <string name="file_system">Súborový systém:</string>
+    <string name="giorni">Posledné dni:</string>
+    <string name="trova_files_duplicati">Hľadať duplikáty</string>
+    <string name="operazione_lunga">Táto operácia môže trvať niekoľko minút</string>
+    <string name="cancella_selezionati">Odstrániť vybrané</string>
+    <string name="nessun_elemento_selezionato">Niesú vybrané žiadne položky</string>
+    <string name="avvia_ricerca">Začať hľadanie</string>
+    <string name="ricerca_duplicati_in_corso">Prebieha vyhľadávanie duplikátov…</string>
+    <string name="mostra_risultati_duplicati">Klepnutím zobrazíte výsledky</string>
+    <string name="duplicati_trovati">Bolo nájdených %s duplikátov!</string>
+
+    <!-- Media Info -->
+    <string name="media_info">Informácie o médiu</string>
+    <string name="media_no_info">Žiadne informácie</string>
+    <string name="media_risoluzione">Rozlíšenie:</string>
+    <string name="media_data">Dátum:</string>
+    <string name="media_formato">Formát:</string>
+    <string name="media_dimensione">Veľkosť:</string>
+    <string name="media_percorso">Cesta:</string>
+    <string name="media_rotazione">Otočenie:</string>
+    <string name="media_latitudine">GPS šírka:</string>
+    <string name="media_longitudine">GPS dĺžka:</string>
+    <string name="media_localita">Miesto:</string>
+    <string name="media_camera">Kamera:</string>
+    <string name="media_titolo">Nádpis:</string>
+    <string name="media_artista">Umelec:</string>
+    <string name="media_album">Album:</string>
+    <string name="media_genere">Žáner:</string>
+    <string name="media_bitrate">Bitrate:</string>
+    <string name="media_track">Skladba:</string>
+    <string name="media_frame">Rýchlosť premietania:</string>
+    <string name="media_durata">Trvanie:</string>
+    <string name="media_anno">Rok:</string>
+
+    <!-- Apk info -->
+    <string name="apk_nome_app">Názov apky:</string>
+    <string name="apk_codice_versione">Kód verzie:</string>
+    <string name="apk_nome_versione">Názov verzie:</string>
+    <string name="apk_min_sdk">Min SDK:</string>
+    <string name="apk_target_sdk">Cieľ SDK:</string>
+    <string name="apk_package_name">Meno balíka:</string>
+    <string name="apk_installer">Installer:</string>
+    <string name="apk_type">Typ:</string>
+    <string name="apk_system">Systém</string>
+    <string name="apk_user">Užívateľ</string>
+
+    <!-- Lan -->
+    <string name="rete_locale">Lokálna sieť</string>
+    <string name="esplora_rete_locale">Preskúmať lokálnu sieť</string>
+    <string name="autenticazione">Overenie</string>
+    <string name="user_password_errati">Nesprávne meno alebo heslo!</string>
+    <string name="username">Meno:</string>
+    <string name="password">Heslo:</string>
+    <string name="anonimo">Anonym</string>
+    <string name="salva_credenziali">Uložiť poverenia</string>
+    <string name="connessione_in_corso">Prebieha pripájanie…</string>
+    <string name="impossibile_connettersi">Nedá sa pripojiť na %s</string>
+    <string name="ricerca_in_corso">Vyhľadávam…</string>
+    <string name="scaricare_il_file">Chcete stiahnuť súbor?</string>
+    <string name="file_scaricato_nella_cartella">Súbor stiahnutý do zložky %s</string>
+    <string name="apri_file">Otvoriť súbor</string>
+    <string name="apri_cartella_destinazione">Otvoriť cieľovú zložku</string>
+
+    <!-- FTP -->
+    <string name="server_ftp">FTP server</string>
+    <string name="ftp_descrizione">Usporiadať FTP servre</string>
+    <string name="tipo_ftp">FTP</string>
+    <string name="tipo_ftps">FTPS</string>
+    <string name="server">Server:</string>
+    <string name="porta">Port:</string>
+    <string name="modo">Mód:</string>
+    <string name="modo_attivo">Aktívny</string>
+    <string name="modo_passivo">Pasívny</string>
+    <string name="codifica">Šifrovanie:</string>
+    <string name="nome_visualizzato">Zobrazovaný názov:</string>
+    <string name="opzionale">voliteľné</string>
+    <string name="dati_server">Dáta servra</string>
+    <string name="server_esistente">Server %s už existuje</string>
+
+    <!-- About -->
+    <string name="crediti">Kredity</string>
+    <string name="traduzioni">Preklady</string>
+    <string name="sviluppato_da">Vyvinul %s</string>
+    <string name="icon_by">Ikona od</string>
+
+    <!-- Backup -->
+    <string name="backup">Záloha</string>
+    <string name="effettua_backup_impostazioni">Vytvoriť zálohu nastavení</string>
+    <string name="ripristina_backup_impostazioni">Obnoviť nastavenia zo zálohy</string>
+    <string name="seleziona_file">Zvoliť súbor</string>
+    <string name="backup_effettuato_con_successo">Záloha dokončená</string>
+    <string name="errore_creazione_backup">Vytvorenie zálohy zlyhalo</string>
+    <string name="errore_ripristino_backup">Obnovenie zálohy zlyhalo</string>
+    <string name="ripristina_backup">Obnoviť zálohu</string>
+    <string name="ripristino_effettuato_con_successo">Obnovenie úspešné</string>
+
+
+    <!-- Appirater -->
+
+    <!-- Changelog -->
+
+    <!-- Update -->
+
+    <!-- Update notificator -->
+
+    <!-- unit of measurement (only symbols) -->
+    <string name="unit_byte">B</string>
+    <string name="unit_kilobyte">KB</string>
+    <string name="unit_megabyte">MB</string>
+    <string name="unit_gigabyte">GB</string>
+    <string name="unit_terabyte">TB</string>
+    <string name="unit_pixel">px</string>
+    <string name="unit_megapixel">Mpx</string>
+    <string name="unit_kbps">kbps</string>
+    <string name="text_size_sp">sp</string>
+
+</resources>

@@ -1,0 +1,29 @@
+<resources>
+
+    <!-- xxhdpi 1920x1080 TV -->
+
+    <dimen name="testo_path">14sp</dimen>
+    <dimen name="testo_nome_dispositivo">16sp</dimen>
+    <dimen name="testo_path_dispositivo">15sp</dimen>
+    <dimen name="testo_spazio_dispositivo">12sp</dimen>
+    <dimen name="testo_nome_file">17sp</dimen>
+    <dimen name="testo_nome_file_lista_piccola">15sp</dimen>
+    <dimen name="testo_nome_file_griglia">14sp</dimen>
+    <dimen name="testo_nome_file_anteprima">14sp</dimen>
+    <dimen name="testo_info_file">13sp</dimen>
+    <dimen name="testo_chooser_app_name">17sp</dimen>
+    <dimen name="testo_dimensione_file_dialog_copia">13sp</dimen>
+    <dimen name="testo_categorie">15sp</dimen>
+    <dimen name="testo_num_elementi_categoria">12sp</dimen>
+    <dimen name="testo_minore_maggiore">19sp</dimen>
+
+    <!-- Material preferences -->
+    <dimen name="material_preferences_category_text">16sp</dimen>
+    <dimen name="material_preferences_title_text">18sp</dimen>
+    <dimen name="material_preferences_summary_text">14sp</dimen>
+
+    <!-- Splash -->
+    <dimen name="testo_piccolo_splash">18sp</dimen>
+    <dimen name="testo_grande_splash">32sp</dimen>
+
+</resources>

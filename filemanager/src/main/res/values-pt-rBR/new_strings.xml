@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Main -->
+    <string name="altri_percorsi_di_archiviazione">Other storage locations</string>
+
+    <!-- Others -->
+    <string name="annullamento_operazione">Cancel operation…</string>
+    <string name="troppi_elementi_da_gestire">Too many items to manage</string>
+
+</resources>

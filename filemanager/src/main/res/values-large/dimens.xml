@@ -1,0 +1,11 @@
+<resources>
+
+    <!-- Dimens large -->
+
+    <dimen name="fab_margin">24dp</dimen>
+    <dimen name="lungh_max_textview_lingua_lista_traduttori">200dp</dimen>
+
+
+
+
+</resources>

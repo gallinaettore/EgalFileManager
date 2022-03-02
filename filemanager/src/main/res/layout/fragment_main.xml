@@ -1,0 +1,532 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:viewfavorite="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/swipe_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorMainBackground">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/distanza_bordi_main"
+            android:orientation="vertical"
+            android:paddingBottom="20dp">
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dp"
+                android:layout_marginBottom="@dimen/margini_laterali_cardview"
+                android:layout_marginLeft="@dimen/margini_laterali_cardview"
+                android:layout_marginRight="@dimen/margini_laterali_cardview"
+                android:layout_marginTop="@dimen/distanza_bordi_main">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="8dp"
+                        android:background="?attr/backgroundColorNomeSezione"
+                        android:padding="9dp"
+                        android:text="@string/categorie"
+                        android:textAllCaps="true"
+                        android:textColor="@android:color/white"
+                        android:textStyle="bold"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:baselineAligned="false"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:id="@+id/layout_immagini"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginBottom="8dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/my_simple_selector"
+                            android:gravity="center_horizontal"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="center_horizontal"
+                                android:text="@string/categorie_immagini"
+                                android:textColor="?attr/colorNomeCategoria"
+                                android:textSize="@dimen/testo_categorie"
+                                android:textStyle="bold"/>
+
+                            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                                android:id="@+id/fabImmagini"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="8dp"
+                                android:layout_marginTop="8dp"
+                                android:clickable="true"
+                                android:focusable="true"
+                                android:tint="@android:color/white"
+                                app:backgroundTint="@color/immagini"
+                                app:fabCustomSize="@dimen/main_fab_size"
+                                app:srcCompat="@drawable/main_immagini"/>
+
+                            <TextView
+                                android:id="@+id/textview_num_immagini"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_horizontal"
+                                android:gravity="center_horizontal"
+                                android:textSize="@dimen/testo_num_elementi_categoria"
+                                tools:text="4096"/>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/layout_video"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginBottom="8dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/my_simple_selector"
+                            android:gravity="center_horizontal"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="center_horizontal"
+                                android:text="@string/categorie_video"
+                                android:textColor="?attr/colorNomeCategoria"
+                                android:textSize="@dimen/testo_categorie"
+                                android:textStyle="bold"/>
+
+                            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                                android:id="@+id/fabVideo"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="8dp"
+                                android:layout_marginTop="8dp"
+                                android:clickable="true"
+                                android:focusable="true"
+                                android:tint="@android:color/white"
+                                app:backgroundTint="@color/video"
+                                app:fabCustomSize="@dimen/main_fab_size"
+                                app:srcCompat="@drawable/main_video"/>
+
+                            <TextView
+                                android:id="@+id/textview_num_video"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_horizontal"
+                                android:gravity="center_horizontal"
+                                android:textSize="@dimen/testo_num_elementi_categoria"
+                                tools:text="566"/>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/layout_audio"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginBottom="8dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/my_simple_selector"
+                            android:gravity="center_horizontal"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="center_horizontal"
+                                android:text="@string/categorie_audio"
+                                android:textColor="?attr/colorNomeCategoria"
+                                android:textSize="@dimen/testo_categorie"
+                                android:textStyle="bold"/>
+
+                            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                                android:id="@+id/fabAudio"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="8dp"
+                                android:layout_marginTop="8dp"
+                                android:clickable="true"
+                                android:focusable="true"
+                                android:tint="@android:color/white"
+                                app:backgroundTint="@color/audio"
+                                app:fabCustomSize="@dimen/main_fab_size"
+                                app:srcCompat="@drawable/main_audio"/>
+
+                            <TextView
+                                android:id="@+id/textview_num_audio"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_horizontal"
+                                android:gravity="center_horizontal"
+                                android:textSize="@dimen/testo_num_elementi_categoria"
+                                tools:text="1547"/>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/layout_altri_files"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginBottom="8dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/my_simple_selector"
+                            android:gravity="center_horizontal"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="center_horizontal"
+                                android:text="@string/categorie_altro"
+                                android:textColor="?attr/colorNomeCategoria"
+                                android:textSize="@dimen/testo_categorie"
+                                android:textStyle="bold"
+                                />
+
+                            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                                android:id="@+id/fabAltro"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="8dp"
+                                android:layout_marginTop="8dp"
+                                android:clickable="true"
+                                android:focusable="true"
+                                android:tint="@android:color/white"
+                                app:backgroundTint="@color/files"
+                                app:fabCustomSize="@dimen/main_fab_size"
+                                app:srcCompat="@drawable/main_altro"/>
+
+                            <TextView
+                                android:id="@+id/textview_num_altri"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_horizontal"
+                                android:gravity="center_horizontal"
+                                android:textSize="@dimen/testo_num_elementi_categoria"
+                                android:visibility="visible"
+                                tools:text="247"/>
+
+                            <ProgressBar
+                                android:id="@+id/progressbar_num_altri"
+                                style="?android:attr/progressBarStyle"
+                                android:layout_width="15dp"
+                                android:layout_height="15dp"
+                                android:layout_gravity="center_horizontal"
+                                android:visibility="gone"/>
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/margini_laterali_cardview"
+                android:layout_marginLeft="@dimen/margini_laterali_cardview"
+                android:layout_marginRight="@dimen/margini_laterali_cardview"
+                android:layout_marginTop="@dimen/distanza_bordi_main">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="8dp"
+                        android:background="?attr/backgroundColorNomeSezione"
+                        android:padding="9dp"
+                        android:text="@string/archivio_locale"
+                        android:textAllCaps="true"
+                        android:textColor="@android:color/white"
+                        android:textStyle="bold"/>
+
+                    <LinearLayout
+                        android:id="@+id/layout_archivio_locale"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="8dp"
+                        android:orientation="vertical">
+
+                    </LinearLayout>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/margini_laterali_cardview"
+                android:layout_marginLeft="@dimen/margini_laterali_cardview"
+                android:layout_marginRight="@dimen/margini_laterali_cardview"
+                android:layout_marginTop="@dimen/distanza_bordi_main">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="8dp"
+                        android:background="?attr/backgroundColorNomeSezione"
+                        android:padding="9dp"
+                        android:text="@string/preferiti"
+                        android:textAllCaps="true"
+                        android:textColor="@android:color/white"
+                        android:textStyle="bold"/>
+
+                    <LinearLayout
+                        android:id="@+id/layout_preferiti"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+                    </LinearLayout>
+
+                    <it.Ettore.egalfilemanager.view.ViewFavorite
+                        android:id="@+id/layout_aggiungi_preferito"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        viewfavorite:description="@string/aggiungi_a_preferiti"
+                        viewfavorite:icon="@drawable/main_aggiungi_preferito"
+                        viewfavorite:name="@string/nuovo"
+                        viewfavorite:showRemoveButton="false"/>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/margini_laterali_cardview"
+                android:layout_marginLeft="@dimen/margini_laterali_cardview"
+                android:layout_marginRight="@dimen/margini_laterali_cardview"
+                android:layout_marginTop="@dimen/distanza_bordi_main"
+                >
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="8dp"
+                        android:background="?attr/backgroundColorNomeSezione"
+                        android:padding="9dp"
+                        android:text="@string/recenti"
+                        android:textAllCaps="true"
+                        android:textColor="@android:color/white"
+                        android:textStyle="bold"/>
+
+                    <LinearLayout
+                        android:id="@+id/layout_recenti"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/my_simple_selector"
+                        android:orientation="horizontal"
+                        android:paddingLeft="8dp"
+                        android:paddingRight="8dp">
+
+                        <com.google.android.material.floatingactionbutton.FloatingActionButton
+                            android:id="@+id/fabRecenti"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="10dp"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginRight="5dp"
+                            android:layout_marginTop="4dp"
+                            android:adjustViewBounds="false"
+                            app:backgroundTint="?attr/colorFabMain"
+                            app:fabCustomSize="@dimen/main_fab_size"
+                            app:srcCompat="@drawable/tool_recenti"/>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginStart="15dp"
+                            android:layout_marginTop="8dp"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/textViewFilesRecenti"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="@string/tool_recenti"
+                                android:textColor="?attr/colorNomeCategoria"
+                                android:textSize="@dimen/testo_nome_dispositivo"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/textViewFilesRecentiDescr"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="@string/recenti_descrizione"
+                                android:textSize="@dimen/testo_path_dispositivo"/>
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="@dimen/margini_laterali_cardview"
+                android:layout_marginLeft="@dimen/margini_laterali_cardview"
+                android:layout_marginRight="@dimen/margini_laterali_cardview"
+                android:layout_marginTop="@dimen/distanza_bordi_main">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="8dp"
+                        android:background="?attr/backgroundColorNomeSezione"
+                        android:padding="9dp"
+                        android:text="@string/altri_percorsi_di_archiviazione"
+                        android:textAllCaps="true"
+                        android:textColor="@android:color/white"
+                        android:textStyle="bold"/>
+
+                    <LinearLayout
+                        android:id="@+id/layout_lan"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/my_simple_selector"
+                        android:orientation="horizontal"
+                        android:paddingLeft="8dp"
+                        android:paddingRight="8dp">
+
+                        <com.google.android.material.floatingactionbutton.FloatingActionButton
+                            android:id="@+id/fabLan"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="10dp"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginRight="5dp"
+                            android:layout_marginTop="4dp"
+                            android:adjustViewBounds="false"
+                            app:backgroundTint="?attr/colorFabMain"
+                            app:fabCustomSize="@dimen/main_fab_size"
+                            app:srcCompat="@drawable/main_lan"/>
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginStart="15dp"
+                            android:layout_marginTop="8dp"
+                            android:layout_weight="1"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/textViewLan"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="@string/rete_locale"
+                                android:textColor="?attr/colorNomeCategoria"
+                                android:textSize="@dimen/testo_nome_dispositivo"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/textViewLanDescr"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="@string/esplora_rete_locale"
+                                android:textSize="@dimen/testo_path_dispositivo" />
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/layout_ftp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/my_simple_selector"
+                        android:orientation="horizontal"
+                        android:paddingLeft="8dp"
+                        android:paddingRight="8dp">
+
+                        <com.google.android.material.floatingactionbutton.FloatingActionButton
+                            android:id="@+id/fabFtp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="10dp"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginRight="5dp"
+                            android:layout_marginTop="4dp"
+                            android:adjustViewBounds="false"
+                            app:backgroundTint="?attr/colorFabMain"
+                            app:fabCustomSize="@dimen/main_fab_size"
+                            app:srcCompat="@drawable/main_ftp"/>
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginStart="15dp"
+                            android:layout_marginTop="8dp"
+                            android:layout_weight="1"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/textViewFtp"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="@string/server_ftp"
+                                android:textColor="?attr/colorNomeCategoria"
+                                android:textSize="@dimen/testo_nome_dispositivo"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/textViewFtpDescr"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="@string/ftp_descrizione"
+                                android:textSize="@dimen/testo_path_dispositivo" />
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.swiperefreshlayout.widget.SwipeRefreshLayout>

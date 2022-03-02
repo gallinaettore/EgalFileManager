@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:orderInCategory="2">
+        <item
+            android:id="@+id/lan"
+            android:icon="@drawable/navmenu_lan"
+            android:title="@string/rete_locale"/>
+        <item
+            android:id="@+id/ftp"
+            android:icon="@drawable/navmenu_ftp"
+            android:title="@string/server_ftp"/>
+    </group>
+
+    <group
+        android:orderInCategory="100">
+        <item
+            android:id="@+id/main_page"
+            android:icon="@drawable/navmenu_home"
+            android:orderInCategory="3"
+            android:title="@string/home"/>
+
+        <item
+            android:id="@+id/tools"
+            android:icon="@drawable/navmenu_tools"
+            android:orderInCategory="3"
+            android:title="@string/tools"/>
+
+        <item
+            android:id="@+id/impostazioni"
+            android:icon="@drawable/navmenu_impostazioni"
+            android:orderInCategory="3"
+            android:title="@string/impostazioni"/>
+
+        <item
+            android:id="@+id/about"
+            android:icon="@drawable/navmenu_about"
+            android:orderInCategory="3"
+            android:title="@string/about"/>
+    </group>
+
+</menu>

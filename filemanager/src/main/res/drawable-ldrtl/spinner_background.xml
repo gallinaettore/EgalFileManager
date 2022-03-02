@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:state_focused="true">
+
+        <layer-list>
+
+            <item>
+                <color
+                    android:color="@android:color/transparent"/>
+            </item>
+
+            <item>
+                <bitmap
+                    android:gravity="center_vertical|left"
+                    android:src="@drawable/arrow_spinner"/>
+            </item>
+
+        </layer-list>
+
+    </item>
+
+    <item android:state_selected="true">
+
+        <layer-list>
+
+            <item>
+                <color
+                    android:color="@android:color/transparent"/>
+            </item>
+
+            <item>
+                <bitmap
+                    android:gravity="center_vertical|left"
+                    android:src="@drawable/arrow_spinner"/>
+            </item>
+
+        </layer-list>
+
+    </item>
+
+    <item>
+
+        <layer-list>
+
+            <item>
+                <color
+                    android:color="@android:color/transparent"/>
+            </item>
+
+            <item>
+                <bitmap
+                    android:gravity="center_vertical|left"
+                    android:src="@drawable/arrow_spinner"/>
+            </item>
+
+        </layer-list>
+
+    </item>
+
+</selector>

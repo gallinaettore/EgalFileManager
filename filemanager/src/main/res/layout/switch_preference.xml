@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="?attr/selectableItemBackground"
+              >
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/iconaImageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="@dimen/material_preferences_icon_margin_left"
+            android:layout_marginStart="@dimen/material_preferences_icon_margin_left"
+            android:visibility="gone"/>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/titleTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/material_preferences_content_margin_left"
+                android:layout_marginStart="@dimen/material_preferences_content_margin_left"
+                android:layout_marginTop="@dimen/material_preferences_margin_top_bottom"
+                android:layout_marginRight="@dimen/material_preferences_content_margin_right"
+                android:layout_marginEnd="@dimen/material_preferences_content_margin_right"
+                android:layout_marginBottom="2dp"
+                android:textSize="@dimen/material_preferences_title_text"
+                android:textColor="?android:attr/textColorPrimary"
+                tools:text="Title" />
+
+            <TextView
+                android:id="@+id/summaryTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/material_preferences_content_margin_left"
+                android:layout_marginStart="@dimen/material_preferences_content_margin_left"
+                android:layout_marginRight="@dimen/material_preferences_content_margin_right"
+                android:layout_marginEnd="@dimen/material_preferences_content_margin_right"
+                android:layout_marginBottom="@dimen/material_preferences_margin_top_bottom"
+                android:textColor="?android:attr/textColorSecondary"
+                android:textSize="@dimen/material_preferences_summary_text"
+                tools:text="Summary" />
+        </LinearLayout>
+
+        <Switch
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/switchbutton"
+            android:layout_marginLeft="@dimen/material_preferences_switch_margin_left"
+            android:layout_marginStart="@dimen/material_preferences_switch_margin_left"
+            android:layout_marginRight="@dimen/material_preferences_switch_margin_right"
+            android:layout_marginEnd="@dimen/material_preferences_switch_margin_right"
+            android:layout_gravity="center_vertical"/>
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="0.2dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:background="@color/material_preferences_separator_color"
+        android:visibility="visible" />
+</LinearLayout>

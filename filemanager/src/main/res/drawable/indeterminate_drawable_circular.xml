@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+<rotate xmlns:android="http://schemas.android.com/apk/res/android"
+        android:duration="4000"
+        android:fromDegrees="0"
+        android:pivotX="50%"
+        android:pivotY="50%"
+        android:toDegrees="720" >
+
+    <shape
+        android:innerRadius="20dp"
+        android:shape="ring"
+        android:thickness="4dp"
+        android:useLevel="false" >
+        <size
+            android:height="48dp"
+            android:width="48dp" />
+
+        <gradient
+            android:centerColor="@color/colored_progress_dialog_holo_accent"
+            android:centerY="0.5"
+            android:endColor="@color/colored_progress_dialog_holo_background"
+            android:startColor="@color/colored_progress_dialog_holo_accent"
+            android:type="sweep"
+            android:useLevel="false" />
+    </shape>
+
+</rotate>-->
+
+
+<rotate
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:toDegrees="720">
+    <shape
+        android:shape="ring"
+        android:innerRadius="20dp"
+        android:thickness="4dp"
+        android:useLevel="false">
+        <gradient
+            android:type="sweep"
+            android:startColor="#00FFFFFF"
+            android:endColor="@color/colored_progress_dialog_holo_accent" />
+    </shape>
+</rotate>

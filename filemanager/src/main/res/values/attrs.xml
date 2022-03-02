@@ -1,0 +1,24 @@
+<resources>
+
+    <!-- Vedere: https://developer.android.com/training/custom-views/create-view.html -->
+    <!-- Vedere: https://stackoverflow.com/questions/3441396/defining-custom-attrs -->
+
+   <declare-styleable name="ViewFavorite">
+       <attr name="name" format="string" />
+       <attr name="description" format="string" />
+       <attr name="icon" format="reference" />
+       <attr name="showRemoveButton" format="boolean" />
+   </declare-styleable>
+
+    <attr name="colorAccent" format="color" />
+    <attr name="backgroundColorNomeSezione" format="color" />
+    <attr name="colorNomeCategoria" format="color" />
+    <attr name="colorFabMain" format="color" />
+    <attr name="colorMainBackground" format="color" />
+    <attr name="colorIconeDispositivi" format="color" />
+    <attr name="backgroundColorViewAnteprima" format="color" />
+    <attr name="baseTintColor" format="color" />
+    <attr name="colorSitoWeb" format="color" />
+    <attr name="backgroundAlbum" format="reference" />
+
+</resources>

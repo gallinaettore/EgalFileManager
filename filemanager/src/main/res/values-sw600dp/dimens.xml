@@ -1,0 +1,7 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Dimens sw600dp -->
+
+    <dimen name="altezza_minima_spinner">48dp</dimen>
+
+</resources>

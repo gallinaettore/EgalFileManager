@@ -1,0 +1,97 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:padding="@dimen/distanza_dai_bordi">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/distanza_ridottissima"
+            >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="Icon"
+                android:src="@drawable/icona_about" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/distanza_ridottissima"
+                android:layout_marginStart="@dimen/distanza_ridottissima"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/appNameTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:ellipsize="none"
+                    android:maxLines="3"
+                    android:textColor="?attr/colorAccent"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    tools:text="Egal File Manager PRO v0.0.0"/>
+
+                <TextView
+                    android:id="@+id/creatoDaTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/distanza_ridottissima"
+                    android:text="creato da Ettore Gallina"
+                    />
+
+                <!--<Button
+                    android:id="@+id/button_changelog"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/distanza_ridottissima"
+                    android:text="@string/changelog_full_title"
+                    style="@style/ColoredButtonNormal"/>-->
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="@dimen/lunghezza_separatore_about"
+            android:layout_height="2dp"
+            android:layout_marginBottom="@dimen/distanza_elevata"
+            android:layout_marginTop="@dimen/distanza_elevata"
+            app:srcCompat="@drawable/separatore_colorato"/>
+
+        <ImageView
+            android:id="@+id/egalnetImageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:focusable="false"
+            android:src="@drawable/logo_egalnet"/>
+
+        <TextView
+            android:id="@+id/sitoTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/distanza_media"
+            android:text="www.gallinaettore.com"
+            android:textColorLink="?attr/colorSitoWeb"/>
+
+        <ImageView
+            android:layout_width="@dimen/lunghezza_separatore_about"
+            android:layout_height="2dp"
+            android:layout_marginBottom="@dimen/distanza_elevata"
+            android:layout_marginTop="@dimen/distanza_elevata"
+            app:srcCompat="@drawable/separatore_colorato"/>
+
+    </LinearLayout>
+
+</ScrollView>

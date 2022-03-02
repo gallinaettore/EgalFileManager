@@ -1,0 +1,407 @@
+﻿<resources>
+
+    <!-- Main -->
+    <string name="app_name">Egal File Manager</string>
+    <string name="home">Home</string>
+    <string name="impostazioni">Pengaturan</string>
+    <string name="about">Tentang</string>
+    <string name="archivio_locale">Penyimpanan Lokal</string>
+    <string name="memoria_interna">Penyimpanan Internal</string>
+    <string name="memoria_esterna">Penyimpanan External</string>
+    <string name="root_directory">Root folder</string>
+    <string name="categorie">Kategori</string>
+    <string name="categorie_immagini">Gambar</string>
+    <string name="categorie_video">Vidio</string>
+    <string name="categorie_audio">Audio</string>
+    <string name="categorie_altro">Lainnya</string>
+    <string name="altri_percorsi_di_archiviazione">Lokasi penyimpanan lainnya</string>
+
+    <!-- Pro version -->
+
+    <!-- Sort -->
+    <string name="ordina_per">Urutkan berdasarkan:</string>
+    <string name="ordina_per_nome">Name</string>
+    <string name="ordina_per_dimensione">Ukuran</string>
+    <string name="ordina_per_data">Tanggal</string>
+    <string name="ordina_per_tipo">Tipe</string>
+    <string name="ordina_per_elementi">Jumlah item</string>
+    <string name="ordina_per_percorso">Path</string>
+    <string name="tipo_ordinamento">Tipe Penyortiran:</string>
+    <string name="ordinamento_crescente">Naik</string>
+    <string name="ordinamento_decrescente">Turun</string>
+    <string name="disponi">Pengaturan</string>
+    <string name="organizza_per">Pengaturan dengan</string>
+    <string name="organizza_per_cartella">Nama Folder</string>
+    <string name="organizza_per_album">Nama Album</string>
+
+    <!-- Copy, paste, delete... -->
+    <string name="copia">Salin</string>
+    <string name="taglia">Potong</string>
+    <string name="incolla">Tempelkan</string>
+    <string name="copia_in">Salinke</string>
+    <string name="sposta_in">Pindahkan ke</string>
+    <string name="origine">Sumber:</string>
+    <string name="destinazione">Tujuan:</string>
+    <string name="totale">Total:</string>
+    <string name="spazio_insufficiente">Ruang tidak mencukupi!</string>
+    <string name="copia_in_corso">Salin %s sedang berlangsung…</string>
+    <string name="elementi_negli_appunti">%s elemen di Papan Clip</string>
+    <string name="files_copiati">%s elemen berhasil disalin</string>
+    <string name="files_non_copiati">Gagal menyalin beberapa item:</string>
+    <string name="cartella_interna">Folder tujuan ada di dalam folder sumber!</string>
+    <string name="clipboard">Papan Clip</string>
+    <string name="mostra_contentuto_clipboard">Tampilkan konten Papan Clip</string>
+    <string name="cancella_clipboard">Papan Clip kosong</string>
+    <string name="clipboard_vuota">Papan Clip kosong</string>
+    <string name="applica_a_tutti">Terapkan ke semua</string>
+    <string name="file_esistente"> %s file sudah ada</string>
+    <string name="sovrascrivi">Timpa</string>
+    <string name="sovrascrivi_cartella"> %s folder sudah ada. Apakah Anda ingin menimpa kontennya?</string>
+    <string name="sovrascrivi_file"> %s file sudah ada. Apakah Anda ingin menimpanya??</string>
+    <string name="rinomina">Ganti Nama</string>
+    <string name="ignora">Abaikan</string>
+    <string name="elimina">Hapus</string>
+    <string name="eliminazione_in_corso">Hapus %s sedang berlangsung…</string>
+    <string name="conferma_eliminazione1">Anda yakin ingin menghapus %s?</string>
+    <string name="conferma_eliminazione2">Anda yakin ingin menghapus %s item?</string>
+    <string name="files_eliminati">%s item berhasil dihapus</string>
+    <string name="files_non_eliminati">Terjadi kegagalan saat menghapus beberapa item:</string>
+    <string name="operazione_annulata">Operasi dibatalkan!</string>
+    <string name="nome_non_valido">Nama tidak valid!</string>
+    <string name="cartella_gia_esistente">Folder sudah ada</string>
+    <string name="impossibile_creare_cartella">Tidak dapat membuat folder</string>
+    <string name="cartella_creata">Folder berhasil dibuat</string>
+    <string name="nuovo_nome">Nama baru</string>
+    <string name="files_rinominati">%s elemen berhasil berganti nama</string>
+    <string name="file_gia_presente">File sudah ada</string>
+    <string name="files_non_rinominati">Tidak mungkin untuk mengganti nama elemen-elemen berikut:</string>
+    <string name="rinominazione_in_corso">mengganti nama %s sedang berjalan…</string>
+    <string name="files_spostati">%s items berhasil dipindahkan</string>
+    <string name="spostamento">Relokasi</string>
+
+    <!-- Other -->
+    <string name="cartella_vuota">Folder kosong</string>
+    <string name="permesso_lettura_scrittura">Diperlukan izin untuk membaca / menulis file</string>
+    <string name="permessi_scheda_autorizzazioni">Pergi ke \'Permissions\' tab dan berikan izin yang diperlukan.</string>
+    <string name="aggiorna">Pembaharuan</string>
+    <string name="filtro">Filter</string>
+    <string name="elementi">item</string>
+    <string name="ordina">Urutkan</string>
+    <string name="lettura_dati_cartelle">Membaca folder data…</string>
+    <string name="visualizzazione">Visualisasi</string>
+    <string name="visualizzazione_lista">Daftar</string>
+    <string name="visualizzazione_lista_piccola">Daftar kecil</string>
+    <string name="visualizzazione_griglia">Grid</string>
+    <string name="visualizzazione_anteprima">Tampilan</string>
+    <string name="apri_con">Buka dengan</string>
+    <string name="apri_come">Buka sebagai</string>
+    <string name="usa_sempre_questa_app">Selalu gunakan aplikasi ini untuk membuka file jenis ini</string>
+    <string name="associazione_files">Asosiasi file</string>
+    <string name="nessuna_associazione_files">Tidak ada asosiasi file yang ditemukan</string>
+    <string name="ripristina_predefiniti">Pulihkan default</string>
+    <string name="ripristinare_associazioni_predefinite">Apakah Anda benar-benar ingin memulihkan asosiasi default?</string>
+    <string name="messaggio_cancellazione_associazione">Apakah Anda benar-benar ingin menghapus asosiasi ini?</string>
+    <string name="lettura_lista_applicazioni">Membaca daftar aplikasi…</string>
+    <string name="testo">Teks</string>
+    <string name="immagine">Gambat</string>
+    <string name="audio">Audio</string>
+    <string name="video">Video</string>
+    <string name="altro">Lainnya</string>
+    <string name="seleziona_tutto">Pilih semua</string>
+    <string name="deseleziona_tutto">Batalkan semua pilihan</string>
+    <string name="nuova_cartella">Folder baru</string>
+    <string name="directory">Directori</string>
+    <string name="file">File</string>
+    <string name="directories">Direktori</string>
+    <string name="files">File</string>
+    <string name="collegamento">Tautan</string>
+    <string name="seleziona_storage">Pilih penyimpanan</string>
+    <string name="autorizzazione_memorie_esterne">Silakan pilih direktori root dari memori eksternal Anda untuk memberikan izin.</string>
+    <string name="nessuna_autorizzazione_esterna">Anda tidak dapat menulis di memori eksternal sampai Anda memberikan izin.</string>
+    <string name="tree_uri_extsd_non_valido">Folder yang dipilih tidak valid! Anda harus memilih folder root dari memori eksternal.</string>
+    <string name="proprieta">Properti</string>
+    <string name="tipo2">Tipe:</string>
+    <string name="contenuto">Tentang:</string>
+    <string name="percorso">Path:</string>
+    <string name="dimensione2">Ukuran:</string>
+    <string name="ultima_modifica">Terakhir diubah:</string>
+    <string name="permessi">Izin:</string>
+    <string name="lettura">Membaca</string>
+    <string name="scrittura">Menulis</string>
+    <string name="nascosto">Sembunyikan:</string>
+    <string name="bytes">byte</string>
+    <string name="selezione_multipla">Pilihan ganda</string>
+    <string name="visibilita_modificata">Visibilitas diubah</string>
+    <string name="seleziona_destinazione">Pilih tujuan</string>
+    <string name="cartella_superiore">Folder ke atas</string>
+    <string name="salva">Simpan</string>
+    <string name="nome_file">Nama file:</string>
+    <string name="errore_salvataggio">Gagal menyimpan file</string>
+    <string name="nessun_elemento_trovato">Tidak ada item ditemukan</string>
+    <string name="album_pdf">PDF</string>
+    <string name="album_documenti">Dokumen</string>
+    <string name="album_fogli_calcolo">Spreadsheet</string>
+    <string name="album_compressi">File kompresi</string>
+    <string name="album_testo">Teks</string>
+    <string name="album_apk">APK</string>
+    <string name="aggiornamento_media_library">Memperbarui  Media Library…</string>
+    <string name="condividi">Bagikan</string>
+    <string name="preferiti">Favorite</string>
+    <string name="aggiungi_a_preferiti">Tambah ke favorite</string>
+    <string name="domanda_rimuovi_preferito">Anda yakin ingin menghapus %s dari favorite?</string>
+    <string name="preferito_non_esistente">%s tidak ada lagi. Apakah Anda ingin menghapusnya dari favorite?</string>
+    <string name="preferito_aggiunto">Menambahkan ke favorite</string>
+    <string name="nuovo">Baru</string>
+    <string name="seleziona_label_storage">Pilih penyimpanan dengan label %s</string>
+    <string name="impossibile_completare_operazione">Tidak dapat menyelesaikan operasi</string>
+    <string name="esecuzione">Jalankan</string>
+    <string name="permesso_proprietario">Pemilik:</string>
+    <string name="permesso_gruppo">Grup:</string>
+    <string name="permesso_altro">Lainnya:</string>
+    <string name="modifica">Edit</string>
+    <string name="nuovo_file">File baru</string>
+    <string name="file_creato_con_successo">Pembuatan File berhasil</string>
+    <string name="impossibile_creare_file">Tidak dapat membuat file</string>
+    <string name="impossibile_riprodurre">Tidak dapat memutar file!</string>
+    <string name="storage_to_scan">Pilih penyimpanan untuk dipindai:</string>
+    <string name="scansione_media_library_terminata">Pemindaian Media Librari selesai</string>
+    <string name="no_smb_to_ftp">Tidak dapat menyalin dari server SMB ke server FTP</string>
+    <string name="no_ftp_to_smb">Tidak dapat menyalin dari server FTP ke server SMB</string>
+    <string name="annullamento_operazione">membatalkan operasi…</string>
+    <string name="troppi_elementi_da_gestire">Terlalu banyak item untuk dikelola</string>
+    <string name="storages">Penyimpanan:</string>
+    <string name="notif_id_operazioni_varie">Operasi komplit</string>
+    <string name="notif_id_operazioni_backgroung">Operasi di latar belakang</string>
+    <string name="operazione_terminata">Operasi selesai</string>
+    <string name="configura_widget">Konfigurasi widget</string>
+    <string name="crea_collegamento">Tautan ke file</string>
+    <string name="aggiungi_collegamento_home">Tambahkan tautan ke beranda</string>
+    <string name="elemento_non_trovato">Elemen tidak ditemukan</string>
+
+    <!-- Functions -->
+    <string name="egal_zip_viewer">Penampil Zip Eagel</string>
+    <string name="egal_salva_file">Penyimpanan file Egal</string>
+    <string name="egal_text_editor">Teks Editor Egal </string>
+    <string name="egal_image_viewer">penampil gambar Egal</string>
+    <string name="egal_music_player">Pemutar Musik Egal</string>
+
+    <!-- Zip -->
+    <string name="zip_explorer">Penjelajah Zip</string>
+    <string name="estrai_archivio">Extrak archive</string>
+    <string name="estrazione">Extraksi</string>
+    <string name="estrazione_in_corso">Extraksi %s sedang berlangsung…</string>
+    <string name="files_non_estrati">Terjadi kegagalan dalam Extraksi file</string>
+    <string name="files_estratti">Extraksi berhasil</string>
+    <string name="archivio_non_valido">Tidak dapat membaca konten archive</string>
+    <string name="compressione">Kompres</string>
+    <string name="compressione_in_corso">Kompres %s sedang berlangsung…</string>
+    <string name="files_non_compressi">Terjadi kegagalan dalam mengkompresi file</string>
+    <string name="files_compressi">Kompresi berhasil dengan sukses</string>
+
+    <!-- Text Editor -->
+    <string name="impossibile_leggere_file">Tidak dapat membaca file</string>
+    <string name="dimensione_testo">Ukuran Teks</string>
+    <string name="ricerca">Mencari</string>
+    <string name="occorrenza_non_trovata">Kejadian tidak ditemukan</string>
+    <string name="file_salvato">File berhasil disimpan</string>
+    <string name="salva_con_nome">Simpan dengan nama</string>
+    <string name="chiudere_senza_salvare">Apakah Anda ingin menutup file tanpa menyimpannya?</string>
+    <string name="non_salvare">Tidak dapat menyimpan</string>
+    <string name="salvataggio_in_corso">Penyimpanan sedang berlangsung…</string>
+
+    <!-- Image viewer -->
+    <string name="ruota_destra">Putar ke kanan</string>
+    <string name="ruota_sinistra">Putar ke kiri</string>
+    <string name="imposta_come_sfondo">Set sebagai wallpaper</string>
+    <string name="impostare_come_sfondo">Apakah Anda ingin menetapkan gambar ini sebagai wallpaper?</string>
+    <string name="sfondo_impostato">Wallpaper telah diatur</string>
+    <string name="impossibile_visualizzare_immagine">Tidak dapat menampilkan gambar</string>
+    <string name="nessuna_immagine">Tidak ada gambar untuk ditampilkan</string>
+    <string name="presentazione">Presentasi</string>
+    <string name="stop">Stop</string>
+    <string name="presentazione_interrotta">Presentasi terganggu</string>
+
+    <!-- Music Player -->
+    <string name="playlist">Daftar putar</string>
+    <string name="nessun_file_audio">Tidak ada audio file untuk diputar</string>
+    <string name="aggiungi_a_playlist">Tambah ke daftar putar</string>
+    <string name="salva_playlist">Simpan daftar putar</string>
+    <string name="rimuovi_tutto">Hapus Semua</string>
+    <string name="shuffle">Secara acak</string>
+    <string name="repeat_mode">Mode Ulang</string>
+    <string name="repeat_none">Tidak</string>
+    <string name="repeat_all">Semua</string>
+    <string name="repeat_track">Track</string>
+
+    <!-- Settings -->
+    <string name="impostazioni_generali">Pengaturan umun</string>
+    <string name="avanzate">Maju</string>
+    <string name="lingua">Bahasa</string>
+    <string name="root_explorer">Root Penjelajahan</string>
+    <string name="root_explorer_descrizione">Jelajahi file menggunakan izin root</string>
+    <string name="mostra_anteprime">Tampilkan thumbnail</string>
+    <string name="mostra_anteprime_descrizione">Tampilkan pratinjau file jika tersedia</string>
+    <string name="mostra_nascosti">Tampilkan file tersembunyi</string>
+    <string name="mostra_nascosti_descrizione">Tampilkan file yang diawali dengan simbol "."</string>
+    <string name="no_permessi_root">Perangkat ini tidak memiliki izin root.</string>
+    <string name="associazione_files_descrizione">Kelola asosiasi file / aplikasi</string>
+    <string name="reset_app_titolo">Memulai kembali Aplikasi</string>
+    <string name="reset_app_messaggio">Anda ingin mengulang semua pengaturan?</string>
+    <string name="reset_app_descrizione">Kembalikan aplikasi ke pengaturan awal</string>
+    <string name="giorni_recenti_descrizione">Jumlah hari yang digunakan dalam mencari file terbaru</string>
+    <string name="ordina_download_per_data">Urutkan unduhan berdasarkan tanggal</string>
+    <string name="ordina_download_per_data_descrizione">Sortir konten dari \"Download\" folder selalu berdasarkan tanggal</string>
+    <string name="rescan_media_library">Kembali-scan Media Librari</string>
+    <string name="rescan_media_library_descrizione">Ulangi untuk memindai kembali Media Librari</string>
+    <string name="svuota_cache">Bersihkan cache</string>
+    <string name="svuota_cache_descrizione">Menghapus semua file dan pratinjau di aplikasi\'s cache</string>
+    <string name="cache_cancellata">Cache dibersihkan</string>
+    <string name="tema">Tema</string>
+    <string name="tema_chiaro">Tema terang</string>
+    <string name="tema_scuro">Tema gelap</string>
+
+    <!-- Tools -->
+    <string name="tools">Alat</string>
+    <string name="tool_analisi_spazio_occupato">Analisa penggunaan ruang</string>
+    <string name="tool_cerca_file">Mencari file</string>
+    <string name="tool_backup_app">Mencadangkan aplikasi (hanya root)</string>
+    <string name="analisi_cartella">Analisa Folder</string>
+    <string name="usa_caratteri_wildcard">Tidak bisa menggunakan karakter wildcard * dan ?</string>
+    <string name="ignora_maiuscolo_minuscolo">Abaikan masalah</string>
+    <string name="cerca_in">Mencari:</string>
+    <string name="tipi">Tipe:</string>
+    <string name="altri_parametri">Parameter lainnya:</string>
+    <string name="dimensione">Ukuran:</string>
+    <string name="risultati_ricerca">Hasil pencarian</string>
+    <string name="tutti">Semua</string>
+    <string name="nuova_ricerca">Pencarian baru</string>
+    <string name="apri_percorso">Buka path</string>
+    <string name="inserisci_nome_file">Masukkan nama file</string>
+    <string name="controlla_parametri_inseriti">Periksa semua parameter yang dimasukkan!</string>
+    <string name="mostra_app_utente">Tampilkan pengguna aplikasi</string>
+    <string name="mostra_app_sistema">Tampilkan sistem aplikasi</string>
+    <string name="app_utente">Pengguna aplikasi</string>
+    <string name="app_sistema">Sistem aplikasi</string>
+    <string name="app_info">Info Aplikasi</string>
+    <string name="app_backup">Cadangkan</string>
+    <string name="tool_mountpoints">Mountpoints (hanya root)</string>
+    <string name="tool_recenti">File terbaru</string>
+    <string name="recenti">Terbaru</string>
+    <string name="recenti_descrizione">Tampilkan file yang terakhir disimpan</string>
+    <string name="mountpoint">Mountpoint:</string>
+    <string name="file_system">File sistem:</string>
+    <string name="giorni">Hari terakhir</string>
+    <string name="trova_files_duplicati">Temukan file duplikat</string>
+    <string name="operazione_lunga">Operasi ini mungkin memakan waktu beberapa menit</string>
+    <string name="cancella_selezionati">Hapus pilihan</string>
+    <string name="nessun_elemento_selezionato">Tidak ada items terpilih</string>
+    <string name="avvia_ricerca">Mulai pencarian</string>
+    <string name="ricerca_duplicati_in_corso">Pencarian file duplikat sedang berlangsung…</string>
+    <string name="mostra_risultati_duplicati">pilih untuk menampilkan hasilnya</string>
+    <string name="duplicati_trovati">%s file duplikat ditemukan!</string>
+
+    <!-- Media Info -->
+    <string name="media_info">Media info</string>
+    <string name="media_no_info">Tidak ada info yang ditemukan</string>
+    <string name="media_risoluzione">Resolusi:</string>
+    <string name="media_data">Tanggal:</string>
+    <string name="media_formato">Format:</string>
+    <string name="media_dimensione">Ukuran:</string>
+    <string name="media_percorso">Path:</string>
+    <string name="media_rotazione">Putar:</string>
+    <string name="media_latitudine">GPS Latitude:</string>
+    <string name="media_longitudine">GPS Longitude:</string>
+    <string name="media_localita">Lokasi:</string>
+    <string name="media_camera">Kamera:</string>
+    <string name="media_titolo">Judul:</string>
+    <string name="media_artista">Artis:</string>
+    <string name="media_album">Album:</string>
+    <string name="media_genere">Genre:</string>
+    <string name="media_bitrate">Bitrate:</string>
+    <string name="media_track">Track:</string>
+    <string name="media_frame">Framerate:</string>
+    <string name="media_durata">Durasi:</string>
+    <string name="media_anno">Tahun:</string>
+
+    <!-- Apk info -->
+    <string name="apk_nome_app">Nama Aplikasi:</string>
+    <string name="apk_codice_versione">Versi kode:</string>
+    <string name="apk_nome_versione">Versi nama:</string>
+    <string name="apk_min_sdk">Min SDK:</string>
+    <string name="apk_target_sdk">Target SDK:</string>
+    <string name="apk_package_name">Nama paket:</string>
+    <string name="apk_installer">Pemasangan:</string>
+    <string name="apk_type">Tipe:</string>
+    <string name="apk_system">Sistem</string>
+    <string name="apk_user">Pengguna</string>
+
+    <!-- Lan -->
+    <string name="rete_locale">Lokal network</string>
+    <string name="esplora_rete_locale">Jelajahi lokal network</string>
+    <string name="autenticazione">Autentikasi</string>
+    <string name="user_password_errati">Salah nama pengguna atau kata sandi!</string>
+    <string name="username">Nama pengguna:</string>
+    <string name="password">Sandi:</string>
+    <string name="anonimo">Anonim</string>
+    <string name="salva_credenziali">Simpan kredensial</string>
+    <string name="connessione_in_corso">Koneksi sedang berlangsung…</string>
+    <string name="impossibile_connettersi">Tidak dapat terhubung %s</string>
+    <string name="ricerca_in_corso">Pencarian…</string>
+    <string name="scaricare_il_file">Apakah Anda ingin mengunduh file?</string>
+    <string name="file_scaricato_nella_cartella">File diunduh di folder %s</string>
+    <string name="apri_file">Membuka file</string>
+    <string name="apri_cartella_destinazione">Membuka folder tujuan</string>
+
+    <!-- FTP -->
+    <string name="server_ftp">FTP server</string>
+    <string name="ftp_descrizione">Mengelola FTP server</string>
+    <string name="tipo_ftp">FTP</string>
+    <string name="tipo_ftps">FTPS</string>
+    <string name="server">Server:</string>
+    <string name="porta">Port:</string>
+    <string name="modo">Mode:</string>
+    <string name="modo_attivo">Aktif</string>
+    <string name="modo_passivo">Pasif</string>
+    <string name="codifica">Pengkodean:</string>
+    <string name="nome_visualizzato">Tampilkan nama:</string>
+    <string name="opzionale">Pilihan</string>
+    <string name="dati_server">Server data</string>
+    <string name="server_esistente">Server %s sudah ada</string>
+
+    <!-- About -->
+    <string name="crediti">Kredit</string>
+    <string name="traduzioni">Terjemahan</string>
+    <string name="sviluppato_da">Dikembangkan oleh %s</string>
+    <string name="icon_by">Icon oleh</string>
+
+    <!-- Backup -->
+    <string name="backup">Cadangkan</string>
+    <string name="effettua_backup_impostazioni">Buat pengaturan cadangan</string>
+    <string name="ripristina_backup_impostazioni">Kembalikan pengaturan cadangan</string>
+    <string name="seleziona_file">Pilih file</string>
+    <string name="backup_effettuato_con_successo">Pencadangan berhasil</string>
+    <string name="errore_creazione_backup">Pembuatan cadangan gagal</string>
+    <string name="errore_ripristino_backup">Pengembalian cadangan gagal</string>
+    <string name="ripristina_backup">Pengembalian cadangan</string>
+    <string name="ripristino_effettuato_con_successo">Pengembalian cadangan berhasil</string>
+
+    <!-- Appirater -->
+
+    <!-- Changelog -->
+
+    <!-- Update -->
+
+    <!-- Update notificator -->
+
+    <!-- unit of measurement (only symbols) -->
+    <string name="unit_byte">B</string>
+    <string name="unit_kilobyte">KB</string>
+    <string name="unit_megabyte">MB</string>
+    <string name="unit_gigabyte">GB</string>
+    <string name="unit_terabyte">TB</string>
+    <string name="unit_pixel">px</string>
+    <string name="unit_megapixel">Mpx</string>
+    <string name="unit_kbps">kbps</string>
+    <string name="text_size_sp">sp</string>
+
+</resources>

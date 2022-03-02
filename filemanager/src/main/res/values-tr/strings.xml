@@ -1,0 +1,407 @@
+<resources>
+
+    <!-- Main -->
+    <string name="app_name">Egal Dosya Yöneticisi</string>
+    <string name="home">Anasayfa</string>
+    <string name="impostazioni">Ayarlar</string>
+    <string name="about">Hakkında</string>
+    <string name="archivio_locale">Yerel depolama</string>
+    <string name="memoria_interna">Dahili depolama</string>
+    <string name="memoria_esterna">Harici depolama</string>
+    <string name="root_directory">Kök dizini</string>
+    <string name="categorie">Kategoriler</string>
+    <string name="categorie_immagini">Görseller</string>
+    <string name="categorie_video">Videolar</string>
+    <string name="categorie_audio">Sesler</string>
+    <string name="categorie_altro">Diğer</string>
+    <string name="altri_percorsi_di_archiviazione">Diğer depolama alanları</string>
+
+    <!-- Pro version -->
+
+    <!-- Sort -->
+    <string name="ordina_per">Filtrele:</string>
+    <string name="ordina_per_nome">İsim</string>
+    <string name="ordina_per_dimensione">Boyut</string>
+    <string name="ordina_per_data">Tarih</string>
+    <string name="ordina_per_tipo">Tür</string>
+    <string name="ordina_per_elementi">Dosya sayısı</string>
+    <string name="ordina_per_percorso">Yol</string>
+    <string name="tipo_ordinamento">Filtreleme türü:</string>
+    <string name="ordinamento_crescente">Artan</string>
+    <string name="ordinamento_decrescente">Azalan</string>
+    <string name="disponi">Sırala</string>
+    <string name="organizza_per">Sırala</string>
+    <string name="organizza_per_cartella">Dosya adı</string>
+    <string name="organizza_per_album">Albüm adı</string>
+
+    <!-- Copy, paste, delete... -->
+    <string name="copia">Kopyala</string>
+    <string name="taglia">Kes</string>
+    <string name="incolla">Yapıştır</string>
+    <string name="copia_in">Şuraya yapıştır</string>
+    <string name="sposta_in">Şuraya taşı</string>
+    <string name="origine">Kaynak:</string>
+    <string name="destinazione">Hedef:</string>
+    <string name="totale">Toplam:</string>
+    <string name="spazio_insufficiente">Yetersiz alan!</string>
+    <string name="copia_in_corso">Kopyalama işlemi %s sürüyor…</string>
+    <string name="elementi_negli_appunti">Panoda %s kopyalanmış içerik</string>
+    <string name="files_copiati">%s içerik başarıyla kopyalandı</string>
+    <string name="files_non_copiati">Bazı dosyalar kopyalanırken hata:</string>
+    <string name="cartella_interna">Hedef klasör kaynak klasörün içinde!</string>
+    <string name="clipboard">Pano</string>
+    <string name="mostra_contentuto_clipboard">Pano içeriğini göster</string>
+    <string name="cancella_clipboard">Panoyu temizle</string>
+    <string name="clipboard_vuota">Pano boş</string>
+    <string name="applica_a_tutti">Tümüne uygula</string>
+    <string name="file_esistente">%s Dosyası halihazırda bulunuyor</string>
+    <string name="sovrascrivi">Üstüne yaz</string>
+    <string name="sovrascrivi_cartella">%s Dosyası halihazırda bulunuyor. İçeriklerini üstüne yazmak istediğine emin misin?</string>
+    <string name="sovrascrivi_file">%s Dosyası halihazırda bulunuyor. Dosyayı üzerine yazmak ister misin?</string>
+    <string name="rinomina">Yeniden adlandır</string>
+    <string name="ignora">Engelle</string>
+    <string name="elimina">Sil</string>
+    <string name="eliminazione_in_corso">%s silme işlemi sürüyor…</string>
+    <string name="conferma_eliminazione1">%s dosyasını gerçekten silmek istiyor musun?</string>
+    <string name="conferma_eliminazione2">%s dosyayı gerçekten silmek istiyor musun?</string>
+    <string name="files_eliminati">%s dosya başarıyla silindi</string>
+    <string name="files_non_eliminati">Bazı dosyalar silinirken sorun oluştu:</string>
+    <string name="operazione_annulata">İşlem iptal edildi!</string>
+    <string name="nome_non_valido">Bu ad geçerli değil!</string>
+    <string name="cartella_gia_esistente">Klasör halihazırda bulunuyor</string>
+    <string name="impossibile_creare_cartella">Klasör oluşturulamıyor</string>
+    <string name="cartella_creata">Klasör başarıyla oluşturuldu</string>
+    <string name="nuovo_nome">Yeni ad</string>
+    <string name="files_rinominati">%s dosya başarıyla yeniden adlandırıldı</string>
+    <string name="file_gia_presente">Dosya halihazırda bulunuyor</string>
+    <string name="files_non_rinominati">Bu dosyaları yeniden adlandırmak imkansız:</string>
+    <string name="rinominazione_in_corso">Yeniden adlandırma %s işlemi sürüyor…</string>
+    <string name="files_spostati">%s dosya başarıyla taşındı</string>
+    <string name="spostamento">Yeniden konumlama</string>
+
+    <!-- Other -->
+    <string name="cartella_vuota">Boş klasör</string>
+    <string name="permesso_lettura_scrittura">Dosyaları okumak ve yazmak için izin gereklidir</string>
+    <string name="permessi_scheda_autorizzazioni">\'Yetkiler\' bölümüne gidin ve gerekli yetkileri sağlayın.</string>
+    <string name="aggiorna">Güncelle</string>
+    <string name="filtro">Filtrele</string>
+    <string name="elementi">dosyalar</string>
+    <string name="ordina">Sırala</string>
+    <string name="lettura_dati_cartelle">Klasör verileri okunuyor…</string>
+    <string name="visualizzazione">Görüntüleme</string>
+    <string name="visualizzazione_lista">Liste</string>
+    <string name="visualizzazione_lista_piccola">Küçük liste</string>
+    <string name="visualizzazione_griglia">Izgara</string>
+    <string name="visualizzazione_anteprima">Önizleme</string>
+    <string name="apri_con">Birlikte aç</string>
+    <string name="apri_come">Olarak aç</string>
+    <string name="usa_sempre_questa_app">Bu tür dosyalar için her zaman bu uygulamayı kullan</string>
+    <string name="associazione_files">Dosya bağlantıları</string>
+    <string name="nessuna_associazione_files">Hiçbir dosya bağlantısı bulunamadı</string>
+    <string name="ripristina_predefiniti">Varsayılanları geri getir</string>
+    <string name="ripristinare_associazioni_predefinite">Varsayılan bağlantıları geri getirmek istediğine emin misin?</string>
+    <string name="messaggio_cancellazione_associazione">Bu bağlantıları silmek istediğine emin misin?</string>
+    <string name="lettura_lista_applicazioni">Uygulama listesi okunuyor…</string>
+    <string name="testo">Yazı</string>
+    <string name="immagine">Görsel</string>
+    <string name="audio">Ses</string>
+    <string name="video">Video</string>
+    <string name="altro">Diğer</string>
+    <string name="seleziona_tutto">Tümünü seç</string>
+    <string name="deseleziona_tutto">Tümünün seçimini kaldır</string>
+    <string name="nuova_cartella">Yeni klasör</string>
+    <string name="directory">Dizin</string>
+    <string name="file">Dosya</string>
+    <string name="directories">dizinler</string>
+    <string name="files">dosyalar</string>
+    <string name="collegamento">Bağlantı</string>
+    <string name="seleziona_storage">Depolama seç</string>
+    <string name="autorizzazione_memorie_esterne">Yetki vermek için lütfen harici depolama biriminizin kök dizinini seçin.</string>
+    <string name="nessuna_autorizzazione_esterna">Yetki verene kadar harici depolamanızda yazma işlemi yapamazsınız.</string>
+    <string name="tree_uri_extsd_non_valido">Seçili klasör geçerli değil! Harici depolamanın kök dizinini seçmelisiniz.</string>
+    <string name="proprieta">Özellik</string>
+    <string name="tipo2">Tür:</string>
+    <string name="contenuto">İçerik:</string>
+    <string name="percorso">Yol:</string>
+    <string name="dimensione2">Boyut:</string>
+    <string name="ultima_modifica">Son değiştirilme:</string>
+    <string name="permessi">Yetkiler:</string>
+    <string name="lettura">okunuyor</string>
+    <string name="scrittura">yazılıyor</string>
+    <string name="nascosto">Gizli:</string>
+    <string name="bytes">bayt</string>
+    <string name="selezione_multipla">Çoklu seçim</string>
+    <string name="visibilita_modificata">Görünürlük değiştirildi</string>
+    <string name="seleziona_destinazione">Hedef seç</string>
+    <string name="cartella_superiore">Üst klasör</string>
+    <string name="salva">Kaydet</string>
+    <string name="nome_file">Dosya adı:</string>
+    <string name="errore_salvataggio">Dosya kaydedilirken hata</string>
+    <string name="nessun_elemento_trovato">Hiç dosya bulunamadı</string>
+    <string name="album_pdf">PDF</string>
+    <string name="album_documenti">Belgeler</string>
+    <string name="album_fogli_calcolo">Tablolar</string>
+    <string name="album_compressi">Sıkıştırılmış dosyalar</string>
+    <string name="album_testo">Yazı</string>
+    <string name="album_apk">APK</string>
+    <string name="aggiornamento_media_library">Medya Kütüphanesi Güncelleniyor…</string>
+    <string name="condividi">Paylaş</string>
+    <string name="preferiti">Favoriler</string>
+    <string name="aggiungi_a_preferiti">Favorilere ekle</string>
+    <string name="domanda_rimuovi_preferito">Gerçekten %s dosyasını favorilerinden kaldırmak istiyor musun?</string>
+    <string name="preferito_non_esistente">%s artık yok. Favorilerinden kaldırmak ister misin?</string>
+    <string name="preferito_aggiunto">Favorilere eklendi</string>
+    <string name="nuovo">Yeni</string>
+    <string name="seleziona_label_storage">%s etiketli depolamayı seç</string>
+    <string name="impossibile_completare_operazione">İşlem tamamlanamıyor</string>
+    <string name="esecuzione">uygulama</string>
+    <string name="permesso_proprietario">Sahibi:</string>
+    <string name="permesso_gruppo">Grup:</string>
+    <string name="permesso_altro">Diğer:</string>
+    <string name="modifica">Düzenle</string>
+    <string name="nuovo_file">Yeni dosya</string>
+    <string name="file_creato_con_successo">Dosya başarıyla oluşturuldu</string>
+    <string name="impossibile_creare_file">Dosya oluşturulamıyor</string>
+    <string name="impossibile_riprodurre">Dosya oynatılamıyor!</string>
+    <string name="storage_to_scan">Taramak için depolama seç:</string>
+    <string name="scansione_media_library_terminata">Medya Kütüphanesi taraması tamanlandı</string>
+    <string name="no_smb_to_ftp">Bir SMB sunucusundan diğer bir FTP sunucusuna kopyalanamıyor</string>
+    <string name="no_ftp_to_smb">Bir FTP sunucusundan diğer bir SMB sunucusuna kopyalanamıyor</string>
+    <string name="annullamento_operazione">İşlem iptali…</string>
+    <string name="troppi_elementi_da_gestire">Yönetmek için çok fazla dosya var</string>
+    <string name="storages">Depolamalar:</string>
+    <string name="notif_id_operazioni_varie">İşlem tamamlandı</string>
+    <string name="notif_id_operazioni_backgroung">İşlemler arkaplana alındı</string>
+    <string name="operazione_terminata">İşlem tamamlandı</string>
+    <string name="configura_widget">Widget yapılandırması</string>
+    <string name="crea_collegamento">Dosyaya bağlantı</string>
+    <string name="aggiungi_collegamento_home">Ana sayfaya bağlantı ekleyin</string>
+    <string name="elemento_non_trovato">Öğe bulunamadı</string>
+
+    <!-- Functions -->
+    <string name="egal_zip_viewer">Egal Zip Görüntüleyici</string>
+    <string name="egal_salva_file">Egal Dosya Kurtarıcı</string>
+    <string name="egal_text_editor">Egal Yazı Düzenleyici</string>
+    <string name="egal_image_viewer">Egal Görsel Görüntüleyici</string>
+    <string name="egal_music_player">Egal Müzik Oynatıcısı</string>
+
+    <!-- Zip -->
+    <string name="zip_explorer">Zip Yöneticisi</string>
+    <string name="estrai_archivio">Arşivi çıkart</string>
+    <string name="estrazione">Çıkartma</string>
+    <string name="estrazione_in_corso">Çıkartma %s sürüyor…</string>
+    <string name="files_non_estrati">Dosyalar çıkarılırken hata oluştu</string>
+    <string name="files_estratti">Başarıyla çıkartıldı</string>
+    <string name="archivio_non_valido">Arşiv içeriği okunamıyor</string>
+    <string name="compressione">Sıkıştır</string>
+    <string name="compressione_in_corso">Sıkıştırma %s işlemi sürüyor…</string>
+    <string name="files_non_compressi">Dosya sıkıştırılırken hata oluştu</string>
+    <string name="files_compressi">Sıkıştırma başarıyla tamamlandı</string>
+
+    <!-- Text Editor -->
+    <string name="impossibile_leggere_file">Dosya okunamıyor</string>
+    <string name="dimensione_testo">Yazı boyutu</string>
+    <string name="ricerca">Ara</string>
+    <string name="occorrenza_non_trovata">Gerçekleşme bulunamadı</string>
+    <string name="file_salvato">Dosya başarıyla kaydedildi</string>
+    <string name="salva_con_nome">Adıyla kaydet</string>
+    <string name="chiudere_senza_salvare">Dosyayı kaydetmeden kapatmak istiyor musun?</string>
+    <string name="non_salvare">Kaydetme</string>
+    <string name="salvataggio_in_corso">Kaydetme sürüyor…</string>
+
+    <!-- Image viewer -->
+    <string name="ruota_destra">Sağa döndür</string>
+    <string name="ruota_sinistra">Dola döndür</string>
+    <string name="imposta_come_sfondo">Duvar kağıdı olarak ayarla</string>
+    <string name="impostare_come_sfondo">Bu görseli duvar kağıdı olarak ayarlamak istiyor musun?</string>
+    <string name="sfondo_impostato">Duvar kağıdı ayarlandı</string>
+    <string name="impossibile_visualizzare_immagine">Görsel görüntülenemiyor</string>
+    <string name="nessuna_immagine">Gösterilecek görüntü bulunmuyor</string>
+    <string name="presentazione">Görüntüleme</string>
+    <string name="stop">Dur</string>
+    <string name="presentazione_interrotta">Görüntüleme kesildi</string>
+
+    <!-- Music Player -->
+    <string name="playlist">Oynatma listesi</string>
+    <string name="nessun_file_audio">Oynatılacak ses dosyası bulunamıyor</string>
+    <string name="aggiungi_a_playlist">Oynatma listesine ekle</string>
+    <string name="salva_playlist">Oynatma listesini kaydet</string>
+    <string name="rimuovi_tutto">Tümünü kaldır</string>
+    <string name="shuffle">Rastgele sıralama</string>
+    <string name="repeat_mode">Tekrarlama modu</string>
+    <string name="repeat_none">Yok</string>
+    <string name="repeat_all">Tümü</string>
+    <string name="repeat_track">Parça</string>
+
+    <!-- Settings -->
+    <string name="impostazioni_generali">Genel ayarlar</string>
+    <string name="avanzate">Gelişmiş</string>
+    <string name="lingua">Dil</string>
+    <string name="root_explorer">Root Explorer</string>
+    <string name="root_explorer_descrizione">Kök yetkisi kullanarak dosyaları yönet</string>
+    <string name="mostra_anteprime">Kapak fotoğraflarını göster</string>
+    <string name="mostra_anteprime_descrizione">Eğer mümkünse dosya önizlemesini göster</string>
+    <string name="mostra_nascosti">Gizli dosyaları göster</string>
+    <string name="mostra_nascosti_descrizione">\".\" Sembolünden önce gelen dosyaları göster</string>
+    <string name="no_permessi_root">Bu cihaz kök yetkilerine sahip değil.</string>
+    <string name="associazione_files_descrizione">Dosya bağlantısını veya uygulamayı yönet</string>
+    <string name="reset_app_titolo">Uygulamayı sıfırla</string>
+    <string name="reset_app_messaggio">Tüm ayarları sıfırlamak istiyor musun?</string>
+    <string name="reset_app_descrizione">Uygulamayı başlangıç ayarlarına geri getir</string>
+    <string name="giorni_recenti_descrizione">Son dosyaların aranmasında kullanılacak gün sayısı</string>
+    <string name="ordina_download_per_data">İndirmeleri tarihe göre sırala</string>
+    <string name="ordina_download_per_data_descrizione">\"İndirilenler\"\\ \\k\\l\\a\\s\\ö\\r\\ü\nün içeriğini her zaman tarihe göre sırala</string>
+    <string name="rescan_media_library">Medya Kütüphanesini yeniden tara</string>
+    <string name="rescan_media_library_descrizione">Medya Kütüphanesini yeniden taramaya zorla</string>
+    <string name="svuota_cache">Önbelleği temizle</string>
+    <string name="svuota_cache_descrizione">Uygulamanın önbelleğindeki tüm dosyaları ve önizlemeleri kaldırır</string>
+    <string name="cache_cancellata">Önbellek temizlendi</string>
+    <string name="tema">Tema</string>
+    <string name="tema_chiaro">Açık tema</string>
+    <string name="tema_scuro">Koyu tema</string>
+
+    <!-- Tools -->
+    <string name="tools">Araçlar</string>
+    <string name="tool_analisi_spazio_occupato">Depolama kullanımı analizleri</string>
+    <string name="tool_cerca_file">Dosyaları ara</string>
+    <string name="tool_backup_app">Kurtarma Uygulamaları (sadece kök)</string>
+    <string name="analisi_cartella">Klasör analizleri</string>
+    <string name="usa_caratteri_wildcard">Joker karakterler kullanmak mümkün mü * ve ?</string>
+    <string name="ignora_maiuscolo_minuscolo">Durumu yoksay</string>
+    <string name="cerca_in">Şurada ara:</string>
+    <string name="tipi">Türler:</string>
+    <string name="altri_parametri">Diğer parametreler:</string>
+    <string name="dimensione">Boyut:</string>
+    <string name="risultati_ricerca">Arama sonuçları</string>
+    <string name="tutti">Tümü</string>
+    <string name="nuova_ricerca">Yeni arama</string>
+    <string name="apri_percorso">Yol aç</string>
+    <string name="inserisci_nome_file">Dosya adı gir</string>
+    <string name="controlla_parametri_inseriti">Tüm parametreleri kontrol eder!</string>
+    <string name="mostra_app_utente">Kullanıcı uygulamalarını göster</string>
+    <string name="mostra_app_sistema">Sistem uygulamalarını göster</string>
+    <string name="app_utente">Kullanıcı uygulamaları</string>
+    <string name="app_sistema">Sistem uygulamaları</string>
+    <string name="app_info">Uygulama bilgisi</string>
+    <string name="app_backup">Kurtarma</string>
+    <string name="tool_mountpoints">Bağlama noktaları (sadece kök)</string>
+    <string name="tool_recenti">Son dosyalar</string>
+    <string name="recenti">Son</string>
+    <string name="recenti_descrizione">Son kaydedilen dosyaları göster</string>
+    <string name="mountpoint">Bağlama noktası:</string>
+    <string name="file_system">Dosya sistemi:</string>
+    <string name="giorni">Son günler</string>
+    <string name="trova_files_duplicati">Kopya dosyaları bul</string>
+    <string name="operazione_lunga">Bu işlem birkaç dakika sürebilir</string>
+    <string name="cancella_selezionati">Seçilenleri sil</string>
+    <string name="nessun_elemento_selezionato">Hiçbir dosya seçilmedi</string>
+    <string name="avvia_ricerca">Aramayı başlat</string>
+    <string name="ricerca_duplicati_in_corso">Kopya dosyaları arama işlemi sürüyor…</string>
+    <string name="mostra_risultati_duplicati">Sonuçları görmek için tıkla</string>
+    <string name="duplicati_trovati">%s kopya dosya bulundu!</string>
+
+    <!-- Media Info -->
+    <string name="media_info">Medya bilgisi</string>
+    <string name="media_no_info">Bilgi bulunamadı</string>
+    <string name="media_risoluzione">Çözünürlük</string>
+    <string name="media_data">Tarih:</string>
+    <string name="media_formato">Format:</string>
+    <string name="media_dimensione">Boyut:</string>
+    <string name="media_percorso">Yol:</string>
+    <string name="media_rotazione">Döndürme:</string>
+    <string name="media_latitudine">GPS Enlem:</string>
+    <string name="media_longitudine">GPS Boylam:</string>
+    <string name="media_localita">Bölge:</string>
+    <string name="media_camera">Kamera:</string>
+    <string name="media_titolo">Başlık:</string>
+    <string name="media_artista">Artist:</string>
+    <string name="media_album">Albüm:</string>
+    <string name="media_genere">Tür:</string>
+    <string name="media_bitrate">Bitrate:</string>
+    <string name="media_track">Parça:</string>
+    <string name="media_frame">Framerate:</string>
+    <string name="media_durata">Uzunluk:</string>
+    <string name="media_anno">Yıl:</string>
+
+    <!-- Apk info -->
+    <string name="apk_nome_app">Uygulama ismi:</string>
+    <string name="apk_codice_versione">Versiyon kodu:</string>
+    <string name="apk_nome_versione">Versiyon adı:</string>
+    <string name="apk_min_sdk">Min SDK:</string>
+    <string name="apk_target_sdk">Hedef SDK:</string>
+    <string name="apk_package_name">Paket adı:</string>
+    <string name="apk_installer">Kurucu:</string>
+    <string name="apk_type">Tür:</string>
+    <string name="apk_system">Sistem</string>
+    <string name="apk_user">Kullanıcı</string>
+
+    <!-- Lan -->
+    <string name="rete_locale">Yerel ağ</string>
+    <string name="esplora_rete_locale">Yerel ağı yönet</string>
+    <string name="autenticazione">Doğrulama</string>
+    <string name="user_password_errati">Yanlış kullanıcı adı veya şifre!</string>
+    <string name="username">Kullanıcı adı:</string>
+    <string name="password">Şifre:</string>
+    <string name="anonimo">Anonim</string>
+    <string name="salva_credenziali">Bilgileri kaydet</string>
+    <string name="connessione_in_corso">Bağlantı sürüyor…</string>
+    <string name="impossibile_connettersi">%s ile bağlantı kurulamıyor</string>
+    <string name="ricerca_in_corso">Aranıyor…</string>
+    <string name="scaricare_il_file">Dosyayı indirmek istiyor musun?</string>
+    <string name="file_scaricato_nella_cartella">Dosya %s klasörüne indirildi</string>
+    <string name="apri_file">Dosyayı aç</string>
+    <string name="apri_cartella_destinazione">Dosya klasörünü aç</string>
+
+    <!-- FTP -->
+    <string name="server_ftp">FTP sunucusu</string>
+    <string name="ftp_descrizione">FTP sunucularını yönet</string>
+    <string name="tipo_ftp">FTP</string>
+    <string name="tipo_ftps">FTPS</string>
+    <string name="server">Sunucu:</string>
+    <string name="porta">Port:</string>
+    <string name="modo">Mod:</string>
+    <string name="modo_attivo">Aktif</string>
+    <string name="modo_passivo">Pasif</string>
+    <string name="codifica">Şifreleme</string>
+    <string name="nome_visualizzato">Görünen ad:</string>
+    <string name="opzionale">Opsiyonel</string>
+    <string name="dati_server">Sunucu verisi</string>
+    <string name="server_esistente">%s sunucusu halihazırda bulunuyor</string>
+
+    <!-- About -->
+    <string name="crediti">Emeği geçenler</string>
+    <string name="traduzioni">Çeviriler</string>
+    <string name="sviluppato_da">%s tarafından geliştirildi</string>
+    <string name="icon_by">İkon yaratıcısı</string>
+
+    <!-- Backup -->
+    <string name="backup">Kurtarma</string>
+    <string name="effettua_backup_impostazioni">Kurtarma ayarları oluştur</string>
+    <string name="ripristina_backup_impostazioni">Kurtarma ayarlarını geri getir</string>
+    <string name="seleziona_file">Dosyayı seç</string>
+    <string name="backup_effettuato_con_successo">Kurtarma başarılı</string>
+    <string name="errore_creazione_backup">Kurtarma oluşturma hatası</string>
+    <string name="errore_ripristino_backup">Kurtarma geri getirme hatası</string>
+    <string name="ripristina_backup">Kurtarmayı geri getir</string>
+    <string name="ripristino_effettuato_con_successo">Başarıyla geri getirildi</string>
+
+    <!-- Appirater -->
+
+    <!-- Changelog -->
+
+    <!-- Update -->
+
+    <!-- Update notificator -->
+
+    <!-- unit of measurement (only symbols) -->
+    <string name="unit_byte">B</string>
+    <string name="unit_kilobyte">KB</string>
+    <string name="unit_megabyte">MB</string>
+    <string name="unit_gigabyte">GB</string>
+    <string name="unit_terabyte">TB</string>
+    <string name="unit_pixel">px</string>
+    <string name="unit_megapixel">Mpx</string>
+    <string name="unit_kbps">kbps</string>
+    <string name="text_size_sp">sp</string>
+
+</resources>

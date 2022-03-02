@@ -1,0 +1,407 @@
+<resources>
+
+    <!-- Main -->
+    <string name="app_name">Trình Quản Lý Tập Tin Egal</string>
+    <string name="home">Trang chủ</string>
+    <string name="impostazioni">Thiết đặt</string>
+    <string name="about">Giới thiệu</string>
+    <string name="archivio_locale">Lưu trữ nội bộ</string>
+    <string name="memoria_interna">Bộ nhớ trong</string>
+    <string name="memoria_esterna">Bộ nhớ ngoài</string>
+    <string name="root_directory">Thư mục gốc</string>
+    <string name="categorie">Danh mục</string>
+    <string name="categorie_immagini">Ảnh</string>
+    <string name="categorie_video">Video</string>
+    <string name="categorie_audio">Âm thanh</string>
+    <string name="categorie_altro">Khác</string>
+    <string name="altri_percorsi_di_archiviazione">Vị trí lưu trữ khác</string>
+
+    <!-- Pro version -->
+
+    <!-- Sort -->
+    <string name="ordina_per">Xếp theo:</string>
+    <string name="ordina_per_nome">Tên</string>
+    <string name="ordina_per_dimensione">Kích thước</string>
+    <string name="ordina_per_data">Ngày</string>
+    <string name="ordina_per_tipo">Loại</string>
+    <string name="ordina_per_elementi">Số mục</string>
+    <string name="ordina_per_percorso">Đường dẫn</string>
+    <string name="tipo_ordinamento">Kiểu xếp:</string>
+    <string name="ordinamento_crescente">Tăng dần</string>
+    <string name="ordinamento_decrescente">Giảm dần</string>
+    <string name="disponi">Sắp xếp</string>
+    <string name="organizza_per">Xếp theo</string>
+    <string name="organizza_per_cartella">Tên thư mục</string>
+    <string name="organizza_per_album">Tên album</string>
+
+    <!-- Copy, paste, delete... -->
+    <string name="copia">Chép</string>
+    <string name="taglia">Cắt</string>
+    <string name="incolla">Dán</string>
+    <string name="copia_in">Chép sang</string>
+    <string name="sposta_in">Chuyển sang</string>
+    <string name="origine">Nguồn:</string>
+    <string name="destinazione">Đích:</string>
+    <string name="totale">Tổng:</string>
+    <string name="spazio_insufficiente">Không đủ không gian!</string>
+    <string name="copia_in_corso">Đang chép %s …</string>
+    <string name="elementi_negli_appunti">%s mục trong bộ nhớ tạm</string>
+    <string name="files_copiati">%s mục được chép thành công</string>
+    <string name="files_non_copiati">Lỗi chép 1 số mục:</string>
+    <string name="cartella_interna">Thư mục đích nằm trong thư mục nguồn!</string>
+    <string name="cancella_clipboard">Bộ nhớ tạm trống</string>
+    <string name="applica_a_tutti">Áp dụng cho tất cả</string>
+    <string name="file_esistente">Tập tin %s đã tồn tại</string>
+    <string name="sovrascrivi">Ghi đè</string>
+    <string name="sovrascrivi_cartella">Thư mục %s đã tồn tại. Bạn muốn ghi đè nội dung của nó?</string>
+    <string name="sovrascrivi_file">Tập tin %s đã tồn tại. Bạn muốn ghi đè nó?</string>
+    <string name="rinomina">Đối tên</string>
+    <string name="ignora">Bỏ qua</string>
+    <string name="elimina">Xóa</string>
+    <string name="eliminazione_in_corso">Đang xóa %s …</string>
+    <string name="conferma_eliminazione1">Bạn thực sự muốn xóa %s?</string>
+    <string name="conferma_eliminazione2">Bạn thực sự muốn xóa %s mục?</string>
+    <string name="files_eliminati">%s mục được xóa thành công</string>
+    <string name="files_non_eliminati">Một lỗi đã xảy ra trong khi xóa 1 số mục:</string>
+    <string name="operazione_annulata">Thao tác bị hủy!</string>
+    <string name="nome_non_valido">Tên không hợp lệ!</string>
+    <string name="cartella_gia_esistente">Thư mục đã tồn tại</string>
+    <string name="impossibile_creare_cartella">Không thể tạo thư mục</string>
+    <string name="cartella_creata">Thư mục được tạo thành công</string>
+    <string name="nuovo_nome">Tên mới</string>
+    <string name="files_rinominati">%s mục được đổi tên thành công</string>
+    <string name="file_gia_presente">Tập tin đã tồn tại</string>
+    <string name="files_non_rinominati">Không thể đổi tên các mục sau:</string>
+    <string name="rinominazione_in_corso">Đang đổi tên %s …</string>
+    <string name="files_spostati">%s mục được chuyển thành công</string>
+    <string name="spostamento">Chuyển vị trí</string>
+    <string name="clipboard">Bộ nhớ tạm</string>
+    <string name="mostra_contentuto_clipboard">Hiện nội dung bộ nhớ tạm</string>
+    <string name="clipboard_vuota">Bộ nhớ tạm rỗng</string>
+
+    <!-- Other -->
+    <string name="cartella_vuota">Thư mục trống</string>
+    <string name="permesso_lettura_scrittura">Yêu cầu quyền để đọc/ghi các tập tin</string>
+    <string name="permessi_scheda_autorizzazioni">Đi tới thẻ \'Quyền\' và gán các quyền yêu cầu.</string>
+    <string name="aggiorna">Cập nhật</string>
+    <string name="filtro">Bộ lọc</string>
+    <string name="elementi">mục</string>
+    <string name="ordina">Xếp</string>
+    <string name="lettura_dati_cartelle">Đang đọc dữ liệu thư mục…</string>
+    <string name="visualizzazione">Trực quan</string>
+    <string name="visualizzazione_lista">Danh sách</string>
+    <string name="visualizzazione_lista_piccola">Danh sách nhỏ</string>
+    <string name="visualizzazione_griglia">Lưới</string>
+    <string name="visualizzazione_anteprima">Xem trước</string>
+    <string name="apri_con">Mở với</string>
+    <string name="apri_come">Mở như</string>
+    <string name="usa_sempre_questa_app">Luôn dùng ứng dụng này để mở loại tập tin này</string>
+    <string name="associazione_files">Liên kết tập tin</string>
+    <string name="nessuna_associazione_files">Không tìm thấy liên kết tập tin</string>
+    <string name="messaggio_cancellazione_associazione">Bạn thực sự muốn xóa liên kết này?</string>
+    <string name="ripristina_predefiniti">Phục hồi các mặc định</string>
+    <string name="ripristinare_associazioni_predefinite">Bạn thực sự muốn phục hồi các liên kết mặc định?</string>
+    <string name="lettura_lista_applicazioni">Đang đọc danh sách ứng dụng…</string>
+    <string name="testo">Văn bản</string>
+    <string name="immagine">Ảnh</string>
+    <string name="audio">Âm thanh</string>
+    <string name="video">Video</string>
+    <string name="altro">Khác</string>
+    <string name="seleziona_tutto">Chọn tất cả</string>
+    <string name="deseleziona_tutto">Bỏ chọn tất cả</string>
+    <string name="nuova_cartella">Thư mục mới</string>
+    <string name="directory">Thư mục</string>
+    <string name="file">Tập tin</string>
+    <string name="directories">thư mục</string>
+    <string name="files">tập tin</string>
+    <string name="collegamento">Liên kết</string>
+    <string name="seleziona_storage">Chọn bộ nhớ</string>
+    <string name="autorizzazione_memorie_esterne">Hãy chọn thư mục gốc của bộ nhớ ngoài để cấp quyền.</string>
+    <string name="nessuna_autorizzazione_esterna">Bạn không thể ghi lên bộ nhớ ngoài nếu bạn không cấp quyền.</string>
+    <string name="tree_uri_extsd_non_valido">Thư mục được chọn không hợp lệ! Bạn phải chọn thư mục gốc của bộ nhớ ngoài.</string>
+    <string name="proprieta">Thuộc tính</string>
+    <string name="tipo2">Loại:</string>
+    <string name="contenuto">Nội dung:</string>
+    <string name="percorso">Đường dẫn:</string>
+    <string name="dimensione2">Kích thước:</string>
+    <string name="ultima_modifica">Chỉnh sửa lần cuối:</string>
+    <string name="permessi">Quyền:</string>
+    <string name="lettura">đọc</string>
+    <string name="scrittura">ghi</string>
+    <string name="nascosto">Bị ẩn:</string>
+    <string name="bytes">byte</string>
+    <string name="selezione_multipla">Chọn nhiều mục</string>
+    <string name="visibilita_modificata">Hiển thị bị chỉnh sửa</string>
+    <string name="seleziona_destinazione">Chọn đích</string>
+    <string name="cartella_superiore">Lên thư mục</string>
+    <string name="salva">Lưu</string>
+    <string name="nome_file">Tên tập tin:</string>
+    <string name="errore_salvataggio">Lỗi lưu tập tin</string>
+    <string name="nessun_elemento_trovato">Không tìm thấy mục</string>
+    <string name="album_pdf">PDF</string>
+    <string name="album_documenti">Tài liệu</string>
+    <string name="album_fogli_calcolo">Spreadsheet</string>
+    <string name="album_compressi">Tập tin nén</string>
+    <string name="album_testo">Văn bản</string>
+    <string name="album_apk">APK</string>
+    <string name="aggiornamento_media_library">Đang cập nhật Thư viện Media…</string>
+    <string name="condividi">Chia sẻ</string>
+    <string name="preferiti">Yêu thích</string>
+    <string name="aggiungi_a_preferiti">Thêm vào Yêu thích</string>
+    <string name="domanda_rimuovi_preferito">Bạn thực sự muốn loại bỏ %s từ Yêu thích của bạn?</string>
+    <string name="preferito_non_esistente">%s không còn tồn tại. Bạn có muốn loại bỏ nó khỏi Yêu thích của bạn?</string>
+    <string name="nuovo">Mới</string>
+    <string name="seleziona_label_storage">Chọn lưu trữ với nhãn %s</string>
+    <string name="impossibile_completare_operazione">Không thể hoàn thành thao tác</string>
+    <string name="esecuzione">thực thi</string>
+    <string name="permesso_proprietario">Chủ sở hữu:</string>
+    <string name="permesso_gruppo">Nhóm:</string>
+    <string name="permesso_altro">Khác:</string>
+    <string name="modifica">Sửa</string>
+    <string name="nuovo_file">Tập tin mới</string>
+    <string name="file_creato_con_successo">Tập tin được tạo thành công</string>
+    <string name="impossibile_creare_file">Không thể tạo tập tin</string>
+    <string name="preferito_aggiunto">Đã thêm vào Sở thích</string>
+    <string name="impossibile_riprodurre">Không thể chơi tập tin!</string>
+    <string name="storage_to_scan">Chọn lưu trữ để quét:</string>
+    <string name="scansione_media_library_terminata">Quét Thư viện Media hoàn thành</string>
+    <string name="no_smb_to_ftp">Không thể sao chép từ 1 máy chủ SMB tới 1 máy chủ FTP</string>
+    <string name="no_ftp_to_smb">Không thể sao chép từ 1 máy chủ FTP tới 1 máy chủ SMB</string>
+    <string name="annullamento_operazione">Hủy hoạt động…</string>
+    <string name="troppi_elementi_da_gestire">Quá nhiều mục để quản lý</string>
+    <string name="storages">Lưu trữ:</string>
+    <string name="notif_id_operazioni_varie">Hoạt động đã hoàn thành</string>
+    <string name="notif_id_operazioni_backgroung">Hoạt động dưới nền</string>
+    <string name="operazione_terminata">Hoạt động đã hoàn thành</string>
+    <string name="configura_widget">Cấu hình tiện ích con</string>
+    <string name="crea_collegamento">Liên kết đến tệp</string>
+    <string name="aggiungi_collegamento_home">Thêm liên kết vào trang chủ</string>
+    <string name="elemento_non_trovato">Phần tử không được tìm thấy</string>
+
+    <!-- Functions -->
+    <string name="egal_zip_viewer">Trình xem Zip Egal</string>
+    <string name="egal_salva_file">Lưu tập tin Egal</string>
+    <string name="egal_text_editor">Trình Biên Tập Văn Bản Egal</string>
+    <string name="egal_image_viewer">Trình Xem Ảnh Egal</string>
+    <string name="egal_music_player">Trình chơi nhạc Egal</string>
+
+    <!-- Zip -->
+    <string name="zip_explorer">Zip Explorer</string>
+    <string name="estrai_archivio">Giải nén lưu trữ</string>
+    <string name="estrazione">Giải nén</string>
+    <string name="estrazione_in_corso">Đang giải nén %s…</string>
+    <string name="files_non_estrati">Một lỗi đã xảy ra trong khi giải nén các tập tin</string>
+    <string name="files_estratti">Giải nén thành công</string>
+    <string name="archivio_non_valido">Không thể đọc nội dung của lưu trữ</string>
+    <string name="compressione">Nén</string>
+    <string name="compressione_in_corso">Đang nén %s…</string>
+    <string name="files_non_compressi">Một lỗi đã xảy ra trong khi nén tập tin</string>
+    <string name="files_compressi">Nén thành công hoàn toàn</string>
+
+    <!-- Text Editor -->
+    <string name="impossibile_leggere_file">Không thể đọc tập tin</string>
+    <string name="dimensione_testo">Cỡ văn bản</string>
+    <string name="ricerca">Tìm kiếm</string>
+    <string name="occorrenza_non_trovata">Trường hợp không tìm thấy</string>
+    <string name="file_salvato">Tập tin được lưu thành công</string>
+    <string name="salva_con_nome">Lưu với tên</string>
+    <string name="chiudere_senza_salvare">Bạn muốn đóng tập tin mà không lưu nó?</string>
+    <string name="non_salvare">Không lưu</string>
+    <string name="salvataggio_in_corso">Đang lưu…</string>
+
+    <!-- Image viewer -->
+    <string name="ruota_destra">Xoay phải</string>
+    <string name="ruota_sinistra">Xoay trái</string>
+    <string name="imposta_come_sfondo">Đặt làm hình nền</string>
+    <string name="impostare_come_sfondo">Bạn muốn đặt ảnh này làm hình nền?</string>
+    <string name="sfondo_impostato">Hình nền đã được đặt</string>
+    <string name="impossibile_visualizzare_immagine">Không thể xem ảnh</string>
+    <string name="nessuna_immagine">Không có ảnh để hiển thị</string>
+    <string name="presentazione">Trình chiếu</string>
+    <string name="stop">Ngừng</string>
+    <string name="presentazione_interrotta">Trình chiếu đã bị ngắt</string>
+
+    <!-- Music Player -->
+    <string name="playlist">Danh sách chơi</string>
+    <string name="nessun_file_audio">Không có âm thanh để chơi</string>
+    <string name="aggiungi_a_playlist">Thêm vào danh sách chơi</string>
+    <string name="salva_playlist">Lưu danh sách</string>
+    <string name="rimuovi_tutto">Loại bỏ tất cả</string>
+    <string name="shuffle">Thứ tự ngẫu nhiên</string>
+    <string name="repeat_mode">Chế độ lặp lại</string>
+    <string name="repeat_none">Không</string>
+    <string name="repeat_all">Tất cả</string>
+    <string name="repeat_track">Bài</string>
+
+    <!-- Settings -->
+    <string name="impostazioni_generali">Thiết đặt chung</string>
+    <string name="avanzate">Nâng cao</string>
+    <string name="lingua">Ngôn ngữ</string>
+    <string name="root_explorer">Root Explorer</string>
+    <string name="root_explorer_descrizione">Khám phá các tập tin dùng quyền root</string>
+    <string name="mostra_anteprime">Hiện thu nhỏ</string>
+    <string name="mostra_anteprime_descrizione">Hiện xem trước của tập tin nếu sẵn có</string>
+    <string name="mostra_nascosti">Hiện tập tin ẩn</string>
+    <string name="mostra_nascosti_descrizione">Hiện tập tin có dấu \".\" đặt trước</string>
+    <string name="no_permessi_root">Thiết bị này không có quyền root</string>
+    <string name="associazione_files_descrizione">Quản lý liên kết tập tin/ứng dụng</string>
+    <string name="reset_app_titolo">Thiết đặt lại ứng dụng</string>
+    <string name="reset_app_messaggio">Bạn muốn đặt lại tất cả thiết đặt?</string>
+    <string name="reset_app_descrizione">Phục hồi ứng dụng về các thiết đặt ban đầu của nó</string>
+    <string name="giorni_recenti_descrizione">Số ngày để sử dụng trong tìm kiếm các tập tin gần đây</string>
+    <string name="ordina_download_per_data">Xếp các tải về theo ngày</string>
+    <string name="ordina_download_per_data_descrizione">Xếp nội dung của thư mục \"Tải về\" luôn theo ngày</string>
+    <string name="rescan_media_library">Quét lại Thư viện Media</string>
+    <string name="rescan_media_library_descrizione">Buộc quét lại Thư viện Media</string>
+    <string name="tema">Chủ đề</string>
+    <string name="tema_chiaro">Chủ đề Sáng</string>
+    <string name="tema_scuro">Chủ đề Tối</string>
+    <string name="svuota_cache">Xóa bộ đệm</string>
+    <string name="svuota_cache_descrizione">Loại bỏ tất cả tập tin và xem trước trong bộ đệm ứng dụng</string>
+    <string name="cache_cancellata">Bộ đệm đã xóa</string>
+
+    <!-- Tools -->
+    <string name="tools">Công cụ</string>
+    <string name="tool_analisi_spazio_occupato">Phân tích không gian sử dụng</string>
+    <string name="tool_cerca_file">Tìm tập tin</string>
+    <string name="tool_backup_app">Sao lưu Ứng dụng (chỉ root)</string>
+    <string name="analisi_cartella">Phân tích thư mục</string>
+    <string name="ignora_maiuscolo_minuscolo">Lờ đi chữ hoa</string>
+    <string name="cerca_in">Tìm trong:</string>
+    <string name="tipi">Loại:</string>
+    <string name="altri_parametri">Thông số khác:</string>
+    <string name="dimensione">Kích thước:</string>
+    <string name="risultati_ricerca">Kết quả tìm kiếm</string>
+    <string name="tutti">Tất cả</string>
+    <string name="nuova_ricerca">Tìm kiếm mới</string>
+    <string name="apri_percorso">Mở đường dẫn</string>
+    <string name="inserisci_nome_file">Nhập tên tập tin</string>
+    <string name="controlla_parametri_inseriti">Kiểm tra tất cả thông số đã nhập!</string>
+    <string name="mostra_app_utente">Hiện các ứng dụng người dùng</string>
+    <string name="mostra_app_sistema">Hiện các ứng dụng hệ thống</string>
+    <string name="app_utente">Ứng dụng người dùng</string>
+    <string name="app_sistema">Ứng dụng hệ thống</string>
+    <string name="app_info">Thông tin ứng dụng</string>
+    <string name="app_backup">Sao lưu</string>
+    <string name="tool_mountpoints">Các phân vùng (chỉ root)</string>
+    <string name="tool_recenti">Tập tin gần đây</string>
+    <string name="mountpoint">Phân vùng:</string>
+    <string name="file_system">Hệ tập tin:</string>
+    <string name="giorni">Ngày gần đây</string>
+    <string name="trova_files_duplicati">Tìm các tập tin trùng lặp</string>
+    <string name="operazione_lunga">Hoạt động này có thể mất vài phút</string>
+    <string name="cancella_selezionati">Xóa được chọn</string>
+    <string name="nessun_elemento_selezionato">Không có mục được chọn</string>
+    <string name="avvia_ricerca">Bắt đầu tìm</string>
+    <string name="ricerca_duplicati_in_corso">Đang tìm các tập tin trùng lặp…</string>
+    <string name="mostra_risultati_duplicati">Nhấp để hiện kết quả</string>
+    <string name="duplicati_trovati">Đã tìm thấy %s tập tin trùng lặp!</string>
+    <string name="recenti">Gần đây</string>
+    <string name="recenti_descrizione">Hiện các tập tin đã lưu sau cùng</string>
+    <string name="usa_caratteri_wildcard">Có thể dùng các kí tự đại diện * và ?</string>
+
+    <!-- Lan -->
+    <string name="rete_locale">Mạng nội bộ</string>
+    <string name="esplora_rete_locale">Khám phá mạng nội bộ</string>
+    <string name="autenticazione">Xác thực</string>
+    <string name="user_password_errati">Tên người dùng hoặc mật khẩu sai!</string>
+    <string name="username">Tên người dùng:</string>
+    <string name="password">Mật khẩu:</string>
+    <string name="anonimo">Ẩn danh</string>
+    <string name="salva_credenziali">Lưu các chứng thư</string>
+    <string name="connessione_in_corso">Đang kết nối…</string>
+    <string name="impossibile_connettersi">Không thể kết nối tới %s</string>
+    <string name="ricerca_in_corso">Đang tìm…</string>
+    <string name="scaricare_il_file">Bạn muốn tải về các tập tin?</string>
+    <string name="file_scaricato_nella_cartella">Tập tin được tải về trong thư mục %s</string>
+    <string name="apri_file">Mở tập tin</string>
+    <string name="apri_cartella_destinazione">Mở thư mục đích</string>
+
+    <!-- FTP -->
+    <string name="server_ftp">Máy chủ FTP</string>
+    <string name="ftp_descrizione">Quản lý các máy chủ FTP</string>
+    <string name="tipo_ftp">FTP</string>
+    <string name="tipo_ftps">FTPS</string>
+    <string name="server">Máy chủ:</string>
+    <string name="porta">Cổng:</string>
+    <string name="modo">Chế độ:</string>
+    <string name="modo_attivo">Hoạt động</string>
+    <string name="modo_passivo">Không hoạt động</string>
+    <string name="codifica">Mã hóa:</string>
+    <string name="nome_visualizzato">Tên hiển thị:</string>
+    <string name="opzionale">Không bắt buộc</string>
+    <string name="dati_server">Dữ liệu máy chủ</string>
+    <string name="server_esistente">Máy chủ %s đã tồn tại</string>
+
+    <!-- Media Info -->
+    <string name="media_info">Thông tin media</string>
+    <string name="media_no_info">Không tìm thấy thông tin</string>
+    <string name="media_risoluzione">Độ phân giải:</string>
+    <string name="media_data">Ngày:</string>
+    <string name="media_formato">Định dạng:</string>
+    <string name="media_dimensione">Kích thước:</string>
+    <string name="media_percorso">Đường dẫn:</string>
+    <string name="media_rotazione">Xoay:</string>
+    <string name="media_latitudine">Vĩ độ GPS:</string>
+    <string name="media_longitudine">Kinh độ GPS:</string>
+    <string name="media_localita">Vị trí:</string>
+    <string name="media_camera">Máy ảnh:</string>
+    <string name="media_titolo">Tiêu đề:</string>
+    <string name="media_artista">Nghệ sĩ:</string>
+    <string name="media_album">Album:</string>
+    <string name="media_genere">Thể loại:</string>
+    <string name="media_bitrate">Bit chuẩn:</string>
+    <string name="media_track">Bài:</string>
+    <string name="media_frame">Khung hình chuẩn:</string>
+    <string name="media_durata">Thời lượng:</string>
+    <string name="media_anno">Năm:</string>
+
+    <!-- Apk info -->
+    <string name="apk_nome_app">Tên ứng dụng:</string>
+    <string name="apk_codice_versione">Mã phiên bản:</string>
+    <string name="apk_nome_versione">Tên phiên bản:</string>
+    <string name="apk_min_sdk">Min SDK:</string>
+    <string name="apk_target_sdk">SDK đích:</string>
+    <string name="apk_package_name">Tên gói:</string>
+    <string name="apk_installer">Trình cài đặt:</string>
+    <string name="apk_type">Loại:</string>
+    <string name="apk_system">Hệ thống</string>
+    <string name="apk_user">Người dùng</string>
+
+    <!-- About -->
+    <string name="crediti">Tác giả</string>
+    <string name="traduzioni">Bản dịch</string>
+    <string name="sviluppato_da">Được phát triển bởi %s</string>
+    <string name="icon_by">Biểu tượng bởi</string>
+
+    <!-- Appirater -->
+
+    <!-- Changelog -->
+
+    <!-- Backup -->
+    <string name="backup">Sao lưu</string>
+    <string name="effettua_backup_impostazioni">Tạo bản sao lưu</string>
+    <string name="ripristina_backup_impostazioni">Khôi phục sao lưu</string>
+    <string name="seleziona_file">Chọn file</string>
+    <string name="backup_effettuato_con_successo">Sao lưu thành công</string>
+    <string name="errore_creazione_backup">Tạo bản sao lưu bị lỗi</string>
+    <string name="errore_ripristino_backup">Khôi phục sao lưu bị lỗi</string>
+    <string name="ripristina_backup">Khôi phục sao lưu</string>
+    <string name="ripristino_effettuato_con_successo">Khôi phục thành công</string>
+
+    <!-- Update -->
+
+    <!-- Update notification-->
+
+    <!-- unit of measurement (only symbols) -->
+    <string name="unit_byte">B</string>
+    <string name="unit_kilobyte">KB</string>
+    <string name="unit_megabyte">MB</string>
+    <string name="unit_gigabyte">GB</string>
+    <string name="unit_terabyte">TB</string>
+    <string name="unit_pixel">px</string>
+    <string name="unit_megapixel">Mpx</string>
+    <string name="unit_kbps">kbps</string>
+    <string name="text_size_sp">sp</string>
+
+</resources>

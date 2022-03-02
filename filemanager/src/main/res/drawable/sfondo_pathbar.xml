@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item>
+        <shape android:shape="rectangle" >
+            <solid android:color="@color/sfondo_pathbar_grigio" />
+        </shape>
+    </item>
+
+    <item>
+        <shape android:shape="rectangle"  >
+            <gradient
+                android:angle="90"
+                android:startColor="@color/sfondo_pathbar_esterno"
+                android:centerColor="@color/sfondo_pathbar_interno"
+                android:endColor="@color/sfondo_pathbar_esterno"
+                android:type="linear"
+                />
+        </shape>
+    </item>
+
+
+</layer-list>

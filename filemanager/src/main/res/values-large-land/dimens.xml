@@ -1,0 +1,8 @@
+<resources>
+
+    <!-- Dimens large land -->
+
+    <dimen name="lunghezza_separatore_about">600dp</dimen>
+
+
+</resources>

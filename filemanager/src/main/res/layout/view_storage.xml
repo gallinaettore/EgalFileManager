@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="@drawable/my_simple_selector"
+              android:focusable="true"
+              android:nextFocusRight="@+id/layout_impostazioni"
+              android:orientation="horizontal"
+              android:paddingLeft="8dp"
+              android:paddingTop="5dp"
+              android:paddingRight="8dp"
+              android:paddingBottom="3dp">
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabIcona"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="8dp"
+        android:tint="?attr/colorIconeDispositivi"
+        app:backgroundTint="?attr/colorFabMain"
+        app:fabCustomSize="@dimen/main_fab_size"
+        app:srcCompat="@drawable/main_dispositivo"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="15dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textview_nome"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="?attr/colorNomeCategoria"
+                    android:textSize="@dimen/testo_nome_dispositivo"
+                    android:textStyle="bold"
+                    tools:text="Device"/>
+
+                <TextView
+                    android:id="@+id/textview_path"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/testo_path_dispositivo"
+                    tools:text="/mnt/sdcard"/>
+            </LinearLayout>
+
+            <FrameLayout
+                android:id="@+id/layout_impostazioni"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/my_simple_selector">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:defaultFocusHighlightEnabled="true"
+                    android:focusable="auto"
+                    android:padding="6dp"
+                    app:srcCompat="@drawable/main_impostazioni"/>
+            </FrameLayout>
+
+        </LinearLayout>
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-3dp"
+            android:layout_marginBottom="-5dp"
+            android:max="100"
+            android:scaleY="0.6"/>
+
+        <TextView
+            android:id="@+id/textview_spazio_storage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:textSize="@dimen/testo_spazio_dispositivo"
+            tools:text="192 MB / 1587 MB"/>
+    </LinearLayout>
+
+</LinearLayout>

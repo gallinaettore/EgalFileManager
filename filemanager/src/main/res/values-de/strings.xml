@@ -1,0 +1,407 @@
+<resources>
+
+    <!-- Main -->
+    <string name="app_name">Egal Datei-Manager</string>
+    <string name="home">Übersicht</string>
+    <string name="impostazioni">Einstellungen</string>
+    <string name="about">Über</string>
+    <string name="archivio_locale">Lokaler Speicher</string>
+    <string name="memoria_interna">Interner Speicher</string>
+    <string name="memoria_esterna">Externer Speicher</string>
+    <string name="root_directory">ROOT Verzeichnis</string>
+    <string name="categorie">Kategorien</string>
+    <string name="categorie_immagini">Bilder</string>
+    <string name="categorie_video">Video</string>
+    <string name="categorie_audio">Audio</string>
+    <string name="categorie_altro">Andere</string>
+	<string name="altri_percorsi_di_archiviazione">anderer Speicherort</string>
+
+    <!-- Pro version -->
+
+    <!-- Sort -->
+    <string name="ordina_per">Sortieren nach:</string>
+    <string name="ordina_per_nome">Name</string>
+    <string name="ordina_per_dimensione">Größe</string>
+    <string name="ordina_per_data">Datum</string>
+    <string name="ordina_per_tipo">Typ</string>
+    <string name="ordina_per_elementi">Anzahl</string>
+    <string name="ordina_per_percorso">Pfad</string>
+    <string name="tipo_ordinamento">Sortierrichtung</string>
+    <string name="ordinamento_crescente">aufsteigend</string>
+    <string name="ordinamento_decrescente">absteigend</string>
+    <string name="disponi">Anordnen</string>
+    <string name="organizza_per">Anordnen nach</string>
+    <string name="organizza_per_cartella">Ordner-Name</string>
+    <string name="organizza_per_album">Album-Name</string>
+
+    <!-- Copy, paste, delete... -->
+    <string name="copia">kopieren</string>
+    <string name="taglia">ausschneiden</string>
+    <string name="incolla">einfügen</string>
+    <string name="copia_in">kopieren nach</string>
+    <string name="sposta_in">verschieben nach</string>
+    <string name="origine">Quelle:</string>
+    <string name="destinazione">Ziel:</string>
+    <string name="totale">Total:</string>
+    <string name="spazio_insufficiente">Unzureichender Speicher!</string>
+    <string name="copia_in_corso">Kopieren %s in Arbeit…</string>
+    <string name="elementi_negli_appunti">%s Elemente in der Zwischenablage</string>
+    <string name="files_copiati">%s Elemente erfolgreich kopiert</string>
+    <string name="files_non_copiati">Fehler beim Kopieren einiger Elemente:</string>
+    <string name="cartella_interna">Zielverzeichnis innerhalb des Quellverzeichnisses!</string>
+    <string name="cancella_clipboard">Zwischenablage leer</string>
+    <string name="applica_a_tutti">Auf alle anwenden</string>
+    <string name="file_esistente">Datei %s existiert bereits</string>
+    <string name="sovrascrivi">Überschreiben</string>
+    <string name="sovrascrivi_cartella">Verzeichnis %s existiert bereits. Inhalt überschreiben?</string>
+    <string name="sovrascrivi_file">Datei %s existiert bereits. Datei überschreiben?</string>
+    <string name="rinomina">umbenennen</string>
+    <string name="ignora">Ignorieren</string>
+    <string name="elimina">Löschen</string>
+    <string name="eliminazione_in_corso">Löschen %s in Arbeit…</string>
+    <string name="conferma_eliminazione1">%s wirklich löschen?</string>
+    <string name="conferma_eliminazione2">%s Elemente wirklich löschen?</string>
+    <string name="files_eliminati">%s Elemente erfolgreich gelöscht</string>
+    <string name="files_non_eliminati">Fehler beim Löschen einiger Elemente:</string>
+    <string name="operazione_annulata">Operation abgebrochen!</string>
+    <string name="nome_non_valido">Name ungültig!</string>
+    <string name="cartella_gia_esistente">Verzeichnis existiert bereits</string>
+    <string name="impossibile_creare_cartella">Verzeichnis kann nicht erstellt werden</string>
+    <string name="cartella_creata">Verzeichnis erfolgreich erstellt</string>
+    <string name="nuovo_nome">Neuer Name</string>
+    <string name="files_rinominati">%s Elemente erfolgreich umbenannt</string>
+    <string name="file_gia_presente">Datei existiert bereits</string>
+    <string name="files_non_rinominati">Folgende Elemente könne nicht umbenannt werden:</string>
+    <string name="rinominazione_in_corso">Umbenennung %s in Arbeit…</string>
+    <string name="files_spostati">%s Elemente erfolgreich verschoben</string>
+    <string name="spostamento">Verschieben</string>
+    <string name="clipboard">Zwischenablage</string>
+    <string name="mostra_contentuto_clipboard">Zeige Inhalt der Zwischenablage</string>
+    <string name="clipboard_vuota">Zwischenablage ist leer</string>
+
+    <!-- Other -->
+    <string name="cartella_vuota">leeres Verzeichnis</string>
+    <string name="permesso_lettura_scrittura">Berechtigung zum lesen/schreiben der Datein notwendig</string>
+    <string name="permessi_scheda_autorizzazioni">Öffne den \'Zugriffsrechte\' Tab und erteile die notwendigen Zugriffsrechte.</string>
+    <string name="aggiorna">Update</string>
+    <string name="filtro">Filter</string>
+    <string name="elementi">Elemente</string>
+    <string name="ordina">Sortierung</string>
+    <string name="lettura_dati_cartelle">Lese Verzeichnis…</string>
+    <string name="visualizzazione">Darstellung</string>
+    <string name="visualizzazione_lista">Liste</string>
+    <string name="visualizzazione_lista_piccola">Kleine Liste</string>
+    <string name="visualizzazione_griglia">Raster</string>
+    <string name="visualizzazione_anteprima">Vorschau</string>
+    <string name="apri_con">Öffnen mit…</string>
+    <string name="apri_come">Öffnen als…</string>
+    <string name="usa_sempre_questa_app">Immer diese App für diesen Dateityp verwenden</string>
+    <string name="associazione_files">Dateizuordnungen</string>
+    <string name="nessuna_associazione_files">Keine Dateizuordnungen gefunden</string>
+    <string name="ripristina_predefiniti">Auf Defaultwerte zurücksetzen</string>
+    <string name="ripristinare_associazioni_predefinite">Standard-Dateizuordnungen wiederherstellen?</string>
+    <string name="messaggio_cancellazione_associazione">Dateizuordnungen wirklich löschen?</string>
+    <string name="lettura_lista_applicazioni">Lese App-Liste…</string>
+    <string name="testo">Text</string>
+    <string name="immagine">Bild</string>
+    <string name="audio">Audio</string>
+    <string name="video">Video</string>
+    <string name="altro">andere</string>
+    <string name="seleziona_tutto">Alle auswählen</string>
+    <string name="deseleziona_tutto">Alle abwählen</string>
+    <string name="nuova_cartella">Neues Verzeichnis</string>
+    <string name="directory">Verzeichnis</string>
+    <string name="file">Datei</string>
+    <string name="directories">Verzeichnisse</string>
+    <string name="files">Datein</string>
+    <string name="collegamento">Link</string>
+    <string name="seleziona_storage">Speicher wählen</string>
+    <string name="autorizzazione_memorie_esterne">Bitte das Wurzelverzeichnis des externen Speichers auswählen, um die Berechtigungen zu vergeben.</string>
+    <string name="nessuna_autorizzazione_esterna">Ohne Berechtigung keine Schreibzugriffeauf externen Speicher möglich.</string>
+    <string name="tree_uri_extsd_non_valido">Gewähltes Verzeichnis ungültig! Das Wurzelverzeichnis des externen Speichers muss gewählt werden.</string>
+    <string name="proprieta">Eigentümer</string>
+    <string name="tipo2">Typ:</string>
+    <string name="contenuto">Inhalt:</string>
+    <string name="percorso">Pfad:</string>
+    <string name="dimensione2">Größe:</string>
+    <string name="ultima_modifica">zuletzt geändert:</string>
+    <string name="permessi">Berechtigungen:</string>
+    <string name="lettura">lese</string>
+    <string name="scrittura">schreibe</string>
+    <string name="nascosto">Versteckt:</string>
+    <string name="bytes">bytes</string>
+    <string name="selezione_multipla">Mehrfachauswahl</string>
+    <string name="visibilita_modificata">Sichtbarkeit geändert</string>
+    <string name="seleziona_destinazione">Ziel wählen</string>
+    <string name="cartella_superiore">Übergeordnetes Verzeichnis</string>
+    <string name="salva">Speichern</string>
+    <string name="nome_file">Dateiname:</string>
+    <string name="errore_salvataggio">Fehler beim Speichern der Datei</string>
+    <string name="nessun_elemento_trovato">Kein Element gefunden</string>
+    <string name="album_pdf">PDF</string>
+    <string name="album_documenti">Dokumente</string>
+    <string name="album_fogli_calcolo">Tabellen</string>
+    <string name="album_compressi">Archive</string>
+    <string name="album_testo">Text</string>
+    <string name="album_apk">APK</string>
+    <string name="aggiornamento_media_library">aktualisiere Medienbibliothek…</string>
+    <string name="condividi">Teilen</string>
+    <string name="preferiti">Favoriten</string>
+    <string name="aggiungi_a_preferiti">Zu Favoriten hinzufügen</string>
+    <string name="domanda_rimuovi_preferito">%s wirklich aus den Favoriten entfernen?</string>
+    <string name="preferito_non_esistente">%s existiert nicht länger. Aus den Favoriten entfernen?</string>
+    <string name="nuovo">Neu</string>
+    <string name="seleziona_label_storage">Speicher mit Namen %s auswählen</string>
+    <string name="impossibile_completare_operazione">Operation kann nicht beendet werden</string>
+    <string name="esecuzione">Ausführung</string>
+    <string name="permesso_proprietario">Besitzer:</string>
+    <string name="permesso_gruppo">Gruppe:</string>
+    <string name="permesso_altro">andere:</string>
+    <string name="modifica">Bearbeiten</string>
+    <string name="nuovo_file">Neue Datei</string>
+    <string name="file_creato_con_successo">Datei erfolgreich erstellt</string>
+    <string name="impossibile_creare_file">Datei konnte nicht erstellt werden</string>
+    <string name="preferito_aggiunto">Zu Favoriten hinzugefügt</string>
+    <string name="impossibile_riprodurre">Daei abspielen nicht möglich!</string>
+    <string name="storage_to_scan">Wähle einzulesenden Speicher:</string>
+    <string name="scansione_media_library_terminata">Medien-Bibliothek einlesen komplett</string>
+    <string name="no_smb_to_ftp">Kopieren von SMB Server an FTP Server nicht möglich</string>
+    <string name="no_ftp_to_smb">Kopieren von FTP Server an SMB Server nicht möglich</string>
+	<string name="annullamento_operazione">Operation abbechen…</string>
+    <string name="troppi_elementi_da_gestire">Zu viele Elements zur Verarbeitung</string>
+    <string name="storages">Speicher:</string>
+    <string name="notif_id_operazioni_varie">Operation beendet</string>
+    <string name="notif_id_operazioni_backgroung">Operationen im Hintergrund</string>
+    <string name="operazione_terminata">Operation beendet</string>
+    <string name="configura_widget">Widget-Konfiguration</string>
+    <string name="crea_collegamento">Link zur Datei</string>
+    <string name="aggiungi_collegamento_home">Link zur Startseite hinzufügen</string>
+    <string name="elemento_non_trovato">Element nicht gefunden</string>
+
+    <!-- Functions -->
+    <string name="egal_zip_viewer">Egal Zip-Viewer</string>
+    <string name="egal_salva_file">Egal Datei Speichern</string>
+    <string name="egal_text_editor">Egal Text-Editor</string>
+    <string name="egal_image_viewer">Egal Bildbetrachter</string>
+    <string name="egal_music_player">Egal Music Player</string>
+
+    <!-- Zip -->
+    <string name="zip_explorer">Zip Explorer</string>
+    <string name="estrai_archivio">Archiv entpacken</string>
+    <string name="estrazione">Entpacken</string>
+    <string name="estrazione_in_corso">Entpacken %s in Arbeit</string>
+    <string name="files_non_estrati">Beim Entpacken ist ein Fehler aufgetreten</string>
+    <string name="files_estratti">Entpacken erfolgreich</string>
+    <string name="archivio_non_valido">Archiv-Inhalt nicht lesbar</string>
+    <string name="compressione">Compress</string>
+    <string name="compressione_in_corso">Packvorgang %s in Arbeit</string>
+    <string name="files_non_compressi">Beim Packvorgang ist ein Fehler aufgetreten</string>
+    <string name="files_compressi">Packvorgang erfolgreich</string>
+
+    <!-- Text Editor -->
+    <string name="impossibile_leggere_file">Datei nicht lesbar</string>
+    <string name="dimensione_testo">Textgröße</string>
+    <string name="ricerca">Suchen</string>
+    <string name="occorrenza_non_trovata">Keine Übereinstimmung gefunden</string>
+    <string name="file_salvato">Datei erfolgreich gespeichert</string>
+    <string name="salva_con_nome">Datei speichern unter</string>
+    <string name="chiudere_senza_salvare">Datei schließen ohne zu speichern?</string>
+    <string name="non_salvare">Nicht speichern</string>
+    <string name="salvataggio_in_corso">Speichern in Arbeit</string>
+
+    <!-- Image viewer -->
+    <string name="ruota_destra">Rotieren nach rechts</string>
+    <string name="ruota_sinistra">Rotieren nach links</string>
+    <string name="imposta_come_sfondo">Als Hintergrundbild einrichten</string>
+    <string name="impostare_come_sfondo">Möchtest du dieses Bild als Hintergrundbild einrichten?</string>
+    <string name="sfondo_impostato">Hintergrundbild eingerichtet</string>
+    <string name="impossibile_visualizzare_immagine">Bild kann nicht angezeigt werden</string>
+    <string name="nessuna_immagine">Kein Bild zum anzeigen</string>
+    <string name="presentazione">Darstellung</string>
+    <string name="stop">Stop</string>
+    <string name="presentazione_interrotta">Präsentation wurde unterbrochen</string>
+
+    <!-- Music Player -->
+    <string name="playlist">Playlist</string>
+    <string name="nessun_file_audio">Keine Audio_Datei zum Abspielen</string>
+    <string name="aggiungi_a_playlist">Zu Playlist hinzufügen</string>
+    <string name="salva_playlist">Playlist speichern</string>
+    <string name="rimuovi_tutto">alle entfernen</string>
+    <string name="shuffle">Zufallswiedergabe</string>
+    <string name="repeat_mode">Wiederholen</string>
+    <string name="repeat_none">Keine</string>
+    <string name="repeat_all">Alle</string>
+    <string name="repeat_track">Track</string>
+
+    <!-- Settings -->
+    <string name="impostazioni_generali">Allgemeine Einstellungen</string>
+    <string name="avanzate">erweitert</string>
+    <string name="lingua">Sprache</string>
+    <string name="root_explorer">ROOT Explorer</string>
+    <string name="root_explorer_descrizione">Datein mittels ROOT-Zugriff durchsuchen</string>
+    <string name="mostra_anteprime">Zeige Thumbnails</string>
+    <string name="mostra_anteprime_descrizione">Dateivorschau anzeigen falls verfügbar</string>
+    <string name="mostra_nascosti">versteckte Datein anzeigen</string>
+    <string name="mostra_nascosti_descrizione">Dateien anzeigen, die mit dem Zeichen "." beginnen</string>
+    <string name="no_permessi_root">Dieses Gerät hat keine ROOT-Zugriff.</string>
+    <string name="associazione_files_descrizione">Dateizuordnungen/Apps bearbeiten</string>
+    <string name="reset_app_titolo">App zurücksetzen</string>
+    <string name="reset_app_messaggio">alle Einstellungen zurücksetzen?</string>
+    <string name="reset_app_descrizione">Setzt App auf Werkseinstellungen zurück</string>
+    <string name="giorni_recenti_descrizione">Anzahl Tage, die für zuletzt verwendete Datein durchsucht werden sollen</string>
+    <string name="ordina_download_per_data">Sortiere Downloads nach Datum</string>
+    <string name="ordina_download_per_data_descrizione">Sortiere Inhalt des \"Download\" Ordners immer nach Datum</string>
+    <string name="rescan_media_library">Medien-Bibliothek neu einlesen</string>
+    <string name="rescan_media_library_descrizione">Erzwinge neu einlesen der Medien-Bibliothek</string>
+    <string name="svuota_cache">Cache leeren</string>
+    <string name="svuota_cache_descrizione">Entfernt alle Datein und Vorschauen aus dem Cache der App</string>
+    <string name="cache_cancellata">Cache geleert</string>
+    <string name="tema">Thema</string>
+    <string name="tema_chiaro">Helles Thema</string>
+    <string name="tema_scuro">Dunkles Thema</string>
+
+    <!-- Tools -->
+    <string name="tools">Werkzeuge</string>
+    <string name="tool_analisi_spazio_occupato">Speichernutzungs-Analyse</string>
+    <string name="tool_cerca_file">Suche Datein</string>
+    <string name="tool_backup_app">Apps sichern (nur ROOT)</string>
+    <string name="analisi_cartella">Verzeichnisanalyse</string>
+    <string name="ignora_maiuscolo_minuscolo">Groß/Kleinschreibung ignorieren</string>
+    <string name="cerca_in">Suche in:</string>
+    <string name="tipi">Typen:</string>
+    <string name="altri_parametri">andere Parameter:</string>
+    <string name="dimensione">Größe:</string>
+    <string name="risultati_ricerca">Suchergebnisse</string>
+    <string name="tutti">Alle</string>
+    <string name="nuova_ricerca">Neue Suche</string>
+    <string name="apri_percorso">Pfad öffnen</string>
+    <string name="inserisci_nome_file">Dateinname eingeben</string>
+    <string name="controlla_parametri_inseriti">Sucht nach allen eingegebenen Parametern!</string>
+    <string name="mostra_app_utente">Benutzer-Apps anzeigen</string>
+    <string name="mostra_app_sistema">System-Apps anzeigen</string>
+    <string name="app_utente">Benutzer-Apps</string>
+    <string name="app_sistema">System-Apps</string>
+    <string name="app_info">App-Info</string>
+    <string name="app_backup">Sichern</string>
+    <string name="tool_mountpoints">Laufwerke (nur ROOT)</string>
+    <string name="tool_recenti">letzte Datein</string>
+    <string name="mountpoint">Laufwerk:</string>
+    <string name="file_system">Datei-System:</string>
+    <string name="giorni">letzte Tage</string>
+    <string name="trova_files_duplicati">Finde Datei-Duplikate</string>
+    <string name="operazione_lunga">Diese Operation kannn mehrere Minuten dauern</string>
+    <string name="cancella_selezionati">Ausgewählte löschen</string>
+    <string name="nessun_elemento_selezionato">Keine Objekte ausgewählt</string>
+    <string name="avvia_ricerca">Suche starten</string>
+    <string name="ricerca_duplicati_in_corso">Suche nach Datei-Duplikaten läuft…</string>
+    <string name="mostra_risultati_duplicati">Tippe, um die Ergebnisse anzuzeigen</string>
+    <string name="duplicati_trovati">%s Datei-Duplikate gefunden!</string>
+    <string name="recenti">Kürzlich</string>
+    <string name="recenti_descrizione">Zeige zuletzt gespeicherte Datein</string>
+    <string name="usa_caratteri_wildcard">Es ist möglich Platzhalter wie \"*\" und \"?\" zu verwenden</string>
+
+    <!-- Media Info -->
+    <string name="media_info">Media-Info</string>
+    <string name="media_no_info">Keine Info gefunden</string>
+    <string name="media_risoluzione">Auflösung:</string>
+    <string name="media_data">Datum:</string>
+    <string name="media_formato">Format:</string>
+    <string name="media_dimensione">Größe:</string>
+    <string name="media_percorso">Pfad:</string>
+    <string name="media_rotazione">Rotation:</string>
+    <string name="media_latitudine">GPS Breitengrad:</string>
+    <string name="media_longitudine">GPS Längengrad:</string>
+    <string name="media_localita">Ort:</string>
+    <string name="media_camera">Kamera:</string>
+    <string name="media_titolo">Titel:</string>
+    <string name="media_artista">Künstler:</string>
+    <string name="media_album">Album:</string>
+    <string name="media_genere">Genre:</string>
+    <string name="media_bitrate">Bitrate:</string>
+    <string name="media_track">Track:</string>
+    <string name="media_frame">Framerate:</string>
+    <string name="media_durata">Länge:</string>
+    <string name="media_anno">Jahr:</string>
+
+    <!-- Apk info -->
+    <string name="apk_nome_app">App-Name:</string>
+    <string name="apk_codice_versione">Versionsnummer:</string>
+    <string name="apk_nome_versione">Versionsname:</string>
+    <string name="apk_min_sdk">Min.-SDK:</string>
+    <string name="apk_target_sdk">Ziel-SDK:</string>
+    <string name="apk_package_name">Paketname:</string>
+    <string name="apk_installer">Installer:</string>
+    <string name="apk_type">Typ:</string>
+    <string name="apk_system">System</string>
+    <string name="apk_user">Benutzer</string>
+
+    <!-- Lan -->
+    <string name="rete_locale">Lokales Netzwerk</string>
+    <string name="esplora_rete_locale">Lokales Netzwerk durchsuchen</string>
+    <string name="autenticazione">Authentifikation</string>
+    <string name="user_password_errati">Falscher Benutzername oder Passowrt!</string>
+    <string name="username">Benutzername:</string>
+    <string name="password">Passwort:</string>
+    <string name="anonimo">Anonymous</string>
+    <string name="salva_credenziali">Zugangsdaten speichern</string>
+    <string name="connessione_in_corso">Verbindung wird hergestellt…</string>
+    <string name="impossibile_connettersi">Verbindungsaufbau zu %s nicht möglich</string>
+    <string name="ricerca_in_corso">Suche…</string>
+    <string name="scaricare_il_file">Datei herunterladen?</string>
+    <string name="file_scaricato_nella_cartella">Datei wurde in Ordner %s herunterladen</string>
+    <string name="apri_file">Datei öffnen</string>
+    <string name="apri_cartella_destinazione">Ziel-Ordner öffnen</string>
+
+    <!-- FTP -->
+    <string name="server_ftp">FTP Server</string>
+    <string name="ftp_descrizione">FTP Server verwalten</string>
+    <string name="tipo_ftp">FTP</string>
+    <string name="tipo_ftps">FTPS</string>
+    <string name="server">Server:</string>
+    <string name="porta">Port:</string>
+    <string name="modo">Mode:</string>
+    <string name="modo_attivo">Aktiv</string>
+    <string name="modo_passivo">Passiv</string>
+    <string name="codifica">Codierung:</string>
+    <string name="nome_visualizzato">Anzeige-Name:</string>
+    <string name="opzionale">Optional</string>
+    <string name="dati_server">Server-Daten</string>
+    <string name="server_esistente">Server %s existiert bereits</string>
+
+    <!-- About -->
+    <string name="crediti">Credits</string>
+    <string name="traduzioni">Übersetzungen</string>
+    <string name="sviluppato_da">Entwickelt von %s</string>
+    <string name="icon_by">Icon von</string>
+
+    <!-- Backup -->
+    <string name="backup">Sicherung</string>
+    <string name="effettua_backup_impostazioni">Einstellungen sichern</string>
+    <string name="ripristina_backup_impostazioni">Einstellungen wiederherstellen</string>
+    <string name="seleziona_file">Datei auswählen</string>
+    <string name="backup_effettuato_con_successo">Sicherung erfolgreich</string>
+    <string name="errore_creazione_backup">Fehler bei der Sicherung</string>
+    <string name="errore_ripristino_backup">Fehler bei de Wiederherstellung</string>
+    <string name="ripristina_backup">Sicherung wiederherstellen</string>
+    <string name="ripristino_effettuato_con_successo">Wiederherstellung erfolgreich</string>
+
+    <!-- Appirater -->
+
+    <!-- Changelog -->
+
+    <!-- Update -->
+
+    <!-- Update notificator -->
+
+    <!-- unit of measurement (only symbols) -->
+    <string name="unit_byte">B</string>
+    <string name="unit_kilobyte">kB</string>
+    <string name="unit_megabyte">MB</string>
+    <string name="unit_gigabyte">GB</string>
+    <string name="unit_terabyte">TB</string>
+    <string name="unit_pixel">px</string>
+    <string name="unit_megapixel">Mpx</string>
+    <string name="unit_kbps">kbps</string>
+    <string name="text_size_sp">sp</string>
+
+</resources>

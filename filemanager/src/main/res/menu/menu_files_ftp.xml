@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/filtro"
+        android:orderInCategory="2"
+        android:title="@string/filtro"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"
+        android:icon="@drawable/ic_search_white_24dp"
+        app:showAsAction="always|collapseActionView"/>
+
+    <item
+        android:id="@+id/incolla"
+        android:orderInCategory="2"
+        android:title="@string/incolla"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/mostra_clipboard"
+        android:orderInCategory="2"
+        android:title="@string/mostra_contentuto_clipboard"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/aggiorna"
+        android:title="@string/aggiorna"
+        android:orderInCategory="100"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/ordina"
+        android:orderInCategory="100"
+        android:title="@string/ordina"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/visualizzazione"
+        android:orderInCategory="100"
+        android:title="@string/visualizzazione"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/nuova_cartella"
+        android:orderInCategory="100"
+        android:title="@string/nuova_cartella"
+        app:showAsAction="never"/>
+
+</menu>

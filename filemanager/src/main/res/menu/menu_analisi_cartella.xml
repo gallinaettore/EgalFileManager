@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/analisi_cartella"
+        android:orderInCategory="1"
+        android:title="@string/analisi_cartella"
+        android:icon="@drawable/ic_equalizer_white_24dp"
+        app:showAsAction="always"/>
+
+</menu>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/my_simple_selector"
+    android:orientation="vertical"
+    android:paddingLeft="7dp"
+    android:paddingTop="8dp"
+    android:paddingRight="7dp"
+    android:paddingBottom="8dp"
+    android:layoutDirection="ltr"
+    tools:targetApi="jelly_bean_mr1">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+
+        <ImageView
+            android:id="@+id/iconaImageView"
+            android:layout_width="@dimen/size_icona_lista_files"
+            android:layout_height="@dimen/size_icona_lista_files"
+            android:layout_centerInParent="true"
+            tools:src="@drawable/ico_file" />
+
+        <ImageView
+            android:id="@+id/collegamentoImageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/iconaImageView"
+            android:layout_marginStart="2dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginBottom="4dp"
+            android:visibility="gone"
+            app:srcCompat="@drawable/ico_collegamento" />
+
+        <CheckBox
+            android:id="@+id/checkbox_selezionato"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:button="@drawable/file_checkbox_griglia_selector"
+            android:clickable="false"
+            android:visibility="gone" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/nomeFileTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:ellipsize="end"
+        android:gravity="center_horizontal"
+        android:maxLines="3"
+        android:minLines="2"
+        android:textSize="@dimen/testo_nome_file_griglia"
+        tools:text="Nome file molto lungo vediamo che succede se superla le due righe e va a capo. Ci vuole un testo molto lungo purtroppo ma dovrebbe funzionare" />
+
+</LinearLayout>

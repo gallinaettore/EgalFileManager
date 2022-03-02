@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="?attr/selectableItemBackground"
+              android:orientation="vertical">
+
+    <!--
+     Il background del linear layout viene rispettato solo da Lollipop in poi,
+     utilizzo quindi ?attr/selectableItemBackground per adoperare la 'Radial reaction' al tocco del layout,
+     su Android 4 al tocco diventa grigio, su Android 2.3 al tocco non cambia nulla.
+     In precedenza utilizzavo @drawable/preference_selector con sfondo verdino al tocco
+     -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/iconaImageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/material_preferences_icon_margin_left"
+            android:layout_marginStart="@dimen/material_preferences_icon_margin_left"
+            android:background="@android:color/transparent"
+            android:visibility="gone"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/titleTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/material_preferences_content_margin_left"
+                android:layout_marginStart="@dimen/material_preferences_content_margin_left"
+                android:layout_marginTop="@dimen/material_preferences_margin_top_bottom"
+                android:layout_marginRight="@dimen/material_preferences_content_margin_right"
+                android:layout_marginEnd="@dimen/material_preferences_content_margin_right"
+                android:layout_marginBottom="2dp"
+                android:background="@android:color/transparent"
+                android:textColor="?android:attr/textColorPrimary"
+                android:textSize="@dimen/material_preferences_title_text"
+                tools:text="Title" />
+
+            <TextView
+                android:id="@+id/summaryTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/material_preferences_content_margin_left"
+                android:layout_marginStart="@dimen/material_preferences_content_margin_left"
+                android:layout_marginRight="@dimen/material_preferences_content_margin_right"
+                android:layout_marginEnd="@dimen/material_preferences_content_margin_right"
+                android:layout_marginBottom="@dimen/material_preferences_margin_top_bottom"
+                android:background="@android:color/transparent"
+                android:textColor="?android:attr/textColorSecondary"
+                android:textSize="@dimen/material_preferences_summary_text"
+                tools:text="Summary" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="0.2dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:background="@color/material_preferences_separator_color"
+        android:visibility="visible" />
+</LinearLayout>

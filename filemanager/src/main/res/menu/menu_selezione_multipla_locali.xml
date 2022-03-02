@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/copia"
+        android:orderInCategory="2"
+        android:title="@string/copia"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/taglia"
+        android:orderInCategory="2"
+        android:title="@string/taglia"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/rinomina"
+        android:orderInCategory="2"
+        android:title="@string/rinomina"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/elimina"
+        android:orderInCategory="2"
+        android:title="@string/elimina"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/proprieta"
+        android:orderInCategory="2"
+        android:title="@string/proprieta"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/aggiungi_a_playlist"
+        android:orderInCategory="100"
+        android:title="@string/aggiungi_a_playlist"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/condividi"
+        android:orderInCategory="2"
+        android:title="@string/condividi"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/compressione"
+        android:orderInCategory="2"
+        android:title="@string/compressione"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/aggiungi_a_preferiti"
+        android:orderInCategory="2"
+        android:title="@string/aggiungi_a_preferiti"
+        app:showAsAction="never"/>
+
+</menu>

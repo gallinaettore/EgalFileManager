@@ -1,0 +1,397 @@
+<resources>
+
+    <!-- Main -->
+    <string name="app_name">Managerul de fișiere Egal</string>
+    <string name="home">Acasă</string>
+    <string name="impostazioni">Setări</string>
+    <string name="about">Despre</string>
+    <string name="archivio_locale">Stocare locală</string>
+    <string name="memoria_interna">Stocare internă</string>
+    <string name="memoria_esterna">Stocare externă</string>
+    <string name="root_directory">Folderul din rădăcină</string>
+    <string name="categorie">Categorii</string>
+    <string name="categorie_immagini">Imagini</string>
+    <string name="categorie_video">Video</string>
+    <string name="categorie_audio">Audio</string>
+    <string name="categorie_altro">Altele</string>
+    <string name="altri_percorsi_di_archiviazione">Alte locații de stocare</string>
+
+    <!-- Pro version -->
+
+    <!-- Sort -->
+    <string name="ordina_per">Sortează după:</string>
+    <string name="ordina_per_nome">Nume</string>
+    <string name="ordina_per_dimensione">Mărime</string>
+    <string name="ordina_per_data">Dată</string>
+    <string name="ordina_per_tipo">Tip</string>
+    <string name="ordina_per_elementi">Număr de obiecte</string>
+    <string name="ordina_per_percorso">Cale</string>
+    <string name="tipo_ordinamento">Tip sortare:</string>
+    <string name="ordinamento_crescente">Crescator</string>
+    <string name="ordinamento_decrescente">Descrescător</string>
+    <string name="disponi">Aranjează</string>
+    <string name="organizza_per">Aranjează după</string>
+    <string name="organizza_per_cartella">Nume folder</string>
+    <string name="organizza_per_album">Nume album</string>
+
+    <!-- Copy, paste, delete... -->
+    <string name="copia">Copiază</string>
+    <string name="taglia">Taie</string>
+    <string name="incolla">Lipește</string>
+    <string name="copia_in">Copiază către</string>
+    <string name="sposta_in">Mută către</string>
+    <string name="origine">Sursa:</string>
+    <string name="destinazione">Destinație:</string>
+    <string name="totale">Total:</string>
+    <string name="spazio_insufficiente">Spațiu insuficient:</string>
+    <string name="copia_in_corso">Copierea %s în curs…</string>
+    <string name="elementi_negli_appunti">%s elemente în clipboard</string>
+    <string name="files_copiati">%s elemente copiate cu succes</string>
+    <string name="files_non_copiati">Eroare la copierea anumitor elemente:</string>
+    <string name="cartella_interna">Folderul destinație este în interiorul folderului sursă!</string>
+    <string name="clipboard">Clipboard</string>
+    <string name="mostra_contentuto_clipboard">Arată conținutul clipboard-ului</string>
+    <string name="cancella_clipboard">Golește clipboard</string>
+    <string name="clipboard_vuota">Clipboard-ul e gol</string>
+    <string name="applica_a_tutti">Aplică tuturor</string>
+    <string name="file_esistente">Fișierul %s există deja</string>
+    <string name="sovrascrivi">Suprascrie</string>
+    <string name="sovrascrivi_cartella">Folderul %s există deja. Vreți să suprascrieți conținutul său?</string>
+    <string name="sovrascrivi_file">Fișierul%s există deja. Vreți să-l suprascrieți?</string>
+    <string name="rinomina">Redenumește</string>
+    <string name="ignora">Ignoră</string>
+    <string name="elimina">Șterge</string>
+    <string name="eliminazione_in_corso">Ștergerea %s în curs…</string>
+    <string name="conferma_eliminazione1">Sigur vreți să ștergeți %s?</string>
+    <string name="conferma_eliminazione2">Sigur vreți să ștergeți %s obiecte?</string>
+    <string name="files_eliminati">%s obiecte șterse cu succes!</string>
+    <string name="files_non_eliminati">A apărut o eroare pe timpul ștergerii unor obiecte:</string>
+    <string name="operazione_annulata">Operațiune anulată!</string>
+    <string name="nome_non_valido">Numele este invalid!</string>
+    <string name="cartella_gia_esistente">Folderul există deja</string>
+    <string name="impossibile_creare_cartella">Nu poate fi creat folderul</string>
+    <string name="cartella_creata">Folder creat cu succes</string>
+    <string name="nuovo_nome">Nume nou</string>
+    <string name="files_rinominati">%s elemente redenumite cu succes</string>
+    <string name="file_gia_presente">Fișierul există deja</string>
+    <string name="files_non_rinominati">Redenumirea elementelor următoare imposibilă:</string>
+    <string name="rinominazione_in_corso">Redenumirea %s în curs…</string>
+    <string name="files_spostati">%s elemente mutate cu succes</string>
+    <string name="spostamento">Relocare</string>
+
+    <!-- Other -->
+    <string name="cartella_vuota">Folder gol</string>
+    <string name="permesso_lettura_scrittura">Este necesară permisiunea pentru citirea/scrierea fișierelor</string>
+    <string name="permessi_scheda_autorizzazioni">Mergeți la tab-ul \'Permissions\' și permiteți accesul la elementele solicitate</string>
+    <string name="aggiorna">Actualizare</string>
+    <string name="filtro">Filtrează</string>
+    <string name="elementi">Elemente</string>
+    <string name="ordina">Sortează</string>
+    <string name="lettura_dati_cartelle">Accesarea datelor folderului…</string>
+    <string name="visualizzazione">Vizualizare</string>
+    <string name="visualizzazione_lista">Listă</string>
+    <string name="visualizzazione_lista_piccola">Listă mică</string>
+    <string name="visualizzazione_griglia">Grilă</string>
+    <string name="visualizzazione_anteprima">Previzualizare</string>
+    <string name="apri_con">Deschide cu</string>
+    <string name="apri_come">Deschide ca</string>
+    <string name="usa_sempre_questa_app">Utilizează mereu această aplicație pentru deschiderea acestui tip de fișiere</string>
+    <string name="associazione_files">Asocierea fișierelor</string>
+    <string name="nessuna_associazione_files">Nici o asociere găsită</string>
+    <string name="ripristina_predefiniti">Restaurează setările implicite</string>
+    <string name="ripristinare_associazioni_predefinite">Sigur doriți resetarea asocierii fișierelor?</string>
+    <string name="messaggio_cancellazione_associazione">Sigur vreți să ștergeți această asociere?</string>
+    <string name="lettura_lista_applicazioni">Accesez lista aplicațiilor…</string>
+    <string name="testo">Text</string>
+    <string name="immagine">Imagine</string>
+    <string name="audio">Audio</string>
+    <string name="video">Video</string>
+    <string name="altro">Altele</string>
+    <string name="seleziona_tutto">Selectează tot</string>
+    <string name="deseleziona_tutto">Deselectează tot</string>
+    <string name="nuova_cartella">Folder nou</string>
+    <string name="directory">Structură</string>
+    <string name="file">Fișier</string>
+    <string name="directories">directoare</string>
+    <string name="files">fișiere</string>
+    <string name="collegamento">Link</string>
+    <string name="seleziona_storage">Selectează unitate de stocare</string>
+    <string name="autorizzazione_memorie_esterne">Vă rog alegeți folderul rădăcină de pe memoria externă pentru acordarea permisiunilor</string>
+    <string name="nessuna_autorizzazione_esterna">Nu puteți scrie pe memoria externă până nu oferiți accesul</string>
+    <string name="tree_uri_extsd_non_valido">Folderul selectat este invalid! Trebuie selectat folderul rădăcină al memoriei externe.</string>
+    <string name="proprieta">Proprietate</string>
+    <string name="tipo2">Tip:</string>
+    <string name="contenuto">Conținut:</string>
+    <string name="percorso">Cale:</string>
+    <string name="dimensione2">Mărime:</string>
+    <string name="ultima_modifica">Data ultimei modificări:</string>
+    <string name="permessi">Permisiuni:</string>
+    <string name="lettura">accesez</string>
+    <string name="scrittura">scriu</string>
+    <string name="nascosto">Ascuns:</string>
+    <string name="bytes">bytes</string>
+    <string name="selezione_multipla">Selectare multiplă</string>
+    <string name="visibilita_modificata">Vizualizare modificată</string>
+    <string name="seleziona_destinazione">Selectarea destinației</string>
+    <string name="cartella_superiore">Folder superior</string>
+    <string name="salva">Salvare</string>
+    <string name="nome_file">Nume fișier:</string>
+    <string name="errore_salvataggio">Eroare la salvarea fișierului</string>
+    <string name="nessun_elemento_trovato">Nu există elemente</string>
+    <string name="album_pdf">PDF</string>
+    <string name="album_documenti">Documente</string>
+    <string name="album_fogli_calcolo">Tabele</string>
+    <string name="album_compressi">Fișiere arhivate</string>
+    <string name="album_testo">Text</string>
+    <string name="album_apk">APK</string>
+    <string name="aggiornamento_media_library">Actualizez librăria media…</string>
+    <string name="condividi">Partajare</string>
+    <string name="preferiti">Favorite</string>
+    <string name="aggiungi_a_preferiti">Adaugă la favorite</string>
+    <string name="domanda_rimuovi_preferito">Sigur doriți eliminarea %s de la favorite?</string>
+    <string name="preferito_non_esistente">%s nu mai există. Doriți eliminarea de la favorite?</string>
+    <string name="preferito_aggiunto">Adăugat la favorite</string>
+    <string name="nuovo">Nou</string>
+    <string name="seleziona_label_storage">Selectați unitatea de stocare cu eticheta %s</string>
+    <string name="impossibile_completare_operazione">Operațiunea nu se poate încheia</string>
+    <string name="esecuzione">execuția</string>
+    <string name="permesso_proprietario">Proprietar:</string>
+    <string name="permesso_gruppo">Grup:</string>
+    <string name="permesso_altro">Altele:</string>
+    <string name="modifica">Editare</string>
+    <string name="nuovo_file">Fișier nou</string>
+    <string name="file_creato_con_successo">Fișier creat cu succes</string>
+    <string name="impossibile_creare_file">Nu poate fi creat fișier</string>
+    <string name="impossibile_riprodurre">Nu poate fi redat fișierul!</string>
+    <string name="storage_to_scan">Alegeți unitatea de stocare pentru scanare:</string>
+    <string name="scansione_media_library_terminata">Scanarea librăriei media completă</string>
+    <string name="no_smb_to_ftp">Nu se poate copia de pe un server SMB pe un server FTP</string>
+    <string name="no_ftp_to_smb">Nu se poate copia de pe un server FTP pe un server SMB</string>
+    <string name="annullamento_operazione">Anulare operație…</string>
+    <string name="troppi_elementi_da_gestire">Prea multe elemente simultan</string>
+    <string name="storages">Unități de stocare:</string>
+    <string name="notif_id_operazioni_varie">Operațiune încheiată</string>
+    <string name="notif_id_operazioni_backgroung">Operațiuni în fundal</string>
+    <string name="operazione_terminata">Operațiune încheiată</string>
+    <string name="configura_widget">Configurare widget</string>
+    <string name="crea_collegamento">Link către fișier</string>
+    <string name="aggiungi_collegamento_home">Adaugă link pe ecranul principal</string>
+    <string name="elemento_non_trovato">Elementul nu poate fi găsit</string>
+
+    <!-- Functions -->
+    <string name="egal_zip_viewer">Vizualizare cu Egal Zip</string>
+    <string name="egal_salva_file">Egal Salvează Fișier</string>
+    <string name="egal_text_editor">Egal Editor Text</string>
+    <string name="egal_image_viewer">Egal Vizualizare Imagine</string>
+    <string name="egal_music_player">Egal Redare Audio</string>
+
+    <!-- Zip -->
+    <string name="zip_explorer">Explorator Zip</string>
+    <string name="estrai_archivio">Extragere arhivă</string>
+    <string name="estrazione">Extragere</string>
+    <string name="estrazione_in_corso">Dezarhivarea %s în curs…</string>
+    <string name="files_non_estrati">A apărut o eroare la extragerea fișierelor</string>
+    <string name="files_estratti">Extragere cu succes</string>
+    <string name="archivio_non_valido">Conținutul arhivei nu poate fi accesat</string>
+    <string name="compressione">Comprimare</string>
+    <string name="compressione_in_corso">Comprimarea %s în curs…</string>
+    <string name="files_non_compressi">A apărut o eroare pe timpul comprimării fișierului</string>
+    <string name="files_compressi">Comprimare finalizată cu succes</string>
+
+    <!-- Text Editor -->
+    <string name="impossibile_leggere_file">Fișierul nu poate fi citit</string>
+    <string name="dimensione_testo">Dimensiune text</string>
+    <string name="ricerca">Căutare</string>
+    <string name="file_salvato">Fișier salvat cu succes</string>
+    <string name="salva_con_nome">Salvați cu numele</string>
+    <string name="chiudere_senza_salvare">Doriți închiderea fișierului fără să-l salvați?</string>
+    <string name="non_salvare">Nu salva</string>
+    <string name="salvataggio_in_corso">Salvare în curs…</string>
+    <string name="occorrenza_non_trovata">Ocurența nu a fost găsită</string>
+
+    <!-- Image viewer -->
+    <string name="ruota_destra">Rotește spre dreapta</string>
+    <string name="ruota_sinistra">Rotește spre stânga</string>
+    <string name="imposta_come_sfondo">Setați ca fundal</string>
+    <string name="impostare_come_sfondo">Vreți să setați această imagine ca fundal?</string>
+    <string name="sfondo_impostato">Fundalul a fost setat</string>
+    <string name="impossibile_visualizzare_immagine">Nu se poate vizualiza imaginea</string>
+    <string name="nessuna_immagine">Nicio imagine de afișat</string>
+    <string name="presentazione">Prezentare</string>
+    <string name="stop">Oprește</string>
+    <string name="presentazione_interrotta">Prezentarea a fost întreruptă</string>
+
+    <!-- Music Player -->
+    <string name="playlist">Listă de redare</string>
+    <string name="nessun_file_audio">Niciun fișier audio pentru redare</string>
+    <string name="aggiungi_a_playlist">Adaugă la lista de redare</string>
+    <string name="salva_playlist">Salvează lista de redare</string>
+    <string name="rimuovi_tutto">Eliminați tot</string>
+    <string name="shuffle">În ordine aleatorie</string>
+    <string name="repeat_mode">Mod repetare</string>
+    <string name="repeat_none">Nimic</string>
+    <string name="repeat_all">Tot</string>
+    <string name="repeat_track">Pistă</string>
+
+    <!-- Settings -->
+    <string name="impostazioni_generali">Setări generale</string>
+    <string name="lingua">Limbă</string>
+    <string name="reset_app_titolo">Resetare aplicație</string>
+    <string name="reset_app_messaggio">Vreți să ștergeți toate setările?</string>
+    <string name="avanzate">Avansat</string>
+    <string name="root_explorer">Explorare folder rădăcină</string>
+    <string name="root_explorer_descrizione">Explorează fișierele cu drept de administrator</string>
+    <string name="mostra_anteprime">Arată iconuri</string>
+    <string name="mostra_anteprime_descrizione">Afișează previzualizarea unui fișier dacă este posibil</string>
+    <string name="mostra_nascosti">Arată fișierele ascunse</string>
+    <string name="mostra_nascosti_descrizione">Arată fișierele precedate de simbolul \".\"</string>
+    <string name="no_permessi_root">Acest dispozitiv nu are permisiuni de administrator</string>
+    <string name="associazione_files_descrizione">Administrează asocierea aplicațiilor/fișierelor</string>
+    <string name="reset_app_descrizione">Restaurează aplicația la setările inițiale</string>
+    <string name="giorni_recenti_descrizione">Numărul de zile utilizate la căutarea fișierelor recente</string>
+    <string name="ordina_download_per_data">Sortează descărcările după dată</string>
+    <string name="ordina_download_per_data_descrizione">Sortează conținutul folderului \"Download\" întotdeauna după dată</string>
+    <string name="rescan_media_library">Re-scanați librăria media</string>
+    <string name="rescan_media_library_descrizione">Forțează re-scanarea librăriei media</string>
+    <string name="svuota_cache">Șterge cache-ul</string>
+    <string name="svuota_cache_descrizione">Elimină toate fișierele și previzualizările din cache-ul aplicației</string>
+    <string name="cache_cancellata">Cache-ul șters</string>
+    <string name="tema">Temă</string>
+    <string name="tema_chiaro">Temă luminoasă</string>
+    <string name="tema_scuro">Temă întunecată</string>
+
+    <!-- Tools -->
+    <string name="tools">Unelte</string>
+    <string name="tool_analisi_spazio_occupato">Analiza utilizării spațiului</string>
+    <string name="tool_cerca_file">Caută fișierele</string>
+    <string name="tool_backup_app">Arhivează aplicațiile (doar pentru administrator)</string>
+    <string name="analisi_cartella">Analiza folderului</string>
+    <string name="usa_caratteri_wildcard">Este posibilă utilizarea caracterelor speciale * și ?</string>
+    <string name="ignora_maiuscolo_minuscolo">Ignorați litere mari/mici</string>
+    <string name="cerca_in">Caută în:</string>
+    <string name="tipi">Tipuri:</string>
+    <string name="altri_parametri">Alți parametri:</string>
+    <string name="dimensione">Dimensiune:</string>
+    <string name="risultati_ricerca">Rezultatele căutării</string>
+    <string name="tutti">Tot</string>
+    <string name="nuova_ricerca">Căutare nouă</string>
+    <string name="apri_percorso">Deschide calea</string>
+    <string name="inserisci_nome_file">Introduceți numele fișierului</string>
+    <string name="controlla_parametri_inseriti">Verificați toți parametrii introduși!</string>
+    <string name="mostra_app_utente">Arată aplicațiile utilizatorului</string>
+    <string name="mostra_app_sistema">Arată aplicațiile de sistem</string>
+    <string name="app_utente">Aplicațiile utilizatorului</string>
+    <string name="app_sistema">Aplicațiile de sistem</string>
+    <string name="app_info">Info aplicații</string>
+    <string name="app_backup">Arhivă</string>
+    <string name="tool_mountpoints">Montare partiții (numai pt admin)</string>
+    <string name="tool_recenti">Fișiere recente</string>
+    <string name="recenti">Recente</string>
+    <string name="recenti_descrizione">Arată ultimele fișiere salvate</string>
+    <string name="mountpoint">Punct de montare partiție</string>
+    <string name="file_system">Sistem fișiere:</string>
+    <string name="giorni">Zile recente</string>
+    <string name="trova_files_duplicati">Găsește fișiere duplicat</string>
+    <string name="operazione_lunga">Această operațiune poate dura câteva minute</string>
+    <string name="cancella_selezionati">Șterge selecția</string>
+    <string name="nessun_elemento_selezionato">Nu sunt selecții</string>
+    <string name="avvia_ricerca">Caută</string>
+    <string name="ricerca_duplicati_in_corso">Căutare fișierelor duplicat în curs…</string>
+    <string name="mostra_risultati_duplicati">Atingeți pentru afișarea rezultatelor</string>
+    <string name="duplicati_trovati">%s fișiere duplicat găsite!</string>
+
+    <!-- Media Info -->
+    <string name="media_info">Info media</string>
+    <string name="media_no_info">Fără info</string>
+    <string name="media_risoluzione">Rezoluție:</string>
+    <string name="media_data">Data:</string>
+    <string name="media_formato">Format:</string>
+    <string name="media_dimensione">Dimensiune:</string>
+    <string name="media_percorso">Cale:</string>
+    <string name="media_rotazione">Rotire:</string>
+    <string name="media_latitudine">Latitudine GPS:</string>
+    <string name="media_longitudine">Longitudine GPS:</string>
+    <string name="media_localita">Locație:</string>
+    <string name="media_camera">Cameră:</string>
+    <string name="media_titolo">Titlu:</string>
+    <string name="media_artista">Artist:</string>
+    <string name="media_album">Album:</string>
+    <string name="media_genere">Gen:</string>
+    <string name="media_bitrate">Bitrate:</string>
+    <string name="media_track">Pistă:</string>
+    <string name="media_frame">Rată cadre:</string>
+    <string name="media_durata">Durată:</string>
+    <string name="media_anno">Anul:</string>
+
+    <!-- Apk info -->
+    <string name="apk_nome_app">Nume aplicație:</string>
+    <string name="apk_codice_versione">Cod versiune:</string>
+    <string name="apk_nome_versione">Nume versiune:</string>
+    <string name="apk_min_sdk">Min SDK:</string>
+    <string name="apk_target_sdk">SDK țintă:</string>
+    <string name="apk_package_name">Nume pachet:</string>
+    <string name="apk_installer">Soft instalare:</string>
+    <string name="apk_type">Tip:</string>
+    <string name="apk_system">Sistem</string>
+    <string name="apk_user">Utilizator</string>
+
+    <!-- Lan -->
+    <string name="rete_locale">Rețea locală</string>
+    <string name="esplora_rete_locale">Explorează rețeaua locală</string>
+    <string name="autenticazione">Autentificare</string>
+    <string name="user_password_errati">Nume utilizator sau parolă incorecte!</string>
+    <string name="username">Nume utilizator:</string>
+    <string name="password">Parolă:</string>
+    <string name="anonimo">Anonim</string>
+    <string name="salva_credenziali">Salvare date autentificare</string>
+    <string name="connessione_in_corso">Conexiune în curs…</string>
+    <string name="impossibile_connettersi">Nu reușesc conectarea la %s</string>
+    <string name="ricerca_in_corso">Caut…</string>
+    <string name="scaricare_il_file">Doriți descărcarea fișierului?</string>
+    <string name="file_scaricato_nella_cartella">Fișierul a fost descărcat în folderul %s</string>
+    <string name="apri_file">Deschide fișierul</string>
+    <string name="apri_cartella_destinazione">Deschide folderul destinație</string>
+
+    <!-- FTP -->
+    <string name="server_ftp">Server FTP</string>
+    <string name="ftp_descrizione">Gestionează serverele FTP</string>
+    <string name="tipo_ftp">FTP</string>
+    <string name="tipo_ftps">FTPS</string>
+    <string name="server">Serverul:</string>
+    <string name="porta">Portul:</string>
+    <string name="modo">Modul:</string>
+    <string name="modo_attivo">Activ</string>
+    <string name="modo_passivo">Pasiv</string>
+    <string name="codifica">Codare:</string>
+    <string name="nome_visualizzato">Nume afișat:</string>
+    <string name="opzionale">Opțional</string>
+    <string name="dati_server">Date server</string>
+    <string name="server_esistente">Serverul %s există deja</string>
+
+    <!-- About -->
+    <string name="crediti">Mulțumiri</string>
+    <string name="traduzioni">Traduceri</string>
+    <string name="sviluppato_da">Dezvoltat de %s</string>
+    <string name="icon_by">Iconul desenat de</string>
+
+    <!-- Backup -->
+    <string name="backup">Salvări de siguranță</string>
+    <string name="effettua_backup_impostazioni">Salvați setările de sistem</string>
+    <string name="ripristina_backup_impostazioni">Restaurați setările de sistem</string>
+    <string name="seleziona_file">Selectați fișierul</string>
+    <string name="backup_effettuato_con_successo">Copie de siguranță reușită</string>
+    <string name="errore_creazione_backup">Eroare la realizarea copiei de siguranță</string>
+    <string name="errore_ripristino_backup">Eroare la restaurarea copiei de siguranță</string>
+    <string name="ripristina_backup">Restaurează copia de siguranță</string>
+    <string name="ripristino_effettuato_con_successo">Restaurare reușită</string>
+
+    <!-- Appirater -->
+
+    <!-- Changelog -->
+
+    <!-- Update -->
+
+    <!-- Update notification -->
+
+
+</resources>

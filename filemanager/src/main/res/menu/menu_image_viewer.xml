@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/media_info"
+        android:orderInCategory="1"
+        android:title="@string/media_info"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/ruota_destra"
+        android:title="@string/ruota_destra"
+        android:orderInCategory="1"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/ruota_sinistra"
+        android:title="@string/ruota_sinistra"
+        android:orderInCategory="1"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/elimina"
+        android:orderInCategory="1"
+        android:title="@string/elimina"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/presentazione"
+        android:orderInCategory="1"
+        android:title="@string/presentazione"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/condividi"
+        android:orderInCategory="1"
+        android:title="@string/condividi"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/imposta_sfondo"
+        android:orderInCategory="1"
+        android:title="@string/imposta_come_sfondo"
+        app:showAsAction="never"/>
+
+</menu>

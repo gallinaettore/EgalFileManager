@@ -1,0 +1,407 @@
+<resources>
+
+    <!-- Main -->
+    <string name="app_name">Файловый менеджер Egal</string>
+    <string name="home">Главная</string>
+    <string name="impostazioni">Настройки</string>
+    <string name="about">О программе</string>
+    <string name="archivio_locale">Локальный архив</string>
+    <string name="memoria_interna">Внутренняя память</string>
+    <string name="memoria_esterna">Внешняя память</string>
+    <string name="root_directory">Корневая папка</string>
+    <string name="categorie">Категории</string>
+    <string name="categorie_immagini">Фотографии</string>
+    <string name="categorie_video">Видео</string>
+    <string name="categorie_audio">Аудио</string>
+    <string name="categorie_altro">Другое</string>
+    <string name="altri_percorsi_di_archiviazione">Прочие локации памяти</string>
+
+    <!-- Pro version -->
+
+    <!-- Sort -->
+    <string name="ordina_per">Сортировать по:</string>
+    <string name="ordina_per_nome">Имя</string>
+    <string name="ordina_per_dimensione">Размер</string>
+    <string name="ordina_per_data">Дата</string>
+    <string name="ordina_per_tipo">Тип</string>
+    <string name="ordina_per_elementi">Количество элементов</string>
+    <string name="ordina_per_percorso">Путь</string>
+    <string name="tipo_ordinamento">Тип сортировки:</string>
+    <string name="ordinamento_crescente">Восходящая</string>
+    <string name="ordinamento_decrescente">Нисходящая</string>
+    <string name="disponi">Упорядочить</string>
+    <string name="organizza_per">Упорядочить по</string>
+    <string name="organizza_per_cartella">Имя папки</string>
+    <string name="organizza_per_album">Название альбома</string>
+
+    <!-- Copy, paste, delete... -->
+    <string name="copia">Копировать</string>
+    <string name="taglia">Вырезать</string>
+    <string name="incolla">Вставить</string>
+    <string name="copia_in">Копировать в</string>
+    <string name="sposta_in">Переместить в</string>
+    <string name="origine">Исходное положение:</string>
+    <string name="destinazione">Место назначения:</string>
+    <string name="totale">Итого:</string>
+    <string name="spazio_insufficiente">Не хватает места!</string>
+    <string name="copia_in_corso">Идет копирование %s…</string>
+    <string name="elementi_negli_appunti">%s элементов в буфере обмена</string>
+    <string name="files_copiati">%s элементов успешно скопированы</string>
+    <string name="files_non_copiati">Ошибка копирования некоторых элементов:</string>
+    <string name="cartella_interna">Папка назначения находится внутри исходной папки!</string>
+    <string name="cancella_clipboard">Очистить буфер</string>
+    <string name="applica_a_tutti">Применить ко всем</string>
+    <string name="file_esistente">Файл %s уже имеется</string>
+    <string name="sovrascrivi">Перезаписать</string>
+    <string name="sovrascrivi_cartella">Папка %s уже имеется. Вы хотите перезаписать её содержимое?</string>
+    <string name="sovrascrivi_file">Файл %s уже имеется. Вы хотите перезаписать его?</string>
+    <string name="rinomina">Переименовать</string>
+    <string name="ignora">Пропустить</string>
+    <string name="elimina">Удалить</string>
+    <string name="eliminazione_in_corso">Выполняется удаление %s…</string>
+    <string name="conferma_eliminazione1">Вы действительно хотите удалить %s?</string>
+    <string name="conferma_eliminazione2">Вы действительно хотите удалить элементы %s?</string>
+    <string name="files_eliminati">%s элементов успешно удалены</string>
+    <string name="files_non_eliminati">Ошибка во время удаления некоторых элементов:</string>
+    <string name="operazione_annulata">Отменено!</string>
+    <string name="nome_non_valido">Имя некорректно!</string>
+    <string name="cartella_gia_esistente">Папка уже существует</string>
+    <string name="impossibile_creare_cartella">Невозможно создать папку</string>
+    <string name="cartella_creata">Папка успешно создана</string>
+    <string name="nuovo_nome">Новое имя</string>
+    <string name="files_rinominati">%s элементов успешно переименованы</string>
+    <string name="file_gia_presente">Файл уже существует</string>
+    <string name="files_non_rinominati">Не удалось переименовать следующие элементы:</string>
+    <string name="rinominazione_in_corso">Идет переименование %s…</string>
+    <string name="files_spostati">%s элементов успешно перемещены</string>
+    <string name="spostamento">Перемещение</string>
+    <string name="clipboard">Буфер обмена</string>
+    <string name="mostra_contentuto_clipboard">Показать содержимое буфера обмена</string>
+    <string name="clipboard_vuota">Буфер обмена пуст</string>
+
+    <!-- Other -->
+    <string name="cartella_vuota">Пустая папка</string>
+    <string name="permesso_lettura_scrittura">Требуется разрешение на чтение/запись файлов</string>
+    <string name="permessi_scheda_autorizzazioni">Перейдите на вкладку \"Разрешения\" и предоставьте требуемые разрешения.</string>
+    <string name="aggiorna">Обновить</string>
+    <string name="filtro">Фильтр</string>
+    <string name="elementi">элементы</string>
+    <string name="ordina">Выполнить сортировку</string>
+    <string name="lettura_dati_cartelle">Чтение данных папки…</string>
+    <string name="visualizzazione">Просмотр</string>
+    <string name="visualizzazione_lista">Список</string>
+    <string name="visualizzazione_lista_piccola">Маленький список</string>
+    <string name="visualizzazione_griglia">Сетка</string>
+    <string name="visualizzazione_anteprima">Миниатюры</string>
+    <string name="apri_con">Открыть с помощью</string>
+    <string name="apri_come">Открыть как</string>
+    <string name="usa_sempre_questa_app">Всегда использовать это приложение для открытия файлов данного типа</string>
+    <string name="associazione_files">Ассоциация файлов</string>
+    <string name="nessuna_associazione_files">Файлы не привязаны ни к одному приложению</string>
+    <string name="messaggio_cancellazione_associazione">Вы действительно хотите удалить эту ассоциацию?</string>
+    <string name="lettura_lista_applicazioni">Чтение списка приложений…</string>
+    <string name="testo">Текст</string>
+    <string name="immagine">Фото</string>
+    <string name="audio">Аудио</string>
+    <string name="video">Видео</string>
+    <string name="altro">Другое</string>
+    <string name="seleziona_tutto">Выбрать всё</string>
+    <string name="deseleziona_tutto">Снять все отметки</string>
+    <string name="nuova_cartella">Новая папка</string>
+    <string name="directory">Папка</string>
+    <string name="file">Файл</string>
+    <string name="directories">папки</string>
+    <string name="files">файлы</string>
+    <string name="collegamento">Ссылка</string>
+    <string name="seleziona_storage">Выбрать устройство хранения</string>
+    <string name="autorizzazione_memorie_esterne">Пожалуйста, выберите корневой каталог вашего внешнего устройства хранения для предоставления разрешений.</string>
+    <string name="nessuna_autorizzazione_esterna">Вы не можете сохранять информацию в своем внешнем устройстве, пока не предоставите разрешение.</string>
+    <string name="tree_uri_extsd_non_valido">Выбранная папка не действительна! Выберите корневую папку внешнего устройства.</string>
+    <string name="proprieta">Настройки</string>
+    <string name="tipo2">Тип:</string>
+    <string name="contenuto">Содержание:</string>
+    <string name="percorso">Путь:</string>
+    <string name="dimensione2">Размер:</string>
+    <string name="ultima_modifica">Последнее изменение:</string>
+    <string name="permessi">Права:</string>
+    <string name="lettura">чтение</string>
+    <string name="scrittura">запись</string>
+    <string name="nascosto">Скрыто:</string>
+    <string name="bytes">байт</string>
+    <string name="selezione_multipla">Множественное выделение</string>
+    <string name="visibilita_modificata">Отображение изменено</string>
+    <string name="seleziona_destinazione">Выберите папку назначения</string>
+    <string name="cartella_superiore">Родительский каталог</string>
+    <string name="salva">Сохранить</string>
+    <string name="nome_file">Имя файла:</string>
+    <string name="errore_salvataggio">Ошибка при сохранении файла</string>
+    <string name="nessun_elemento_trovato">Ни один элемент не найден</string>
+    <string name="album_pdf">PDF</string>
+    <string name="album_documenti">Документы</string>
+    <string name="album_fogli_calcolo">Электронные таблицы</string>
+    <string name="album_compressi">Сжатые файлы</string>
+    <string name="album_testo">Текст</string>
+    <string name="album_apk">APK</string>
+    <string name="aggiornamento_media_library">Обновление Media Library…</string>
+    <string name="condividi">Поделиться</string>
+    <string name="preferiti">Избранное</string>
+    <string name="aggiungi_a_preferiti">Добавить в избранное</string>
+    <string name="domanda_rimuovi_preferito">Вы действительно хотите удалить %s из избранного?</string>
+    <string name="preferito_non_esistente">%s больше не существует. Хотите удалить его из избранного?</string>
+    <string name="nuovo">Новый</string>
+    <string name="seleziona_label_storage">Выберите хранилище с меткой %s</string>
+    <string name="impossibile_completare_operazione">Невозможно завершить операцию</string>
+    <string name="esecuzione">выполнение</string>
+    <string name="permesso_proprietario">Владелец:</string>
+    <string name="permesso_gruppo">Группа:</string>
+    <string name="permesso_altro">Прочее:</string>
+    <string name="modifica">Редактировать</string>
+    <string name="nuovo_file">Новый файл</string>
+    <string name="file_creato_con_successo">Файл создан успешно</string>
+    <string name="impossibile_creare_file">Не удалось создать файл</string>
+    <string name="ripristina_predefiniti">Восстановить умолчания</string>
+    <string name="ripristinare_associazioni_predefinite">Вы действительно хотите восстановить ассоциации по умолчанию?</string>
+    <string name="preferito_aggiunto">Добавлено в понравившееся</string>
+    <string name="impossibile_riprodurre">Не удалось воспроизвести файл!</string>
+    <string name="storage_to_scan">Выберите хранилище для сканирования:</string>
+    <string name="scansione_media_library_terminata">Сканирование медиа-библиотеки завершено</string>
+    <string name="no_smb_to_ftp">Не удалось скопировать с SMB-сервера на FTP-сервер</string>
+    <string name="no_ftp_to_smb">Не удалось скопировать с FTP-сервер на SMB-сервера</string>
+    <string name="annullamento_operazione">Отменить операцию</string>
+    <string name="troppi_elementi_da_gestire">Слишком много файлов</string>
+    <string name="storages">Хранилища</string>
+    <string name="notif_id_operazioni_varie">Операция прошла успешно</string>
+    <string name="notif_id_operazioni_backgroung">Фоновые операции</string>
+    <string name="operazione_terminata">Операция прошла успешно</string>
+    <string name="configura_widget">Конфигурация виджета</string>
+    <string name="crea_collegamento">Ссылка на файл</string>
+    <string name="aggiungi_collegamento_home">Добавить ссылку на главную страницу</string>
+    <string name="elemento_non_trovato">Элемент не найден</string>
+
+    <!-- Function -->
+    <string name="egal_zip_viewer">Egal Zip Viewer</string>
+    <string name="egal_salva_file">Egal Save File</string>
+    <string name="egal_text_editor">Текстовый редактор Egal</string>
+    <string name="egal_image_viewer">Программа для просмотра изображений Egal</string>
+    <string name="egal_music_player">Музыкальный плеер Egal</string>
+
+    <!-- Zip -->
+    <string name="zip_explorer">Zip Explorer</string>
+    <string name="estrai_archivio">Извлечь файлы из архива</string>
+    <string name="estrazione">Извлечение</string>
+    <string name="estrazione_in_corso">Идет извлечение %s…</string>
+    <string name="files_non_estrati">Ошибка при извлечении файлов</string>
+    <string name="files_estratti">Извлечение успешно выполнено</string>
+    <string name="archivio_non_valido">Не удается прочитать содержимое архива</string>
+    <string name="compressione">Сжать</string>
+    <string name="compressione_in_corso">Идет сжатие %s…</string>
+    <string name="files_non_compressi">Ошибка во время сжатия файлов</string>
+    <string name="files_compressi">Сжатие успешно выполнено</string>
+
+    <!-- Text Editor -->
+    <string name="impossibile_leggere_file">Не удается прочесть файл</string>
+    <string name="dimensione_testo">Размер текста</string>
+    <string name="ricerca">Поиск</string>
+    <string name="occorrenza_non_trovata">Событие не найдено</string>
+    <string name="file_salvato">Файл успешно сохранен</string>
+    <string name="salva_con_nome">Сохранить под именем</string>
+    <string name="chiudere_senza_salvare">Вы хотите закрыть файл, не сохранив его?</string>
+    <string name="non_salvare">Не сохранять</string>
+    <string name="salvataggio_in_corso">Выполняется сохранение…</string>
+
+    <!-- Image Viewer -->
+    <string name="ruota_destra">Повернуть вправо</string>
+    <string name="ruota_sinistra">Повернуть влево</string>
+    <string name="imposta_come_sfondo">Установить в качестве обоев</string>
+    <string name="impostare_come_sfondo">Вы хотите установить это изображение в качестве обоев?</string>
+    <string name="sfondo_impostato">Установлены обои</string>
+    <string name="impossibile_visualizzare_immagine">Невозможно просмотреть изображение</string>
+    <string name="nessuna_immagine">Отсутствует изображение для показа</string>
+    <string name="presentazione">Презентация</string>
+    <string name="stop">Остановить</string>
+    <string name="presentazione_interrotta">Презентация была прервана</string>
+
+    <!-- Music Player -->
+    <string name="playlist">Плейлист</string>
+    <string name="nessun_file_audio">Нет аудиофайла для проигрывания</string>
+    <string name="aggiungi_a_playlist">Добавить в плейлист</string>
+    <string name="salva_playlist">Сохранить плейлист</string>
+    <string name="rimuovi_tutto">Убрать всё</string>
+    <string name="shuffle">В случайном порядке</string>
+    <string name="repeat_mode">Повтор трека</string>
+    <string name="repeat_none">Ничего</string>
+    <string name="repeat_all">Всё</string>
+    <string name="repeat_track">Трек</string>
+
+    <!-- Settings -->
+    <string name="impostazioni_generali">Основные настройки</string>
+    <string name="avanzate">Дополнительно</string>
+    <string name="lingua">Язык</string>
+    <string name="root_explorer">Root Explorer</string>
+    <string name="root_explorer_descrizione">Просматривайте файлы с root-доступом</string>
+    <string name="mostra_anteprime">Показать миниатюры</string>
+    <string name="mostra_anteprime_descrizione">Показать миниатюру файла, если доступна</string>
+    <string name="mostra_nascosti">Показать скрытые файлы</string>
+    <string name="mostra_nascosti_descrizione">Показать файлы, которым предшествует символ "."</string>
+    <string name="no_permessi_root">Это устройство не имеет разрешения к root-доступу.</string>
+    <string name="associazione_files_descrizione">Управляет ассоциацией файлов/приложением</string>
+    <string name="reset_app_titolo">Сброс программы</string>
+    <string name="reset_app_messaggio">Вы действительно хотите сбросить все настройки?</string>
+    <string name="reset_app_descrizione">Восстановление приложения до первоначальных настроек</string>
+    <string name="ordina_download_per_data">Сортировать загрузки по дате</string>
+    <string name="ordina_download_per_data_descrizione">Сортировать содержимое папки \"Загрузка\" всегда по дате</string>
+    <string name="rescan_media_library">Повторно сканировать медиа-библиотеку</string>
+    <string name="rescan_media_library_descrizione">Принудительно повторно сканировать медиа-библиотеку</string>
+    <string name="giorni_recenti_descrizione">Количество дней для использования в поиске недавних файлов</string>
+    <string name="svuota_cache">Очистить кэш</string>
+    <string name="svuota_cache_descrizione">Удаляет все файлы и эскизы изображений из кэша приложения</string>
+    <string name="cache_cancellata">Кэш очищен</string>
+    <string name="tema">Тема</string>
+    <string name="tema_chiaro">Светлая тема</string>
+    <string name="tema_scuro">Тёмная тема</string>
+
+    <!-- Tools -->
+    <string name="tools">Инструменты</string>
+    <string name="tool_analisi_spazio_occupato">Анализ использованой памяти</string>
+    <string name="tool_cerca_file">Поиск файлов</string>
+    <string name="tool_backup_app">Резервное копирование приложения (только корневая папка)</string>
+    <string name="analisi_cartella">Анализ папки</string>
+    <string name="ignora_maiuscolo_minuscolo">Игнорировать верхний/нижний регистр</string>
+    <string name="cerca_in">Искать в:</string>
+    <string name="tipi">Типы:</string>
+    <string name="altri_parametri">Другие параметры:</string>
+    <string name="dimensione">Размер:</string>
+    <string name="risultati_ricerca">Результаты поиска</string>
+    <string name="tutti">Все</string>
+    <string name="nuova_ricerca">Новый поиск</string>
+    <string name="apri_percorso">Открыть каталог</string>
+    <string name="inserisci_nome_file">Введите имя файла</string>
+    <string name="controlla_parametri_inseriti">Проверьте все введенные параметры!</string>
+    <string name="mostra_app_utente">Показать приложение пользователя</string>
+    <string name="mostra_app_sistema">Показать приложение системы</string>
+    <string name="app_utente">Приложения пользователя</string>
+    <string name="app_sistema">Приложения системы</string>
+    <string name="app_info">О приложении</string>
+    <string name="app_backup">Резервная копия</string>
+    <string name="trova_files_duplicati">Поиск дубликатов файлов</string>
+    <string name="operazione_lunga">Эта операция может занять несколько минут.</string>
+    <string name="cancella_selezionati">Удалить выбранное</string>
+    <string name="nessun_elemento_selezionato">Нет выбранных элементов</string>
+    <string name="avvia_ricerca">Начать поиск</string>
+    <string name="ricerca_duplicati_in_corso">Выполняется поиск дубликатов файлов…</string>
+    <string name="mostra_risultati_duplicati">Нажмите для вывода результатов</string>
+    <string name="duplicati_trovati">найдено %s дубликатов файлов!</string>
+    <string name="recenti">Недавние</string>
+    <string name="recenti_descrizione">Показать последние сохраненные файлы</string>
+    <string name="usa_caratteri_wildcard">Можно ли использовать подстановочные знаки * и ?</string>
+    <string name="tool_mountpoints">Точки монтирования (только корневая папка)</string>
+    <string name="tool_recenti">Недавние файлы</string>
+    <string name="mountpoint">Точка монтирования:</string>
+    <string name="file_system">Файловая система:</string>
+    <string name="giorni">Последние дни</string>
+
+    <!-- Media Info -->
+    <string name="media_info">Информация о носителе</string>
+    <string name="media_no_info">Данные не найдены</string>
+    <string name="media_risoluzione">Разрешение:</string>
+    <string name="media_data">Дата:</string>
+    <string name="media_formato">Формат:</string>
+    <string name="media_dimensione">Размер:</string>
+    <string name="media_percorso">Путь:</string>
+    <string name="media_rotazione">Вращение:</string>
+    <string name="media_latitudine">GPS, широта:</string>
+    <string name="media_longitudine">GPS, долгота:</string>
+    <string name="media_localita">Местонахождение:</string>
+    <string name="media_camera">Камера:</string>
+    <string name="media_titolo">Название:</string>
+    <string name="media_artista">Исполнитель:</string>
+    <string name="media_album">Альбом:</string>
+    <string name="media_genere">Жанр:</string>
+    <string name="media_bitrate">Скорость передачи данных:</string>
+    <string name="media_track">Номер:</string>
+    <string name="media_frame">Фотограммы:</string>
+    <string name="media_durata">Продолжительность:</string>
+    <string name="media_anno">Год:</string>
+
+    <!-- Apk info -->
+    <string name="apk_nome_app">Имя приложения:</string>
+    <string name="apk_codice_versione">Номер версии:</string>
+    <string name="apk_nome_versione">Имя версии:</string>
+    <string name="apk_min_sdk">Мин. SDK:</string>
+    <string name="apk_target_sdk">Целевой SDK:</string>
+    <string name="apk_package_name">Имя пакета:</string>
+    <string name="apk_type">Тип:</string>
+    <string name="apk_system">Система</string>
+    <string name="apk_user">Пользователь</string>
+    <string name="apk_installer">Установщик:</string>
+
+    <!-- Lan -->
+    <string name="autenticazione">Аутенфикация</string>
+    <string name="username">Имя пользователя:</string>
+    <string name="password">Пароль:</string>
+    <string name="rete_locale">Локальная сеть</string>
+    <string name="esplora_rete_locale">Исследовать локальную сеть</string>
+    <string name="user_password_errati">Неправильное имя пользователя или пароль!</string>
+    <string name="anonimo">Аноним</string>
+    <string name="salva_credenziali">Сохранить учетные данные</string>
+    <string name="connessione_in_corso">Выполняется соединение…</string>
+    <string name="impossibile_connettersi">Не удалось подключиться к %s</string>
+    <string name="ricerca_in_corso">Поиск…</string>
+    <string name="scaricare_il_file">Вы хотите скачать этот файл?</string>
+    <string name="file_scaricato_nella_cartella">Файл загружен в папку %s</string>
+    <string name="apri_file">Открыть файл</string>
+    <string name="apri_cartella_destinazione">Открыть папку назначения</string>
+
+    <!-- FTP -->
+    <string name="server_ftp">FTP-сервер</string>
+    <string name="ftp_descrizione">Управление FTP-серверами</string>
+    <string name="tipo_ftp">FTP</string>
+    <string name="tipo_ftps">FTPS</string>
+    <string name="server">Сервер:</string>
+    <string name="porta">Порт:</string>
+    <string name="modo">Режим:</string>
+    <string name="modo_attivo">Активный</string>
+    <string name="modo_passivo">Пассивный</string>
+    <string name="codifica">Кодировка:</string>
+    <string name="nome_visualizzato">Отображаемое имя:</string>
+    <string name="opzionale">Опция</string>
+    <string name="dati_server">Данные сервера</string>
+    <string name="server_esistente">Сервер %s уже существует</string>
+
+    <!-- About -->
+    <string name="crediti">Дисклеймер</string>
+    <string name="traduzioni">Переводы</string>
+    <string name="sviluppato_da">Разработано %s</string>
+    <string name="icon_by">Иконка по</string>
+
+    <!-- Backup -->
+    <string name="backup">Резервное копирование</string>
+    <string name="effettua_backup_impostazioni">Создать резервную копию настроек</string>
+    <string name="ripristina_backup_impostazioni">Восстановить настройки из резервной копии</string>
+    <string name="seleziona_file">Выбрать файл</string>
+    <string name="backup_effettuato_con_successo">Настройки успешно сохранены</string>
+    <string name="errore_creazione_backup">Ошибка создания резервной копии</string>
+    <string name="errore_ripristino_backup">Ошибка восстановления из резервной копии</string>
+    <string name="ripristina_backup">Восстановление из резервной копии</string>
+    <string name="ripristino_effettuato_con_successo">Настройки успешно восстановлены</string>
+
+    <!-- Changelog -->
+
+    <!-- Update -->
+
+    <!-- Update notification -->
+
+    <!-- unit of measurement (only symbols) -->
+    <string name="unit_byte">Б</string>
+    <string name="unit_kilobyte">кБ</string>
+    <string name="unit_megabyte">МБ</string>
+    <string name="unit_gigabyte">ГБ</string>
+    <string name="unit_terabyte">ТБ</string>
+    <string name="unit_pixel">пикселей</string>
+    <string name="unit_megapixel">мегапикселей</string>
+    <string name="unit_kbps">кбит/с</string>
+    <string name="text_size_sp">sp</string>
+
+    <!-- Appirater -->
+
+</resources>

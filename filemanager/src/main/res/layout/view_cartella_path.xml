@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:gravity="center_vertical"
+              android:minHeight="@dimen/min_altezza_pathbar"
+              android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/textview_nome_cartella"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:minWidth="@dimen/lunghezza_min_cartella_path"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/testo_path"
+        android:typeface="normal"
+        android:background="@drawable/pathbar_selector"
+        android:focusable="true"
+        android:clickable="true"
+        tools:text="Nome album"/>
+
+    <ImageView
+        android:id="@+id/imageview_chevron"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/chevron_path"/>
+</LinearLayout>

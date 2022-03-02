@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/shuffle"
+        android:checkable="true"
+        android:orderInCategory="100"
+        android:title="@string/shuffle"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/repeat_mode"
+        android:orderInCategory="100"
+        android:title="@string/repeat_mode"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/media_info"
+        android:orderInCategory="100"
+        android:title="@string/media_info"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/salva_playlist"
+        android:title="@string/salva_playlist"
+        android:orderInCategory="100"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/rimuovi_tutto"
+        android:title="@string/rimuovi_tutto"
+        android:orderInCategory="100"
+        app:showAsAction="never"/>
+
+</menu>

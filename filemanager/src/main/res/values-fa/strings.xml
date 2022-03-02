@@ -1,0 +1,407 @@
+<resources>
+
+    <!-- Main -->
+    <string name="app_name">مدیریت پروندهای ایگال/Egal</string>
+    <string name="home">خانه</string>
+    <string name="impostazioni">تنظیمات</string>
+    <string name="about">درباره</string>
+    <string name="archivio_locale">حافظه محلی</string>
+    <string name="memoria_interna">حافظه داخلی</string>
+    <string name="memoria_esterna">حافظه خارجی</string>
+    <string name="root_directory">پوشه ریشه</string>
+    <string name="categorie">دسته بندی ها</string>
+    <string name="categorie_immagini">عکس ها</string>
+    <string name="categorie_video">تصویری</string>
+    <string name="categorie_audio">صوتی</string>
+    <string name="categorie_altro">دیگر</string>
+    <string name="altri_percorsi_di_archiviazione">دیگر حافظه های محلی</string>
+
+    <!-- Pro version -->
+
+    <!-- Sort -->
+    <string name="ordina_per">مرتب کردن با:</string>
+    <string name="ordina_per_nome">نام</string>
+    <string name="ordina_per_dimensione">اندازه</string>
+    <string name="ordina_per_data">تاریخ</string>
+    <string name="ordina_per_tipo">نوع</string>
+    <string name="ordina_per_elementi">شماره موارد</string>
+    <string name="ordina_per_percorso">مسیر</string>
+    <string name="tipo_ordinamento">نوع مرتب سازی:</string>
+    <string name="ordinamento_crescente">ترتیب صعودی</string>
+    <string name="ordinamento_decrescente">ترتیب نزولی</string>
+    <string name="disponi">چیدمان</string>
+    <string name="organizza_per">چیدمان با</string>
+    <string name="organizza_per_cartella">نام پوشه</string>
+    <string name="organizza_per_album">نام آلبوم</string>
+
+    <!-- Copy, paste, delete... -->
+    <string name="copia">رونوشت/کپی</string>
+    <string name="taglia">برش/کات</string>
+    <string name="incolla">جانمایی</string>
+    <string name="copia_in">رونوشت به</string>
+    <string name="sposta_in">انتقال به</string>
+    <string name="origine">منبع</string>
+    <string name="destinazione">مقصد:</string>
+    <string name="totale">مجموع:</string>
+    <string name="spazio_insufficiente">فضای ناکافی!</string>
+    <string name="copia_in_corso">پیشرفت %s رونوشت …</string>
+    <string name="elementi_negli_appunti">تعداد %s مورد در حافظه موقت</string>
+    <string name="files_copiati">رونوشت %s مورد با موفقیت کامل شد</string>
+    <string name="files_non_copiati">خطا در رونوشت بعضی از موارد</string>
+    <string name="cartella_interna">پوشه مقصد در داخل پوشه منبع قرار دارد!</string>
+    <string name="clipboard">حافظه موقت</string>
+    <string name="mostra_contentuto_clipboard">نمایش محتوای حافظه موقت</string>
+    <string name="cancella_clipboard">خالی کردن حافظه موقت</string>
+    <string name="clipboard_vuota">حافظه موقت خالی است</string>
+    <string name="applica_a_tutti">بکار زدن به همه</string>
+    <string name="file_esistente">فایل %s وجود دارد</string>
+    <string name="sovrascrivi">بازنویسی</string>
+    <string name="sovrascrivi_cartella">پوشه %s وجود دارد.آیا شما میخواهید محتوای آنرا بازنویسی نمایید؟</string>
+    <string name="sovrascrivi_file">فایل %s وجود دارد.آیا شما میخواهید آنرا بازنویسی نمایید؟</string>
+    <string name="rinomina">تغییر نام</string>
+    <string name="ignora">نادیده گرفتن</string>
+    <string name="elimina">پاک کردن</string>
+    <string name="eliminazione_in_corso">پاک کردن %s در حال پیشرفت…</string>
+    <string name="conferma_eliminazione1">آیا شما واقعا میخواهید %s را پاک کنید؟</string>
+    <string name="conferma_eliminazione2">آیا شما واقعا میخواهید مورد %s را پاک کنید؟</string>
+    <string name="files_eliminati">تعداد%s مورد با موفقیت پاک شد</string>
+    <string name="files_non_eliminati">در طی پاک کردن بعضی از موارد خطایی روی داد :</string>
+    <string name="operazione_annulata">عملیات متوقف شد!</string>
+    <string name="nome_non_valido">نام درست نمی باشد!</string>
+    <string name="cartella_gia_esistente">پوشه وجود دارد</string>
+    <string name="impossibile_creare_cartella">نتوانست پوشه را بسازد</string>
+    <string name="cartella_creata">پوشه با موفقیت ساخته شد</string>
+    <string name="nuovo_nome">نام جدید</string>
+    <string name="files_rinominati">موارد %s با موفقیت تغییر نام داده شد</string>
+    <string name="file_gia_presente">فایل وجود دارد</string>
+    <string name="files_non_rinominati">تغییر نام این موارد غیر ممکن است:</string>
+    <string name="rinominazione_in_corso">تغییر نام %s در حال پیشرفت</string>
+    <string name="files_spostati">تعداد %s مورد با موفقیت انتقال یافت</string>
+    <string name="spostamento">تغییر محل مجدد</string>
+
+    <!-- Other -->
+    <string name="cartella_vuota">پوشه خالی است</string>
+    <string name="permesso_lettura_scrittura">مجوز دسترسی خواندن/نوشتن فایل ها نیاز است</string>
+    <string name="permessi_scheda_autorizzazioni">به برگه \'مجوزها\'بروید و اجازه دسترسی مورد نیاز را بدهید.</string>
+    <string name="aggiorna">بروزرسانی</string>
+    <string name="filtro">پالایش</string>
+    <string name="elementi">موارد</string>
+    <string name="ordina">ترتیب</string>
+    <string name="lettura_dati_cartelle">خواندن اطلاعات پوشه…</string>
+    <string name="visualizzazione">تجسم</string>
+    <string name="visualizzazione_lista">فهرست</string>
+    <string name="visualizzazione_lista_piccola">فهرستک</string>
+    <string name="visualizzazione_griglia">مشبک</string>
+    <string name="visualizzazione_anteprima">پیش نمایش</string>
+    <string name="apri_con">باز کردن با</string>
+    <string name="apri_come">باز کردن به عنوان</string>
+    <string name="usa_sempre_questa_app">همیشه از این برنامه برای باز کردن این نوع فایل استفاده کن</string>
+    <string name="associazione_files">ارتباطات فایل</string>
+    <string name="nessuna_associazione_files">ارتباطات فایل پیدا نشد</string>
+    <string name="ripristina_predefiniti">برگردان به حالت پیشفرض</string>
+    <string name="ripristinare_associazioni_predefinite">آیا شما واقعاً میخواهید ارتباطات پیشفرض را برگردان کنید؟</string>
+    <string name="messaggio_cancellazione_associazione">آیا شما واقعاً میخواهید این ارتباطات را پاک کنید؟</string>
+    <string name="lettura_lista_applicazioni">خواندن فهرست برنامه ها…</string>
+    <string name="testo">نوشتاری</string>
+    <string name="immagine">عکس</string>
+    <string name="audio">صوتی</string>
+    <string name="video">تصویری</string>
+    <string name="altro">دیگر</string>
+    <string name="seleziona_tutto">انتخاب همه</string>
+    <string name="deseleziona_tutto">از انتخاب در آوردن همه</string>
+    <string name="nuova_cartella">پوشه جدید</string>
+    <string name="directory">شاخه/دایرکتوری</string>
+    <string name="file">فایل</string>
+    <string name="directories">شاخه ها</string>
+    <string name="files">فایل ها</string>
+    <string name="collegamento">پیوند/لینک</string>
+    <string name="seleziona_storage">انتخاب حافظه</string>
+    <string name="autorizzazione_memorie_esterne">لطفاً شاخه ریشه از حافظه خارجی تان را انتخاب کنید تا مجوزها داده شوند.</string>
+    <string name="nessuna_autorizzazione_esterna">شما نمیتوانید بروی حافظه خارجی تان بنویسید تا مجوز ندهید.</string>
+    <string name="tree_uri_extsd_non_valido">پوشه انتخابی معتبر نمی‌باشد!شما باید پوشه ریشه از حافظه خارجی را انتخاب نمایید.</string>
+    <string name="proprieta">ویژگی</string>
+    <string name="tipo2">نوع:</string>
+    <string name="contenuto">محتوا:</string>
+    <string name="percorso">مسیر:</string>
+    <string name="dimensione2">اندازه:</string>
+    <string name="ultima_modifica">آخرین تغییرات:</string>
+    <string name="permessi">مجوزها:</string>
+    <string name="lettura">در حال خواندن</string>
+    <string name="scrittura">در حال نوشتن</string>
+    <string name="nascosto">مخفی:</string>
+    <string name="bytes">بایت</string>
+    <string name="selezione_multipla">انتخاب چندگانه</string>
+    <string name="visibilita_modificata">تغییر وضعیت دید</string>
+    <string name="seleziona_destinazione">انتخاب مقصد</string>
+    <string name="cartella_superiore">پوشه بالا دست</string>
+    <string name="salva">ذخیره</string>
+    <string name="nome_file">نام فایل:</string>
+    <string name="errore_salvataggio">خطا در ذخیره کردن فایل</string>
+    <string name="nessun_elemento_trovato">مورد پیدا نشد</string>
+    <string name="album_pdf">PDF پی دی اف</string>
+    <string name="album_documenti">اسناد</string>
+    <string name="album_fogli_calcolo">صفحه گسترده</string>
+    <string name="album_compressi">فشرده سازی فایل</string>
+    <string name="album_testo">نوشتاری</string>
+    <string name="album_apk">APK اپ اندروید</string>
+    <string name="aggiornamento_media_library">بروزرسانی کتابخانه رسانه ای</string>
+    <string name="condividi">اشتراک</string>
+    <string name="preferiti">موارد دلخواه</string>
+    <string name="aggiungi_a_preferiti">اضافه به موارد دلخواه</string>
+    <string name="domanda_rimuovi_preferito">آیا شما واقعاً میخواهید %s از موارد دلخواه پاک شود؟</string>
+    <string name="preferito_non_esistente">این%s دیگر وجود ندارد.آیا می خواهید آن را از موارد دلخواه حذف کنید؟</string>
+    <string name="preferito_aggiunto">به موارد دلخواه اضافه شد</string>
+    <string name="nuovo">جدید</string>
+    <string name="seleziona_label_storage">انتخاب حافظه با برچسب %s</string>
+    <string name="impossibile_completare_operazione">کامل کردن عملیات مقدور نیست</string>
+    <string name="esecuzione">اجرایی</string>
+    <string name="permesso_proprietario">مالک:</string>
+    <string name="permesso_gruppo">گروه:</string>
+    <string name="permesso_altro">دیگر:</string>
+    <string name="modifica">ویرایش</string>
+    <string name="nuovo_file">فایل جدید</string>
+    <string name="file_creato_con_successo">فایل با موفقیت ایجاد شد</string>
+    <string name="impossibile_creare_file">فایل ایجاد نشد</string>
+    <string name="impossibile_riprodurre">پخش فایل مقدور نیست!</string>
+    <string name="storage_to_scan">انتخاب حافظه جهت پوییدن:</string>
+    <string name="scansione_media_library_terminata">پویش کتابخانه رسانه ای کامل شد</string>
+    <string name="no_smb_to_ftp">رونوشت از یک سرور SMB به یک سرور FTP مقدور نمیباشد</string>
+    <string name="no_ftp_to_smb">رونوشت از یک سرورFTP به یک سرور SMB مقدور نمیباشد</string>
+    <string name="annullamento_operazione">لغو عملیات…</string>
+    <string name="troppi_elementi_da_gestire">مدیریت موارد بسیار زیاد</string>
+    <string name="storages">حافظه ها:</string>
+    <string name="notif_id_operazioni_varie">عملیات کامل شد</string>
+    <string name="notif_id_operazioni_backgroung">عملیات در حال اجرا در پس زمینه</string>
+    <string name="operazione_terminata">عملیات کامل شد</string>
+    <string name="configura_widget">پیکربندی ویجت</string>
+    <string name="crea_collegamento">پیوند به پرونده</string>
+    <string name="aggiungi_collegamento_home">پیوند را به صفحه اصلی اضافه کنید</string>
+    <string name="elemento_non_trovato">عنصر یافت نشد</string>
+
+    <!-- Functions -->
+    <string name="egal_zip_viewer">نمایشگر زیپ/Zip ایگال</string>
+    <string name="egal_salva_file">ذخیره فایل ایگال</string>
+    <string name="egal_text_editor">ویرایشگر متن ایگال</string>
+    <string name="egal_image_viewer">نمایشگر تصویر ایگال</string>
+    <string name="egal_music_player">پخش کننده موسیقی ایگال</string>
+
+    <!-- Zip -->
+    <string name="zip_explorer">جستجو گر زیپ/Zip</string>
+    <string name="estrai_archivio">استخراج بایگانی</string>
+    <string name="estrazione">استخراج</string>
+    <string name="estrazione_in_corso">استخراج %s در حال پیشرفت…</string>
+    <string name="files_non_estrati">طی استخراج فایل ها خطایی روی داد</string>
+    <string name="files_estratti">استخراج موفق</string>
+    <string name="archivio_non_valido">محتویات بایگانی قابل خواندن نیست</string>
+    <string name="compressione">فشرده سازی</string>
+    <string name="compressione_in_corso">فشرده سازی %s در حال پیشرفت…</string>
+    <string name="files_non_compressi">در طی فشرده سازی فایل خطایی روی داد</string>
+    <string name="files_compressi">فشرده سازی موفقیت آمیز بود</string>
+
+    <!-- Text Editor -->
+    <string name="impossibile_leggere_file">خواندن فایل مقدور نیست</string>
+    <string name="dimensione_testo">اندازه متن</string>
+    <string name="ricerca">جستجو</string>
+    <string name="occorrenza_non_trovata">رخداد یافت نشد</string>
+    <string name="file_salvato">فایل با موفقیت ذخیره شد</string>
+    <string name="salva_con_nome">ذخیره با نام</string>
+    <string name="chiudere_senza_salvare">آیا شما میخواهید بدون ذخیره فایل،آن را ببندید؟</string>
+    <string name="non_salvare">ذخیره نشد</string>
+    <string name="salvataggio_in_corso">در حال ذخیره….</string>
+
+    <!-- Image viewer -->
+    <string name="ruota_destra">چرخش به راست</string>
+    <string name="ruota_sinistra">چرخش به چپ</string>
+    <string name="imposta_come_sfondo">استفاده بعنوان تصویر زمینه</string>
+    <string name="impostare_come_sfondo">آیا شما میخواهید این عکس را بعنوان تصویر زمینه تنظیم کنید؟</string>
+    <string name="sfondo_impostato">تصویر زمینه تنظیم شده است</string>
+    <string name="impossibile_visualizzare_immagine">مشاهده تصویر امکان پذیر نیست</string>
+    <string name="nessuna_immagine">تصویری برای نمایش وجود ندارد</string>
+    <string name="presentazione">ارایه</string>
+    <string name="stop">متوقف کردن</string>
+    <string name="presentazione_interrotta">ارایه قطع شد</string>
+
+    <!-- Music Player -->
+    <string name="playlist">لیست پخش</string>
+    <string name="nessun_file_audio">فایل صوتی برای پخش موجود نیست</string>
+    <string name="aggiungi_a_playlist">اضافه به لیست پخش</string>
+    <string name="salva_playlist">ذخیره لیست پخش</string>
+    <string name="rimuovi_tutto">حذف همه</string>
+    <string name="shuffle">انتخاب تصادفی</string>
+    <string name="repeat_mode">حالت تکرار</string>
+    <string name="repeat_none">هیچ یک</string>
+    <string name="repeat_all">همه</string>
+    <string name="repeat_track">تک آهنگ</string>
+
+    <!-- Settings -->
+    <string name="impostazioni_generali">تنظیمات اصلی</string>
+    <string name="avanzate">پیشرفته</string>
+    <string name="lingua">زبان</string>
+    <string name="root_explorer">جستجوگر ریشه»Root</string>
+    <string name="root_explorer_descrizione">استفاده از مجوزهای ریشه» Root در جستجوی فایل ها</string>
+    <string name="mostra_anteprime">نمایش تصاویر کوچک</string>
+    <string name="reset_app_titolo">بازنشانی اپ/app</string>
+    <string name="reset_app_messaggio">آیا می خواهید همه تنظیمات را بازنشانی کنید؟</string>
+    <string name="tema">تم/زمینه</string>
+    <string name="tema_chiaro">تم/زمینه روشن</string>
+    <string name="tema_scuro">تم/زمینه تاریک</string>
+    <string name="mostra_anteprime_descrizione">دیدن پیش نمایش فایل در صورت دسترس بودن</string>
+    <string name="mostra_nascosti">دیدن فایلهای مخفی</string>
+    <string name="mostra_nascosti_descrizione">نمایش فایلها با نماد \".\"قبل آن</string>
+    <string name="no_permessi_root">این دستگاه مجوز دسترسی به روت ندارد.</string>
+    <string name="associazione_files_descrizione">مدیریت ارتباطات/برنامه فایل</string>
+    <string name="reset_app_descrizione">بازیابی تنظیمات اولیه برنامه</string>
+    <string name="giorni_recenti_descrizione">تعداد روزهایی که می توانید در جستجوی پرونده های اخیر استفاده کنید</string>
+    <string name="ordina_download_per_data">مرتب سازی دانلودها بوسیله تاریخ</string>
+    <string name="ordina_download_per_data_descrizione">مرتب سازی پوشه\"دانلود\"همیشه بر اساس تاریخ</string>
+    <string name="rescan_media_library">اسکن مجدد کتابخانه رسانه ای</string>
+    <string name="rescan_media_library_descrizione">مجدداً اسکن مجدد کتابخانه رسانه ای را انجام دهید</string>
+    <string name="svuota_cache">پاک کردن حافظه پنهان</string>
+    <string name="svuota_cache_descrizione">حذف کردن همه فایلها و پیش‌نمایش ها در حافظه پنهان برنامه/ها</string>
+    <string name="cache_cancellata">حافظه پنهان پاک شد</string>
+
+    <!-- Tools -->
+    <string name="recenti">اخیر</string>
+    <string name="tools">ابزارها</string>
+    <string name="tool_analisi_spazio_occupato">تجزیه و تحلیل حافظه استفاده شده</string>
+    <string name="tool_cerca_file">جستجوی فایلها</string>
+    <string name="tool_backup_app">پشتیبان گیری از برنامه ها</string>
+    <string name="analisi_cartella">پوشه تجزیه و تحلیل ها</string>
+    <string name="usa_caratteri_wildcard">آیا میتوان از کاراکترهای * wildcard  استفاده کرد؟</string>
+    <string name="ignora_maiuscolo_minuscolo">نادیده گرفتن مورد</string>
+    <string name="cerca_in">جستجو در:</string>
+    <string name="tipi">نوع ها:</string>
+    <string name="altri_parametri">پارامترهای دیگر</string>
+    <string name="dimensione">اندازه:</string>
+    <string name="risultati_ricerca">نتایج جستجو</string>
+    <string name="tutti">همه</string>
+    <string name="nuova_ricerca">جستجو ی جدید</string>
+    <string name="apri_percorso">انتخاب مسیر</string>
+    <string name="inserisci_nome_file">وارد کردن نام فایل</string>
+    <string name="controlla_parametri_inseriti">بررسی همه پارامترهای وارد شده!</string>
+    <string name="mostra_app_utente">نمایش برنامه های کاربر</string>
+    <string name="mostra_app_sistema">نمایش برنامه های سیستم</string>
+    <string name="app_utente">برنامه‌های کاربر</string>
+    <string name="app_sistema">برنامه‌های سیستم</string>
+    <string name="app_info">اطلاعات برنامه</string>
+    <string name="app_backup">پشتیبان</string>
+    <string name="tool_mountpoints">دسترسی و پردازش پوشه و فایل های نقطه ی نصب(فقط در صورت روت)</string>
+    <string name="tool_recenti">فایل های اخیر</string>
+    <string name="recenti_descrizione">نمایش آخرین فایلهای ذخیره شده</string>
+    <string name="mountpoint">نقطه ی نصبMountpoint:</string>
+    <string name="file_system">فایل سیستم:</string>
+    <string name="giorni">روزهای اخیر</string>
+    <string name="trova_files_duplicati">پیدا کردن فایلهای تکراری</string>
+    <string name="operazione_lunga">این عملیات ممکن است چندین دقیقه طول بکشد</string>
+    <string name="cancella_selezionati">پاک کردن انتخاب شده ها</string>
+    <string name="nessun_elemento_selezionato">هیچ موردی انتخاب نشده</string>
+    <string name="avvia_ricerca">شروع جستجو</string>
+    <string name="ricerca_duplicati_in_corso">جستجوی فایلهای تکراری در حال انجام…</string>
+    <string name="mostra_risultati_duplicati">برای نمایش نتایج ضربه بزنید</string>
+    <string name="duplicati_trovati">تعداد %s فایل تکراری پیدا شد!</string>
+
+    <!-- Media Info -->
+    <string name="media_info">اطلاعات رسانه</string>
+    <string name="media_no_info">اطلاعاتی پیدا نشد</string>
+    <string name="media_risoluzione">وضوح:</string>
+    <string name="media_data">تاریخ:</string>
+    <string name="media_formato">قالب بندی-فرمت:</string>
+    <string name="media_dimensione">اندازه:</string>
+    <string name="media_percorso">مسیر:</string>
+    <string name="media_rotazione">چرخش:</string>
+    <string name="media_latitudine">عرض جغرافیایی GPS:</string>
+    <string name="media_longitudine">طول جغرافیایی GPS:</string>
+    <string name="media_localita">مکان/محل:</string>
+    <string name="media_camera">دوربین:</string>
+    <string name="media_titolo">عنوان:</string>
+    <string name="media_artista">هنرمند:</string>
+    <string name="media_album">آلبوم:</string>
+    <string name="media_genere">ژانر/دسته:</string>
+    <string name="media_bitrate">بیت ریت:</string>
+    <string name="media_track">آهنگ/ترک:</string>
+    <string name="media_frame">نرخ فریم تصویر:</string>
+    <string name="media_durata">مدت زمان:</string>
+    <string name="media_anno">سال:</string>
+
+    <!-- Apk info -->
+    <string name="apk_nome_app">نام برنامه:</string>
+    <string name="apk_codice_versione">کد نسخه:</string>
+    <string name="apk_nome_versione">نام نسخه:</string>
+    <string name="apk_min_sdk">پایین ترینSDK:</string>
+    <string name="apk_target_sdk">باSDKهدف:</string>
+    <string name="apk_package_name">نام بسته:</string>
+    <string name="apk_installer">نصب کننده:</string>
+    <string name="apk_type">نوع:</string>
+    <string name="apk_system">سیستم</string>
+    <string name="apk_user">کاربر</string>
+
+    <!-- Lan -->
+    <string name="rete_locale">شبکه محلی</string>
+    <string name="esplora_rete_locale">جستجو شبکه محلی</string>
+    <string name="autenticazione">احراز هویت</string>
+    <string name="user_password_errati">نام کاربری یا رمز عبور اشتباه است!</string>
+    <string name="username">نام کاربری:</string>
+    <string name="password">رمز عبور:</string>
+    <string name="anonimo">ناشناس</string>
+    <string name="salva_credenziali">ذخیره اعتبار نامه</string>
+    <string name="connessione_in_corso">در حال انجام اتصال…</string>
+    <string name="impossibile_connettersi">قادر به اتصال به %s نیست</string>
+    <string name="ricerca_in_corso">در حال جستجو…</string>
+    <string name="scaricare_il_file">آیا شما میخواهید فایل را دانلود کنید؟</string>
+    <string name="file_scaricato_nella_cartella">فایل در پوشه %s دانلود شد</string>
+    <string name="apri_file">باز کردن فایل</string>
+    <string name="apri_cartella_destinazione">انتخاب پوشه مقصد</string>
+
+    <!-- FTP -->
+    <string name="server_ftp">سرور FTP</string>
+    <string name="ftp_descrizione">مدیریت سرور های FTP</string>
+    <string name="tipo_ftp">آف تی پیFTP</string>
+    <string name="tipo_ftps">محدودیت اف تی پی  FTPS</string>
+    <string name="server">سرور:</string>
+    <string name="porta">پورت:</string>
+    <string name="modo">حالت/مد:</string>
+    <string name="modo_attivo">فعال</string>
+    <string name="modo_passivo">غیر فعال</string>
+    <string name="codifica">رمزگذاری/انکودینگ:</string>
+    <string name="nome_visualizzato">نمایش نام؛</string>
+    <string name="opzionale">اختیاری</string>
+    <string name="dati_server">داده های سرور</string>
+    <string name="server_esistente">سرور %s موجود می‌باشد</string>
+
+    <!-- About -->
+    <string name="crediti">اعتبارات و توافقنامه ها</string>
+    <string name="traduzioni">ترجمه ها</string>
+    <string name="sviluppato_da">برنامه نویس و توسعه دهنده:%s</string>
+    <string name="icon_by">طراحی نماد/آیکون توسط</string>
+
+    <!-- Backup -->
+    <string name="backup">پشتیبان گیری</string>
+    <string name="effettua_backup_impostazioni">پشتیبان گیری از تنظیمات</string>
+    <string name="ripristina_backup_impostazioni">بازیابی پشتیبان تنظیمات</string>
+    <string name="seleziona_file">انتخاب فایل</string>
+    <string name="backup_effettuato_con_successo">پشتیبان گیری موفق بود</string>
+    <string name="errore_creazione_backup">خطا در ساخت پشتیبان</string>
+    <string name="errore_ripristino_backup">خطا در بازیابی پشتیبان</string>
+    <string name="ripristina_backup">بازیابی پشتیبان</string>
+    <string name="ripristino_effettuato_con_successo">بازیابی موفقیت آمیز بود</string>
+
+    <!-- Changelog -->
+
+    <!-- Appirater -->
+
+    <!-- Update -->
+
+    <!-- Update notif -->
+
+    <!-- unit of measurement (only symbols) -->
+    <string name="unit_byte">بایت</string>
+    <string name="unit_kilobyte">کیلو بایت</string>
+    <string name="unit_megabyte">مگابایت</string>
+    <string name="unit_gigabyte">گیگابایت</string>
+    <string name="unit_terabyte">ترابایت</string>
+    <string name="unit_pixel">پیکسل</string>
+    <string name="unit_megapixel">مگاپیکسل</string>
+    <string name="unit_kbps">کیلو بیت بر ثانیه</string>
+    <string name="text_size_sp">sp</string>
+
+</resources>

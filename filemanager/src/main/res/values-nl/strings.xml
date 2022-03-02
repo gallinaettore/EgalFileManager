@@ -1,0 +1,408 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Main -->
+    <string name="app_name">Egal File Manager</string>
+    <string name="home">Home</string>
+    <string name="impostazioni">Opties</string>
+    <string name="about">Over</string>
+    <string name="archivio_locale">Lokale opslag</string>
+    <string name="memoria_interna">Interne opslag</string>
+    <string name="memoria_esterna">Externe opslag</string>
+    <string name="root_directory">Hoofdmap</string>
+    <string name="categorie">Categoriën</string>
+    <string name="categorie_immagini">Foto\'s</string>
+    <string name="categorie_video">Video</string>
+    <string name="categorie_audio">Muziek</string>
+    <string name="categorie_altro">Anders</string>
+    <string name="altri_percorsi_di_archiviazione">Andere opslag lokaties</string>
+
+    <!-- Pro version -->
+
+    <!-- Sort -->
+    <string name="ordina_per">Sorteren op:</string>
+    <string name="ordina_per_nome">Naam</string>
+    <string name="ordina_per_dimensione">Grootte</string>
+    <string name="ordina_per_data">Datum</string>
+    <string name="ordina_per_tipo">Soort</string>
+    <string name="ordina_per_elementi">Aantal items</string>
+    <string name="ordina_per_percorso">Pad</string>
+    <string name="tipo_ordinamento">Sorteer type:</string>
+    <string name="ordinamento_crescente">Oplopend</string>
+    <string name="ordinamento_decrescente">Aflopend</string>
+    <string name="disponi">Rangschikken</string>
+    <string name="organizza_per">Rangschikken op</string>
+    <string name="organizza_per_cartella">Map naam</string>
+    <string name="organizza_per_album">Album naam</string>
+
+    <!-- Copy, paste, delete... -->
+    <string name="copia">Kopiëren</string>
+    <string name="taglia">Knip</string>
+    <string name="incolla">Plakken</string>
+    <string name="copia_in">Kopiëren naar</string>
+    <string name="sposta_in">Verplaatsen naar</string>
+    <string name="origine">Bron:</string>
+    <string name="destinazione">Bestemming:</string>
+    <string name="totale">Totaal:</string>
+    <string name="spazio_insufficiente">Onvoldoende ruimte!</string>
+    <string name="copia_in_corso">Kopiëren %s bezig…</string>
+    <string name="elementi_negli_appunti">%s bestanden op klembord</string>
+    <string name="files_copiati">%s bestanden succesvol gekopieerd</string>
+    <string name="files_non_copiati">Fout tijdens kopiëren van sommige bestanden:</string>
+    <string name="cartella_interna">De bestemmingsmap is dezelfde als de bronmap!</string>
+    <string name="clipboard">Klembord</string>
+    <string name="mostra_contentuto_clipboard">Laat inhoud van klembord zien</string>
+    <string name="cancella_clipboard">Leeg klembord</string>
+    <string name="clipboard_vuota">Klembord is leeg</string>
+    <string name="applica_a_tutti">Toepassen op alles</string>
+    <string name="file_esistente">De %s map bestaat al</string>
+    <string name="sovrascrivi">Overschrijven</string>
+    <string name="sovrascrivi_cartella">De %s map bestaat al. Wil je de inhoud overchrijven?</string>
+    <string name="sovrascrivi_file">Het %s bestand bestaat al. Wil je het overschrijven?</string>
+    <string name="rinomina">Hernoemen</string>
+    <string name="ignora">Negeren</string>
+    <string name="elimina">Verwijderen</string>
+    <string name="eliminazione_in_corso">Verwijderen %s is bezig…</string>
+    <string name="conferma_eliminazione1">Weet je zeker dat je %s wil verwijderen?</string>
+    <string name="conferma_eliminazione2">Weet je zeker dat je %s bestanden wil verwijderen?</string>
+    <string name="files_eliminati">%s bestanden succesvol verwijderd</string>
+    <string name="files_non_eliminati">Er is een fout opgetreden tijdens het verwijderen van sommige bestanden:</string>
+    <string name="operazione_annulata">Bewerking gestopt!</string>
+    <string name="nome_non_valido">Naam is niet geldig!</string>
+    <string name="cartella_gia_esistente">Map bestaat reeds</string>
+    <string name="impossibile_creare_cartella">Kan geen map aanmaken</string>
+    <string name="cartella_creata">Map succesvol gemaakt</string>
+    <string name="nuovo_nome">Nieuwe naam</string>
+    <string name="files_rinominati">%s bestanden succesvol hernoemd</string>
+    <string name="file_gia_presente">Bestand bestaat al</string>
+    <string name="files_non_rinominati">Onmogelijk de volgende bestanden te hernoemen:</string>
+    <string name="rinominazione_in_corso">Hernoemen %s is bezig…</string>
+    <string name="files_spostati">%s bestanden succesvol verplaatst</string>
+    <string name="spostamento">Verplaatsing</string>
+
+    <!-- Other -->
+    <string name="cartella_vuota">Lege map</string>
+    <string name="permesso_lettura_scrittura">Toestemming is nodig voor lezen/schrijven van bestanden</string>
+    <string name="permessi_scheda_autorizzazioni">Ga naar de \'Rechten\' tab en geef de benodigde rechten.</string>
+    <string name="aggiorna">Bijwerken</string>
+    <string name="filtro">Filter</string>
+    <string name="elementi">Bestanden</string>
+    <string name="ordina">Sorteren</string>
+    <string name="lettura_dati_cartelle">Leest map inhoud…</string>
+    <string name="visualizzazione">Visualisatie</string>
+    <string name="visualizzazione_lista">Lijst</string>
+    <string name="visualizzazione_lista_piccola">Kleine lijst</string>
+    <string name="visualizzazione_griglia">Rooster</string>
+    <string name="visualizzazione_anteprima">Voorbeeld</string>
+    <string name="apri_con">Openen met</string>
+    <string name="apri_come">Openen als</string>
+    <string name="usa_sempre_questa_app">Gebruik altijd deze app om dit soort bestanden te openen</string>
+    <string name="associazione_files">Bestandskoppelingen</string>
+    <string name="nessuna_associazione_files">Geen bestandskoppeling gevonden</string>
+    <string name="ripristina_predefiniti">Herstel beginwaarden</string>
+    <string name="ripristinare_associazioni_predefinite">Weet je zeker dat je naar de standaard koppelingen wil herstellen?</string>
+    <string name="messaggio_cancellazione_associazione">Weet je zeker dat je deze koppeling wil verwijderen?</string>
+    <string name="lettura_lista_applicazioni">Leest toepassingslijst…</string>
+    <string name="testo">Tekst</string>
+    <string name="immagine">Foto\'s</string>
+    <string name="audio">Muziek</string>
+    <string name="video">Video</string>
+    <string name="altro">Anders</string>
+    <string name="seleziona_tutto">Selecteer alles</string>
+    <string name="deseleziona_tutto">Deselecteer alles</string>
+    <string name="nuova_cartella">Nieuwe map</string>
+    <string name="directory">Directory</string>
+    <string name="file">Bestanden</string>
+    <string name="directories">directories</string>
+    <string name="files">bestanden</string>
+    <string name="collegamento">Koppeling</string>
+    <string name="seleziona_storage">Selecteer opslag</string>
+    <string name="autorizzazione_memorie_esterne">Kies de root directory van je externe geheugen om de rechten toe te wijzen.</string>
+    <string name="nessuna_autorizzazione_esterna">Je kan niet schrijven naar je externe geheugen totdat je de rechten hebt toegewezen.</string>
+    <string name="tree_uri_extsd_non_valido">De geselecteerde map is niet geldig! Je moet de root directory van je externe geheugen selecteren.</string>
+    <string name="proprieta">Eigendom</string>
+    <string name="tipo2">Type:</string>
+    <string name="contenuto">Inhoud:</string>
+    <string name="percorso">Pad:</string>
+    <string name="dimensione2">Grootte:</string>
+    <string name="ultima_modifica">Laatst gewijzigd:</string>
+    <string name="permessi">Toestemming:</string>
+    <string name="lettura">lezen</string>
+    <string name="scrittura">schrijven</string>
+    <string name="nascosto">Verborgen:</string>
+    <string name="bytes">bytes</string>
+    <string name="selezione_multipla">Meerdere selectie</string>
+    <string name="visibilita_modificata">Zichtbaar gewijzigd</string>
+    <string name="seleziona_destinazione">Selecteer bestemming</string>
+    <string name="cartella_superiore">Map omhoog</string>
+    <string name="salva">Opslaan</string>
+    <string name="nome_file">Bestandsnaam:</string>
+    <string name="errore_salvataggio">Fout bij opslaan bestand</string>
+    <string name="nessun_elemento_trovato">Geen item gevonden</string>
+    <string name="album_pdf">PDF</string>
+    <string name="album_documenti">Documenten</string>
+    <string name="album_fogli_calcolo">Spreadsheets</string>
+    <string name="album_compressi">Gecomprimeerde bestanden</string>
+    <string name="album_testo">Tekst</string>
+    <string name="album_apk">APK</string>
+    <string name="aggiornamento_media_library">Bijwerken Media Bibliotheek…</string>
+    <string name="condividi">Delen</string>
+    <string name="preferiti">Favorieten</string>
+    <string name="aggiungi_a_preferiti">Toevoegen aan favorieten</string>
+    <string name="domanda_rimuovi_preferito">Weet je zeker dat je %s uit je favorieten wil verwijderen?</string>
+    <string name="preferito_non_esistente">%s bestaat niet meer. Wil je deze uit je favorieten verwijderen?</string>
+    <string name="preferito_aggiunto">Toegevoegd aan je favorieten</string>
+    <string name="nuovo">Nieuw</string>
+    <string name="seleziona_label_storage">Selecteer opslag met label %s</string>
+    <string name="impossibile_completare_operazione">Kan de bewerking niet voltooien</string>
+    <string name="esecuzione">uitvoeren</string>
+    <string name="permesso_proprietario">eigenaar:</string>
+    <string name="permesso_gruppo">Groep:</string>
+    <string name="permesso_altro">Andere:</string>
+    <string name="modifica">Bewerken</string>
+    <string name="nuovo_file">Nieuw bestand</string>
+    <string name="file_creato_con_successo">Bestand succesvol aangemaakt</string>
+    <string name="impossibile_creare_file">Kan geen bestand aanmaken</string>
+    <string name="impossibile_riprodurre">Kan bestand niet afspelen!</string>
+    <string name="storage_to_scan">Selecteer opslag om te scannen:</string>
+    <string name="scansione_media_library_terminata">Media Library scan compleet</string>
+    <string name="no_smb_to_ftp">Kan niet kopieren van een SMB server naar een FTP server</string>
+    <string name="no_ftp_to_smb">Kan niet kopieren van een FTP server naar een SMB server</string>
+    <string name="annullamento_operazione">Annuleer bewerking…</string>
+    <string name="troppi_elementi_da_gestire">Te veel items om te beheren</string>
+    <string name="storages">Opslagruimtes:</string>
+    <string name="notif_id_operazioni_varie">Bewerking voltooid</string>
+    <string name="notif_id_operazioni_backgroung">Bewerking op de achtergrond</string>
+    <string name="operazione_terminata">Bewerking voltooid</string>
+    <string name="configura_widget">Widget configuratie</string>
+    <string name="crea_collegamento">Link naar bestand</string>
+    <string name="aggiungi_collegamento_home">Link naar startpagina toevoegen</string>
+    <string name="elemento_non_trovato">Element niet gevonden</string>
+
+    <!-- Functions -->
+    <string name="egal_zip_viewer">Egal Zip Viewer</string>
+    <string name="egal_salva_file">Egal Save File</string>
+    <string name="egal_text_editor">Egal Text Editor</string>
+    <string name="egal_image_viewer">Egal Image Viewer</string>
+    <string name="egal_music_player">Egal Music Player</string>
+
+    <!-- Zip -->
+    <string name="zip_explorer">Zip Explorer</string>
+    <string name="estrai_archivio">Pak archief uit</string>
+    <string name="estrazione">Uitpakken</string>
+    <string name="estrazione_in_corso">Uitpakken %s is bezig…</string>
+    <string name="files_non_estrati">Een fout heeft plaatsgevonden tijdens het uitpakken van de bestanden</string>
+    <string name="files_estratti">Het uitpakken is geslaagd</string>
+    <string name="archivio_non_valido">Kan de inhoud van het archief niet lezen</string>
+    <string name="compressione">Inpakken</string>
+    <string name="compressione_in_corso">Het inpakken van %s is bezig…</string>
+    <string name="files_non_compressi">Een foutmelding is opgetreden tijdens het inpakken van bestanden</string>
+    <string name="files_compressi">Het inpakken is geslaagd</string>
+
+    <!-- Text Editor -->
+    <string name="impossibile_leggere_file">Kan bestand niet lezen</string>
+    <string name="dimensione_testo">Tekst  grootte</string>
+    <string name="ricerca">Zoeken</string>
+    <string name="occorrenza_non_trovata">Voorval niet gevonden</string>
+    <string name="file_salvato">Bestand opgeslagen</string>
+    <string name="salva_con_nome">Opslaan als</string>
+    <string name="chiudere_senza_salvare">Wil je het bestand sluiten zonder op te slaan?</string>
+    <string name="non_salvare">Niet opslaan</string>
+    <string name="salvataggio_in_corso">Opslaan is bezig…</string>
+
+    <!-- Image viewer -->
+    <string name="ruota_destra">Roteer rechts</string>
+    <string name="ruota_sinistra">Roteer links</string>
+    <string name="imposta_come_sfondo">Gebruik als wallpaper</string>
+    <string name="impostare_come_sfondo">Wil je deze afbeelding gebruiken als wallpaper?</string>
+    <string name="sfondo_impostato">Wallpaper is gereed</string>
+    <string name="impossibile_visualizzare_immagine">Kan afbeelding niet openen</string>
+    <string name="nessuna_immagine">Geen afbeelding te zien</string>
+    <string name="presentazione">Presentatie</string>
+    <string name="stop">Stop</string>
+    <string name="presentazione_interrotta">Presentatie is niet gelukt</string>
+
+    <!-- Music Player -->
+    <string name="playlist">Playlist</string>
+    <string name="nessun_file_audio">geen audio bestand om af te spelen</string>
+    <string name="aggiungi_a_playlist">Voeg toe aan playlist</string>
+    <string name="salva_playlist">Sla playlist op</string>
+    <string name="rimuovi_tutto">Verwijder alles</string>
+    <string name="shuffle">Willekeurige volgorde</string>
+    <string name="repeat_mode">Herhalen</string>
+    <string name="repeat_none">Geen</string>
+    <string name="repeat_all">Alles</string>
+    <string name="repeat_track">Track</string>
+
+    <!-- Settings -->
+    <string name="impostazioni_generali">Algemene opties</string>
+    <string name="avanzate">Geavanceerd</string>
+    <string name="lingua">Talen</string>
+    <string name="root_explorer">Root verkenner</string>
+    <string name="root_explorer_descrizione">Verken de bestanden die root rechten hebben</string>
+    <string name="mostra_anteprime">miniatuur weergeven</string>
+    <string name="mostra_anteprime_descrizione">toon voorbeeld van een bestand indien aanwezig</string>
+    <string name="mostra_nascosti">Toon verborgen bestanden</string>
+    <string name="mostra_nascosti_descrizione">Toon bestanden voorafgegaan met het symbool "."</string>
+    <string name="no_permessi_root">Dit apparaat heeft geen root rechten.</string>
+    <string name="associazione_files_descrizione">Bestandskoppelingen/toepassingen beheren</string>
+    <string name="reset_app_titolo">Herstart app</string>
+    <string name="reset_app_messaggio">Wil je alle instellingen herstellen?</string>
+    <string name="reset_app_descrizione">Herstel de app naar de fabrieksinstellingen</string>
+    <string name="giorni_recenti_descrizione">aantal dagen om recente bestanden te kunnen zoeken</string>
+    <string name="ordina_download_per_data">Sorteer downloads bij datum</string>
+    <string name="ordina_download_per_data_descrizione">Sorteer inhoud van \"Download\" map altijd op datum</string>
+    <string name="rescan_media_library">Re-scan Media Bibliotheek</string>
+    <string name="rescan_media_library_descrizione">Forceer een herscan van de Media Bibliotheek</string>
+    <string name="svuota_cache">Leeg cache</string>
+    <string name="svuota_cache_descrizione">Verwijder alle bestanden en voorbeelden in de app\'s cache</string>
+    <string name="cache_cancellata">Cache verwijderdcleared</string>
+    <string name="tema">Thema</string>
+    <string name="tema_chiaro">Licht thema</string>
+    <string name="tema_scuro">Donker thema</string>
+
+    <!-- Tools -->
+    <string name="tools">Gereedschap</string>
+    <string name="tool_analisi_spazio_occupato">Analyse van ruimtegebruik</string>
+    <string name="tool_cerca_file">Zoek bestanden</string>
+    <string name="tool_backup_app">Backup Apps</string>
+    <string name="analisi_cartella">Map analyse</string>
+    <string name="usa_caratteri_wildcard">Is het mogelijk om wildcards te gebruiken * and ?</string>
+    <string name="ignora_maiuscolo_minuscolo">Negeer hoofd- en kleine letters</string>
+    <string name="cerca_in">Zoeken in:</string>
+    <string name="tipi">Soorten:</string>
+    <string name="altri_parametri">Andere parameters:</string>
+    <string name="dimensione">Grootte:</string>
+    <string name="risultati_ricerca">Zoek resultaten</string>
+    <string name="tutti">All</string>
+    <string name="nuova_ricerca">Nieuwe zoekopdracht</string>
+    <string name="apri_percorso">Open pad</string>
+    <string name="inserisci_nome_file">Voer bestandsnaam in</string>
+    <string name="controlla_parametri_inseriti">Controleer alle ingevulde parameters!</string>
+    <string name="mostra_app_utente">Toon gebruikers apps</string>
+    <string name="mostra_app_sistema">Toon systeem apps</string>
+    <string name="app_utente">Gebruikers apps</string>
+    <string name="app_sistema">Systeem apps</string>
+    <string name="app_info">App info</string>
+    <string name="app_backup">Backup</string>
+    <string name="tool_mountpoints">Koppelpunt (alleen root)</string>
+    <string name="tool_recenti">Recente bestanden</string>
+    <string name="recenti">Recent</string>
+    <string name="recenti_descrizione">Toon laatst opgeslagen bestand</string>
+    <string name="mountpoint">Koppelpunt:</string>
+    <string name="file_system">Bestands systeem:</string>
+    <string name="giorni">Afgelopen dagen</string>
+    <string name="trova_files_duplicati">Vind dubbele bestanden</string>
+    <string name="operazione_lunga">Dit kan enkele minuten duren</string>
+    <string name="cancella_selezionati">Verwijder geselecteerde items</string>
+    <string name="nessun_elemento_selezionato">Geen items geselecteerd</string>
+    <string name="avvia_ricerca">Start zoeken</string>
+    <string name="ricerca_duplicati_in_corso">Het zoeken naar dubbele bestanden is bezig…</string>
+    <string name="mostra_risultati_duplicati">Tik om de resultaten te tonen</string>
+    <string name="duplicati_trovati">%s dubbele bestanden gevonden!</string>
+
+    <!-- Media Info -->
+    <string name="media_info">Media info</string>
+    <string name="media_no_info">Geen info gevonden</string>
+    <string name="media_risoluzione">Resolutie:</string>
+    <string name="media_data">Datum:</string>
+    <string name="media_formato">Formaat:</string>
+    <string name="media_dimensione">Grootte:</string>
+    <string name="media_percorso">Pad:</string>
+    <string name="media_rotazione">Rotatie:</string>
+    <string name="media_latitudine">GPS Breedtegraad:</string>
+    <string name="media_longitudine">GPS Lengtegraad:</string>
+    <string name="media_localita">Locatie:</string>
+    <string name="media_camera">Camera:</string>
+    <string name="media_titolo">Titel:</string>
+    <string name="media_artista">Artiest:</string>
+    <string name="media_album">Album:</string>
+    <string name="media_genere">Genre:</string>
+    <string name="media_bitrate">Bitrate:</string>
+    <string name="media_track">Nummer:</string>
+    <string name="media_frame">Framerate:</string>
+    <string name="media_durata">Lengte:</string>
+    <string name="media_anno">Jaar:</string>
+
+    <!-- Apk info -->
+    <string name="apk_nome_app">App naam:</string>
+    <string name="apk_codice_versione">Versie code:</string>
+    <string name="apk_nome_versione">Versie naam:</string>
+    <string name="apk_min_sdk">Min SDK:</string>
+    <string name="apk_target_sdk">Doel SDK:</string>
+    <string name="apk_package_name">Package naam:</string>
+    <string name="apk_installer">Installer:</string>
+    <string name="apk_type">Type:</string>
+    <string name="apk_system">Systeem</string>
+    <string name="apk_user">Gebruiker</string>
+
+    <!-- Lan -->
+    <string name="rete_locale">Lokaal netwerk</string>
+    <string name="esplora_rete_locale">Verken het lokale netwerk</string>
+    <string name="autenticazione">Authenticatie</string>
+    <string name="user_password_errati">Verkeerde gebruikersnaam of wachtwoord!</string>
+    <string name="username">Gebruikersnaam:</string>
+    <string name="password">Wachtwoord:</string>
+    <string name="anonimo">Anoniem</string>
+    <string name="salva_credenziali">Bewaar inloggegevens</string>
+    <string name="connessione_in_corso">Verbinding is bezig…</string>
+    <string name="impossibile_connettersi">Niet in staat te verbinden %s</string>
+    <string name="ricerca_in_corso">Zoeken…</string>
+    <string name="scaricare_il_file">Wil je het bestand downloaden?</string>
+    <string name="file_scaricato_nella_cartella">Bestand gedownload in de map %s</string>
+    <string name="apri_file">Open bestand</string>
+    <string name="apri_cartella_destinazione">Open doelmap</string>
+
+    <!-- FTP -->
+    <string name="server_ftp">FTP server</string>
+    <string name="ftp_descrizione">Beheer FTP servers</string>
+    <string name="tipo_ftp">FTP</string>
+    <string name="tipo_ftps">FTPS</string>
+    <string name="server">Server:</string>
+    <string name="porta">Poort:</string>
+    <string name="modo">Mode:</string>
+    <string name="modo_attivo">Actief</string>
+    <string name="modo_passivo">Passief</string>
+    <string name="codifica">Coderen:</string>
+    <string name="nome_visualizzato">Getoonde naam:</string>
+    <string name="opzionale">Optioneel</string>
+    <string name="dati_server">Server data</string>
+    <string name="server_esistente">Server %s bestaat al</string>
+
+    <!-- About -->
+    <string name="crediti">Credits</string>
+    <string name="traduzioni">Vertalingen</string>
+    <string name="sviluppato_da">Ontwikkeld door %s</string>
+    <string name="icon_by">Pictogram door</string>
+
+    <!-- Backup -->
+    <string name="backup">Backup</string>
+    <string name="effettua_backup_impostazioni">Maak backup van de instellingen</string>
+    <string name="ripristina_backup_impostazioni">Herstel instellingen backup</string>
+    <string name="seleziona_file">Selecteer bestand</string>
+    <string name="backup_effettuato_con_successo">Backup succesvol</string>
+    <string name="errore_creazione_backup">Backup maak fout</string>
+    <string name="errore_ripristino_backup">Backup herstel fout</string>
+    <string name="ripristina_backup">Herstel backup</string>
+    <string name="ripristino_effettuato_con_successo">Herstel successvol</string>
+
+
+    <!-- Appirater -->
+
+    <!-- Changelog -->
+
+    <!-- Update -->
+
+    <!-- Update notif. -->
+
+    <!-- unit of measurement (only symbols) -->
+    <string name="unit_byte">B</string>
+    <string name="unit_kilobyte">KB</string>
+    <string name="unit_megabyte">MB</string>
+    <string name="unit_gigabyte">GB</string>
+    <string name="unit_terabyte">TB</string>
+    <string name="unit_pixel">px</string>
+    <string name="unit_megapixel">Mpx</string>
+    <string name="unit_kbps">kbps</string>
+    <string name="text_size_sp">sp</string>
+
+</resources>

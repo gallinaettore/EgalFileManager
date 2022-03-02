@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:descendantFocusability="afterDescendants"
+              android:orientation="vertical">
+
+
+    <LinearLayout
+        android:id="@+id/layout_ricerca"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:elevation="8dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="12dp"
+            app:srcCompat="@drawable/ic_search_white_24dp"/>
+
+        <EditText
+            android:id="@+id/editText_ricerca"
+            style="@style/EditTextRicerca"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:imeOptions="actionDone"
+            android:inputType="text|textNoSuggestions"
+            tools:text="Testo"/>
+
+        <LinearLayout
+            android:id="@+id/layout_ricerca_indietro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/selector_tasti_ricerca"
+            android:orientation="horizontal"
+            android:padding="13dp"
+            android:nextFocusLeft="@+id/editText_ricerca">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/ricerca_indietro"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_ricerca_avanti"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/selector_tasti_ricerca"
+            android:orientation="horizontal"
+            android:padding="13dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/ricerca_avanti"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/scrollview"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:descendantFocusability="afterDescendants"
+                android:focusable="false">
+
+        <EditText
+            android:id="@+id/editText_file_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:clickable="false"
+            android:cursorVisible="false"
+            android:ems="10"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:inputType="none"
+            android:padding="15dp"
+            android:textIsSelectable="true"
+            android:textSize="14sp"/>
+    </ScrollView>
+
+</LinearLayout>

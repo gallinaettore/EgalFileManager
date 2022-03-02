@@ -1,0 +1,85 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Dimens standard -->
+
+    <dimen name="distanza_ridotta">20dp</dimen>
+    <dimen name="distanza_elevata">40dp</dimen>
+    <dimen name="distanza_ridottissima">10dp</dimen>
+    <dimen name="distanza_media">30dp</dimen>
+
+    <dimen name="distanza_dai_bordi">20dp</dimen>
+    <dimen name="lunghezza_min_cartella_path">25dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="lungh_max_tv_label_proprieta">90dp</dimen>
+    <dimen name="lungh_max_tv_label_mediainfo">100dp</dimen>
+    <dimen name="lungh_max_tv_label_dati_server_ftp">90dp</dimen>
+    <dimen name="min_altezza_pathbar">35dp</dimen>
+    <dimen name="distanza_bordi_main">6dp</dimen>
+    <dimen name="margini_laterali_cardview">3dp</dimen>
+    <dimen name="lungh_max_textview_lingua_lista_traduttori">100dp</dimen>
+    <dimen name="main_fab_size">50dp</dimen>
+    <dimen name="previous_next_fab_size">42dp</dimen>
+
+    <dimen name="testo_path">13sp</dimen>
+    <dimen name="testo_nome_dispositivo">15sp</dimen>
+    <dimen name="testo_path_dispositivo">12sp</dimen>
+    <dimen name="testo_spazio_dispositivo">11sp</dimen>
+    <dimen name="testo_nome_file">16sp</dimen>
+    <dimen name="testo_nome_file_lista_piccola">14sp</dimen>
+    <dimen name="testo_nome_file_griglia">13sp</dimen>
+    <dimen name="testo_nome_file_anteprima">13sp</dimen>
+    <dimen name="testo_info_file">12sp</dimen>
+    <dimen name="testo_chooser_app_name">16sp</dimen>
+    <dimen name="testo_dimensione_file_dialog_copia">12sp</dimen>
+    <dimen name="testo_categorie">14sp</dimen>
+    <dimen name="testo_num_elementi_categoria">11sp</dimen>
+    <dimen name="testo_minore_maggiore">18sp</dimen>
+
+    <!-- icone liste -->
+    <dimen name="size_icona_lista_files">36dp</dimen>
+    <dimen name="size_icona_lista_piccola">30dp</dimen>
+    <dimen name="size_icona_lista_backup_app">40dp</dimen>
+
+
+
+    <!-- Sovrascrivo la distanza tra icona e testo nel menu della navigation view -->
+
+    <!-- Material preferences -->
+    <dimen name="material_preferences_category_text">14sp</dimen>
+    <dimen name="material_preferences_title_text">18sp</dimen>
+    <dimen name="material_preferences_summary_text">14sp</dimen>
+
+    <dimen name="material_preferences_margin_top_bottom">11dp</dimen>
+    <dimen name="material_preferences_content_margin_left">15dp</dimen>
+    <dimen name="material_preferences_content_margin_right">15dp</dimen>
+    <dimen name="material_preferences_icon_margin_left">15dp</dimen>
+    <dimen name="material_preferences_switch_margin_left">15dp</dimen>
+    <dimen name="material_preferences_switch_margin_right">15dp</dimen>
+    <dimen name="material_preferences_category_margin_left">15dp</dimen>
+    <dimen name="material_preferences_category_margin_right">15dp</dimen>
+    <dimen name="material_preferences_category_margin_top">30dp</dimen>
+    <dimen name="material_preferences_category_margin_bottom">10dp</dimen>
+
+    <!-- Colored Toast -->
+    <dimen name="colored_toast_radius">30dp</dimen>
+    <dimen name="colored_toast_border">0dp</dimen>
+
+    <!-- Splash -->
+    <dimen name="padding_splash">20dp</dimen>
+    <dimen name="testo_piccolo_splash">16sp</dimen>
+    <dimen name="testo_grande_splash">30sp</dimen>
+
+    <!-- Separatore about -->
+    <item name="lunghezza_separatore_about" type="dimen">-1</item><!-- Match parent -->
+
+    <!-- Colored button -->
+    <dimen name="colored_button_radius">2dp</dimen>
+
+    <dimen name="testo_spinner">15dp</dimen>
+    <dimen name="altezza_minima_spinner">40dp</dimen>
+    <dimen name="padding_spinner">9dp</dimen>
+
+    <dimen name="progress_radius">0dp</dimen>
+    <dimen name="progress_top_bottom_padding">7dp</dimen>
+
+</resources>
